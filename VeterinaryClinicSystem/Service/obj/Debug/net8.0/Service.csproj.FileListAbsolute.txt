@@ -17,3 +17,4 @@ E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\Service
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\refint\Service.dll
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\Service.pdb
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\ref\Service.dll
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\Service.sourcelink.json

@@ -22,7 +22,8 @@ namespace DataAccessLayer
         {
             using var _context = new VeterinaryClinicSystemContext();
 
-            return _context.Users.FirstOrDefault(e => e.Email.Equals(email));
+            return _context.Users.Include(u => u.Role).FirstOrDefault(u => u.Email == email);
+
         }
 
         public static void CreateUser(User user)
@@ -33,6 +34,8 @@ namespace DataAccessLayer
 
             if (user.RoleId == null)
                 user.RoleId = 5;
+            if (user.IsActive == null)
+                user.IsActive = true;
 
             _context.Users.Add(user);
             _context.SaveChanges();

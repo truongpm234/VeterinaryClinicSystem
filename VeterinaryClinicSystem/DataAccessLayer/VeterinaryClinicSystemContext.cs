@@ -302,7 +302,7 @@ public partial class VeterinaryClinicSystemContext : DbContext
             entity.Property(e => e.PasswordHash).HasMaxLength(255);
             entity.Property(e => e.PhoneNumber).HasMaxLength(20);
             entity.Property(e => e.RoleId).HasColumnName("RoleID");
-
+            entity.Property(e => e.IsActive).HasDefaultValue(true).HasColumnType("bit");
             entity.HasOne(d => d.Role).WithMany(p => p.Users)
                 .HasForeignKey(d => d.RoleId)
                 .HasConstraintName("FK__Users__RoleID__3B75D760");

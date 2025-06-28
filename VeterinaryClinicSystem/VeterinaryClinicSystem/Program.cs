@@ -21,6 +21,10 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddScoped<IAuthenticationRepository, AuthenticationRepository>();
 
+            builder.Services.AddScoped<IUserService, UserService>();
+
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+
             builder.Services.AddDbContext<VeterinaryClinicSystemContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 

@@ -82,3 +82,4 @@ E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\Veterin
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\obj\Debug\net8.0\VeterinaryClinicSystem.pdb
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\obj\Debug\net8.0\VeterinaryClinicSystem.genruntimeconfig.cache
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\obj\Debug\net8.0\ref\VeterinaryClinicSystem.dll
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\obj\Debug\net8.0\VeterinaryClinicSystem.sourcelink.json

@@ -15,3 +15,4 @@ E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\Reposit
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\Repository\obj\Debug\net8.0\refint\Repository.dll
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\Repository\obj\Debug\net8.0\Repository.pdb
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\Repository\obj\Debug\net8.0\ref\Repository.dll
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\Repository\obj\Debug\net8.0\Repository.sourcelink.json

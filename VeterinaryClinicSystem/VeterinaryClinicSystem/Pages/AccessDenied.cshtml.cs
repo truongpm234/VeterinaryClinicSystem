@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace VeterinaryClinicSystem.Pages.Shared
+namespace VeterinaryClinicSystem.Pages
 {
     public class AccessDeniedModel : PageModel
     {
