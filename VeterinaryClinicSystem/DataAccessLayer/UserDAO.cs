@@ -38,21 +38,22 @@ namespace DataAccessLayer
         public static void UpdateUser(User updatedUser)
         {
             using var context = new VeterinaryClinicSystemContext();
-            var existingUser = context.Users.Find(updatedUser.UserId);
+            var existingUser = context.Users.FirstOrDefault(u => u.UserId == updatedUser.UserId);
 
             if (existingUser != null)
             {
                 existingUser.FullName = updatedUser.FullName;
+                existingUser.Email = updatedUser.Email;
                 existingUser.PhoneNumber = updatedUser.PhoneNumber;
                 existingUser.Address = updatedUser.Address;
                 existingUser.AvatarUrl = updatedUser.AvatarUrl;
-                existingUser.RoleId = updatedUser.RoleId;
-
-                if (!string.IsNullOrEmpty(updatedUser.PasswordHash))
-                    existingUser.PasswordHash = updatedUser.PasswordHash;
-
                 context.SaveChanges();
             }
+            if (existingUser == null)
+            {
+                throw new Exception("User not found.");
+            }
+
         }
 
         public static void DeleteUser(int userId)

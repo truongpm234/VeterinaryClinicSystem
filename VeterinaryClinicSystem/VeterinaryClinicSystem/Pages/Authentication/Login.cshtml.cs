@@ -19,16 +19,38 @@ namespace VeterinaryClinicSystem.Pages.Authentication
 
         public async Task<IActionResult> OnGetAsync()
         {
-            var loginId = HttpContext.Session.GetInt32("Account").ToString();
-            if (!string.IsNullOrEmpty(loginId))
+            var loginId = HttpContext.Session.GetInt32("Account");
+            var roleName = HttpContext.Session.GetString("Role");
+
+            if (loginId != null)
             {
+                if (roleName == "Admin")
+                {
+                    return RedirectToPage("/Admin/Users");
+                }
+                if (roleName == "Manager")
+                {
+                    return RedirectToPage("/Privacy");
+                }
+                if (roleName == "Doctor")
+                {
+                    return RedirectToPage("/Privacy");
+                }
+                if (roleName == "Staff")
+                {
+                    return RedirectToPage("/Privacy");
+                }
+                if (roleName == "Customer")
+                {
+                    return RedirectToPage("/Customers/Profile");
+                }
+
                 return RedirectToPage("/Privacy");
-                
-
             }
-            return Page();
 
+            return Page();
         }
+
 
         [BindProperty]
         public User User { get; set; } = default!;

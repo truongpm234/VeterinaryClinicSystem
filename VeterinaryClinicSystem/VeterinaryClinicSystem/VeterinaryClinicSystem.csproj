@@ -21,7 +21,6 @@
     <Folder Include="Models\Customers\" />
     <Folder Include="Models\Pets\" />
     <Folder Include="Models\Staff\" />
-    <Folder Include="Pages\Customers\" />
     <Folder Include="Pages\Doctors\" />
     <Folder Include="Pages\Managers\" />
     <Folder Include="Pages\Pets\" />
