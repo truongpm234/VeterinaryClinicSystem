@@ -1,0 +1,57 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Admin.UsersModel
+@{
+    ViewData["Title"] = "User Management";
+}
+
+<h2 class="mb-4">List Users</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Role Name</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+            <tr>
+                <td>@user.UserId</td>
+                <td>@user.FullName</td>
+                <td>@user.Email</td>
+                <td>@user.Role?.RoleName</td>
+                <td>
+                    @if (user.IsActive)
+                    {
+                        <span class="text-success">Active</span>
+                    }
+                    else
+                    {
+                        <span class="text-danger">Deactive</span>
+                    }
+                </td>
+                <td>
+                    @if (user.IsActive)
+                    {
+                        <form method="post" asp-page-handler="Delete" class="d-inline">
+                            <input type="hidden" name="id" value="@user.UserId" />
+                            <button class="btn btn-danger btn-sm">Deactive</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <form method="post" asp-page-handler="Activate" class="d-inline">
+                            <input type="hidden" name="id" value="@user.UserId" />
+                            <button class="btn btn-success btn-sm">Activate</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

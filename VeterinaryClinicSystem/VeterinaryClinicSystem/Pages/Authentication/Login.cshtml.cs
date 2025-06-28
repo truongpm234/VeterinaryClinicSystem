@@ -4,6 +4,7 @@ using BusinessObject;
 using Service;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Http;
+using System.Net.Http;
 
 namespace VeterinaryClinicSystem.Pages.Authentication
 {
@@ -22,8 +23,11 @@ namespace VeterinaryClinicSystem.Pages.Authentication
             if (!string.IsNullOrEmpty(loginId))
             {
                 return RedirectToPage("/Privacy");
+                
+
             }
             return Page();
+
         }
 
         [BindProperty]
@@ -33,56 +37,34 @@ namespace VeterinaryClinicSystem.Pages.Authentication
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
-            //var loginId = HttpContext.Session.GetInt32("Account").ToString();
-            //if (!string.IsNullOrEmpty(loginId))
-            //{
-            //    return RedirectToPage("/Authentication/Login");
-            //}
-
             var userAccount = _authenticationService.GetUserByEmail(User.Email);
 
             if (userAccount == null)
             {
                 Message = "Account is not exist!";
                 ModelState.AddModelError(string.Empty, Message);
+                return Page();
+            }
 
-                return Page();
-            }
-            else if (userAccount.RoleId == 1)
+            if (userAccount.PasswordHash != User.PasswordHash)
             {
-                HttpContext.Session.SetInt32("Account", userAccount.RoleId ?? 0);
-                Message = "You are admin.";
-           
-                return RedirectToPage("/Index");
-            }
-            else if (userAccount.RoleId == 2)
-            {
-                HttpContext.Session.SetInt32("Account", userAccount.RoleId ?? 0);
-                Message = "You are admin.";
-                ModelState.AddModelError(string.Empty, Message);
-                return RedirectToPage("/Index");
-            }
-            else if (userAccount.RoleId == 3)
-            {
-                HttpContext.Session.SetInt32("Account", userAccount.RoleId ?? 0);
-                Message = "You are doctor.";
-                ModelState.AddModelError(string.Empty, Message);
-                return RedirectToPage("/Index");
-            }
-            else if (userAccount.RoleId == 4)
-            {
-                HttpContext.Session.SetInt32("Account", userAccount.RoleId ?? 0);
-                Message = "You are staff.";
-                ModelState.AddModelError(string.Empty, Message);
-                return RedirectToPage("/Index");
-            }
-            else
-            {
-                Message = "You are customer.";
+                Message = "Invalid password!";
                 ModelState.AddModelError(string.Empty, Message);
                 return Page();
             }
+
+            if (userAccount.IsActive == false)
+            {
+                Message = "Your account has been deactivated!";
+                ModelState.AddModelError(string.Empty, Message);
+                return Page();
+            }
+            
+            HttpContext.Session.SetInt32("Account", userAccount.UserId);
+            HttpContext.Session.SetString("FullName", userAccount.FullName ?? "");
+            HttpContext.Session.SetString("Role", userAccount.Role?.RoleName ?? "");
+
+            return RedirectToPage("/Index");
         }
-
     }
 }

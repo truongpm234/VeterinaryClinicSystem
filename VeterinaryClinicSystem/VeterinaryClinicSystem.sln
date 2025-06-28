@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObject", "BusinessObject\BusinessObject.csproj", "{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessObject", "BusinessObject\BusinessObject.csproj", "{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeterinaryClinicSystem", "VeterinaryClinicSystem\VeterinaryClinicSystem.csproj", "{6F419858-5C16-45B1-9D5F-B10B4ECB3724}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VeterinaryClinicSystem", "VeterinaryClinicSystem\VeterinaryClinicSystem.csproj", "{6F419858-5C16-45B1-9D5F-B10B4ECB3724}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRLab", "SignalRLab\SignalRLab.csproj", "{0A277254-F1A0-41E0-8A6B-7A6170451B99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRLab", "SignalRLab\SignalRLab.csproj", "{0A277254-F1A0-41E0-8A6B-7A6170451B99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

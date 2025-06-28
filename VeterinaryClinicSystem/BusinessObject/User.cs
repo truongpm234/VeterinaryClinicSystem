@@ -23,6 +23,8 @@ public partial class User
 
     public DateTime? CreatedAt { get; set; }
 
+    public bool IsActive { get; set; } = true;
+
     public virtual ICollection<Appointment> Appointments { get; set; } = new List<Appointment>();
 
     public virtual ICollection<BlogPost> BlogPosts { get; set; } = new List<BlogPost>();

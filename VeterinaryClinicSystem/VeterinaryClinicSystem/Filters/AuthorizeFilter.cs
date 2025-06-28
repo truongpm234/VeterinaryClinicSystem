@@ -19,11 +19,12 @@ namespace VeterinaryClinicSystem.Filters
         public void OnPageHandlerExecuting(PageHandlerExecutingContext context)
         {
             var httpContext = context.HttpContext;
+
             var role = httpContext.Session.GetString("Role");
 
             if (string.IsNullOrEmpty(role) || !_roles.Contains(role))
             {
-                context.Result = new RedirectToPageResult("/_AccessDenied");
+                context.Result = new RedirectToPageResult("/AccessDenied");
             }
         }
 

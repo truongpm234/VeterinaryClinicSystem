@@ -12,3 +12,4 @@ E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\Busines
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\obj\Debug\net8.0\BusinessObject.pdb
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\obj\Debug\net8.0\BusinessObject.genruntimeconfig.cache
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\obj\Debug\net8.0\ref\BusinessObject.dll
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\obj\Debug\net8.0\BusinessObject.sourcelink.json
