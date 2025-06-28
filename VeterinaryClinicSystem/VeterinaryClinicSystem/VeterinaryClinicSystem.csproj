@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessObject\BusinessObject.csproj" />
+    <ProjectReference Include="..\Service\Service.csproj" />
+    <ProjectReference Include="..\SignalRLab\SignalRLab.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\" />
+    <Folder Include="Models\Authentication\" />
+    <Folder Include="Models\Doctors\" />
+    <Folder Include="Models\Managers\" />
+    <Folder Include="Models\Admin\" />
+    <Folder Include="Models\Customers\" />
+    <Folder Include="Models\Pets\" />
+    <Folder Include="Models\Staff\" />
+    <Folder Include="Pages\Admin\" />
+    <Folder Include="Pages\Customers\" />
+    <Folder Include="Pages\Doctors\" />
+    <Folder Include="Pages\Managers\" />
+    <Folder Include="Pages\Pets\" />
+    <Folder Include="Pages\Staff\" />
+  </ItemGroup>
+
+</Project>

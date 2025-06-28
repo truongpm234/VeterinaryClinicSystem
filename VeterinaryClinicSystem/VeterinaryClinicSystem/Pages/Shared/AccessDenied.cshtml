@@ -1,0 +1,13 @@
+﻿@page
+@model AccessDeniedModel
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Không có quyền truy cập";
+}
+
+<div class="text-center mt-5">
+    <img src="Images\access_denied.png" alt="Access Denied" style="width:120px; margin-bottom: 20px;" />
+    <p class="lead">Xin lỗi, bạn không có quyền truy cập vào trang này.</p>
+
+    <a class="btn btn-primary mt-3" asp-page="/Index">Quay về trang chủ</a>
+</div>

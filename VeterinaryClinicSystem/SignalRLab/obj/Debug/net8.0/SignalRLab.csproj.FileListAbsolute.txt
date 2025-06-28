@@ -1,0 +1,12 @@
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\bin\Debug\net8.0\SignalRLab.deps.json
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\bin\Debug\net8.0\SignalRLab.dll
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\bin\Debug\net8.0\SignalRLab.pdb
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.csproj.AssemblyReference.cache
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.GeneratedMSBuildEditorConfig.editorconfig
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.AssemblyInfoInputs.cache
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.AssemblyInfo.cs
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.csproj.CoreCompileInputs.cache
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.dll
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\refint\SignalRLab.dll
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.pdb
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\ref\SignalRLab.dll

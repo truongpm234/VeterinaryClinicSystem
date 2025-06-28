@@ -1,0 +1,14 @@
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\bin\Debug\net8.0\BusinessObject.deps.json
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\bin\Debug\net8.0\BusinessObject.runtimeconfig.json
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\bin\Debug\net8.0\BusinessObject.dll
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\bin\Debug\net8.0\BusinessObject.pdb
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.AssemblyReference.cache
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\obj\Debug\net8.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfoInputs.cache
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\obj\Debug\net8.0\BusinessObject.AssemblyInfo.cs
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\obj\Debug\net8.0\BusinessObject.csproj.CoreCompileInputs.cache
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\obj\Debug\net8.0\BusinessObject.dll
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\obj\Debug\net8.0\refint\BusinessObject.dll
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\obj\Debug\net8.0\BusinessObject.pdb
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\obj\Debug\net8.0\BusinessObject.genruntimeconfig.cache
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\BusinessObject\obj\Debug\net8.0\ref\BusinessObject.dll

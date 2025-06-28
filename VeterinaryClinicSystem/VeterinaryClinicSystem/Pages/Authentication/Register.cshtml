@@ -1,0 +1,51 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Đăng ký tài khoản";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Create new account</h2>
+
+    <form method="post" class="w-50 mx-auto border p-4 rounded shadow">
+        <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+        <div class="form-group mb-3">
+            <label asp-for="User.FullName">Họ và tên</label>
+            <input asp-for="User.FullName" class="form-control" />
+            <span asp-validation-for="User.FullName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="User.Email">Email</label>
+            <input asp-for="User.Email" class="form-control" />
+            <span asp-validation-for="User.Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="User.PasswordHash">Mật khẩu</label>
+            <input asp-for="User.PasswordHash" type="password" class="form-control" />
+            <span asp-validation-for="User.PasswordHash" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="User.PhoneNumber">Số điện thoại</label>
+            <input asp-for="User.PhoneNumber" class="form-control" />
+            <span asp-validation-for="User.PhoneNumber" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="User.Address">Địa chỉ</label>
+            <textarea asp-for="User.Address" class="form-control"></textarea>
+            <span asp-validation-for="User.Address" class="text-danger"></span>
+        </div>
+
+        <input type="hidden" asp-for="User.RoleId" value="5" /> @* 5 = Customer *@
+
+        <button type="submit" class="btn btn-primary w-100">Register</button>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
