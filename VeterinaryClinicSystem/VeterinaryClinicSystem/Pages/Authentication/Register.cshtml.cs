@@ -3,13 +3,14 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Service;
+using IAuthenticationService = Service.IAuthenticationService;
 namespace VeterinaryClinicSystem.Pages.Authentication
 {
     public class RegisterModel : PageModel
     {
-        private readonly Service.IAuthenticationService _authenticationService;
+        private readonly IAuthenticationService _authenticationService;
 
-        public RegisterModel(Service.IAuthenticationService authenticationService)
+        public RegisterModel(IAuthenticationService authenticationService)
         {
             _authenticationService = authenticationService;
         }

@@ -1,0 +1,111 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Admin.ProfileModel
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var ctx = HttpContextAccessor.HttpContext;
+}
+
+@{
+    var currentUserId = ctx.Session.GetInt32("Account");
+}
+
+@{
+    ViewData["Title"] = "Your Profile";
+}
+
+@{
+    ViewData["Title"] = "Your Profile";
+}
+<div class="container mt-4">
+
+    <!-- Ảnh bìa -->
+    <div class="position-relative">
+        <img src="/images/background_avatar.png" class="w-100 rounded-top" style="height: 300px; object-fit: cover;" alt="Cover photo" />
+    </div>
+
+
+    <!-- Ảnh đại diện + tên -->
+    <div class="position-relative" style="margin-top: -60px;">
+        <img src="@Model.User.AvatarUrl" alt="Avatar" class="rounded-circle border border-white"
+             style="width: 150px; height: 150px; object-fit: cover; margin-left: 16px;" />
+        <h4 class="mt-2 ms-4">@Model.User.FullName</h4>
+    </div>
+
+    <hr />
+
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success">@TempData["Message"]</div>
+    }
+
+    <!-- Thông tin cá nhân -->
+    <div class="card mt-3">
+        <div class="card-body">
+            <h5 class="card-title mb-3">Profile Information</h5>
+
+            <p><strong>Email Address:</strong> @Model.User.Email</p>
+            <p><strong>Phone Number:</strong> @Model.User.PhoneNumber</p>
+            <p><strong>Address:</strong> @Model.User.Address</p>            
+            <p><strong>You are a:</strong> @Model.User.Role?.RoleName</p>
+
+            <form method="post" enctype="multipart/form-data">
+                <input type="hidden" asp-for="User.UserId" />            
+                <input type="hidden" asp-for="IsEditing" />
+
+                <div class="form-group mb-2">
+                    @if (Model.IsEditing)
+                    {
+                        <label asp-for="User.AvatarUrl">Upload avatar:</label>
+                        <input type="hidden" asp-for="User.AvatarUrl" class="form-control" />
+                        <input type="file" name="AvatarUpload" class="form-control mt-1" />
+                    }
+                </div>
+
+                <div class="form-group">
+                    @if (Model.IsEditing)
+                    {
+                        <label asp-for="User.FullName">Full Name:</label>
+                        <input asp-for="User.FullName" class="form-control" />
+                    }
+                </div>
+                <div class="form-group">
+                    @if (Model.IsEditing)
+                    {
+                        <label asp-for="User.Email">Email:</label>
+                        <input asp-for="User.Email" class="form-control" />
+                    }
+                </div>
+                <div class="form-group">
+                    @if (Model.IsEditing)
+                    {
+                        <label asp-for="User.PhoneNumber">Phone Number:</label>
+                        <input asp-for="User.PhoneNumber" class="form-control" />
+                    }
+                </div>
+                <div class="form-group">
+                    @if (Model.IsEditing)
+                    {
+                        <label asp-for="User.Address">Address:</label>
+                        <input asp-for="User.Address" class="form-control" />
+                    }
+                </div>
+                
+                @if (currentUserId == Model.User.UserId)
+                {
+                    <div class="d-flex gap-2 mt-3">
+                        <a asp-page-handler="Edit" class="btn btn-outline-secondary">Edit</a>
+                        @if (Model.IsEditing)
+                        {
+                            <button type="submit" class="btn btn-success">Save changes</button>
+                        }
+                    </div>
+
+                }
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

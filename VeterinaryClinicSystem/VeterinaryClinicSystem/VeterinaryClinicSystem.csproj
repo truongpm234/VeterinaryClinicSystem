@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Images\" />
+    <Folder Include="wwwroot\images\" />
     <Folder Include="Models\Authentication\" />
     <Folder Include="Models\Doctors\" />
     <Folder Include="Models\Managers\" />
@@ -21,10 +21,13 @@
     <Folder Include="Models\Customers\" />
     <Folder Include="Models\Pets\" />
     <Folder Include="Models\Staff\" />
-    <Folder Include="Pages\Doctors\" />
-    <Folder Include="Pages\Managers\" />
     <Folder Include="Pages\Pets\" />
-    <Folder Include="Pages\Staff\" />
+    <Folder Include="wwwroot\uploads\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\access_denied.png" />
+    <None Include="wwwroot\images\background_avatar.png" />
   </ItemGroup>
 
 </Project>

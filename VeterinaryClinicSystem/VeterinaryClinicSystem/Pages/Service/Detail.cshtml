@@ -1,0 +1,15 @@
+﻿@page "{id:int}"
+@model VeterinaryClinicSystem.Pages.Service.DetailModel
+@{
+    ViewData["Title"] = "Chi tiết dịch vụ";
+}
+
+<div class="container mt-5">
+    <h2>@Model.Service.Name</h2>
+    <p><strong>Loại dịch vụ:</strong> @Model.Service.ServiceType</p>
+    <p><strong>Giá:</strong> @Model.Service.Price?.ToString("N0") VNĐ</p>
+    <p><strong>Mô tả:</strong></p>
+    <p>@Model.Service.Description</p>
+
+    <a asp-page="/Index" class="btn btn-secondary mt-3">Quay lại trang chủ</a>
+</div>

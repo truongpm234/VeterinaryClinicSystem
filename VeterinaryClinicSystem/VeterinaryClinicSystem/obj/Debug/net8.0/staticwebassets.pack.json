@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\images\\access_denied.png",
+      "PackagePath": "staticwebassets\\images\\access_denied.png"
+    },
+    {
+      "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\images\\background_avatar.png",
+      "PackagePath": "staticwebassets\\images\\background_avatar.png"
+    },
+    {
       "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\js\\microsoft\\signalr\\dist\\browser\\signalr.js",
       "PackagePath": "staticwebassets\\js\\microsoft\\signalr\\dist\\browser\\signalr.js"
     },
@@ -255,6 +263,18 @@
     {
       "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\uploads\\4904a0d8-2f61-4ecc-9151-38e082d45157_access_denied.png",
+      "PackagePath": "staticwebassets\\uploads\\4904a0d8-2f61-4ecc-9151-38e082d45157_access_denied.png"
+    },
+    {
+      "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\uploads\\access_denied.png",
+      "PackagePath": "staticwebassets\\uploads\\access_denied.png"
+    },
+    {
+      "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\uploads\\background_avatar.png",
+      "PackagePath": "staticwebassets\\uploads\\background_avatar.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.VeterinaryClinicSystem.Microsoft.AspNetCore.StaticWebAssets.props",
