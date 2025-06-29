@@ -25,6 +25,10 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddScoped<IUserRepository, UserRepository>();
 
+            builder.Services.AddScoped<IServicesService, ServicesService>(); 
+
+            builder.Services.AddScoped<IServicesRepository, ServicesRepository>();
+
             builder.Services.AddDbContext<VeterinaryClinicSystemContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 
@@ -43,11 +47,11 @@ namespace VeterinaryClinicSystem
 
             var app = builder.Build();
 
-            app.MapGet("/", context =>
-            {
-                context.Response.Redirect("/Authentication/Login");
-                return Task.CompletedTask;
-            });
+            //app.MapGet("/", context =>     //set default page khi run
+            //{
+            //    context.Response.Redirect("/Authentication/Login");
+            //    return Task.CompletedTask;
+            //});
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

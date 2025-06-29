@@ -11,10 +11,12 @@ namespace VeterinaryClinicSystem.Pages.Authentication
     public class LoginModel : PageModel
     {
 
-        private Service.IAuthenticationService _authenticationService;
-        public LoginModel(Service.IAuthenticationService authenticationService)
+        private readonly IAuthenticationService _authenticationService;
+        private readonly IUserService _userService;
+        public LoginModel(IAuthenticationService authenticationService, IUserService userService)
         {
             _authenticationService = authenticationService;
+            _userService = userService;
         }
 
         public async Task<IActionResult> OnGetAsync()
@@ -30,15 +32,15 @@ namespace VeterinaryClinicSystem.Pages.Authentication
                 }
                 if (roleName == "Manager")
                 {
-                    return RedirectToPage("/Privacy");
+                    return RedirectToPage("/Managers/Profile");
                 }
                 if (roleName == "Doctor")
                 {
-                    return RedirectToPage("/Privacy");
+                    return RedirectToPage("/Doctors/Profile");
                 }
                 if (roleName == "Staff")
                 {
-                    return RedirectToPage("/Privacy");
+                    return RedirectToPage("/Staff/Profile");
                 }
                 if (roleName == "Customer")
                 {
@@ -77,7 +79,9 @@ namespace VeterinaryClinicSystem.Pages.Authentication
 
             if (userAccount.IsActive == false)
             {
-                Message = "Your account has been deactivated!";
+                var admin = _userService.GetAllUsers().FirstOrDefault(u => u.RoleId == 1);
+                var adminEmail = admin?.Email;
+                Message = $"Your account has been deactivated! Please contact the admin via {adminEmail} for support.";
                 ModelState.AddModelError(string.Empty, Message);
                 return Page();
             }
@@ -85,6 +89,7 @@ namespace VeterinaryClinicSystem.Pages.Authentication
             HttpContext.Session.SetInt32("Account", userAccount.UserId);
             HttpContext.Session.SetString("FullName", userAccount.FullName ?? "");
             HttpContext.Session.SetString("Role", userAccount.Role?.RoleName ?? "");
+            HttpContext.Session.SetString("AvatarUrl", userAccount.AvatarUrl ?? "/images/default-avatar.png");
 
             return RedirectToPage("/Index");
         }

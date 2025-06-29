@@ -4,7 +4,56 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-4">
+    <!-- Giới thiệu -->
+    <section class="text-center mb-5">
+        <h1 class="display-5">Chào mừng đến với Phòng khám Thú y VetCare</h1>
+        <p class="lead">Chúng tôi cam kết chăm sóc sức khỏe toàn diện cho thú cưng của bạn với sự tận tâm và chuyên nghiệp.</p>
+    </section>
+
+    <!-- Dịch vụ -->
+
+        <div class="container mt-5">
+            <h2 class="mb-4">Dịch vụ tại phòng khám</h2>
+
+            <div class="row">
+                @foreach (var service in Model.Services)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">@service.Name</h5>
+                                <p class="card-text text-muted">@service.ServiceType</p>
+                                <p class="card-text">@service.Description?.Substring(0, Math.Min(100, service.Description.Length))...</p>
+                                <a asp-page="/Service/Detail" asp-route-id="@service.ServiceId" class="btn btn-outline-primary btn-sm">Xem chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+    <!-- Đội ngũ bác sĩ -->
+    <section class="mb-5">
+        <h2 class="text-center mb-4">Đội ngũ bác sĩ</h2>
+        <p class="text-center">Đội ngũ bác sĩ thú y có kinh nghiệm và tâm huyết, sẵn sàng phục vụ thú cưng của bạn 24/7.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <img src="/images/doctor1.jpg" class="rounded-circle img-fluid" alt="Bác sĩ A">
+                <p class="text-center mt-2">Bác sĩ A - Chuyên khoa Nội</p>
+            </div>
+            <div class="col-md-3">
+                <img src="/images/doctor2.jpg" class="rounded-circle img-fluid" alt="Bác sĩ B">
+                <p class="text-center mt-2">Bác sĩ B - Chuyên khoa Ngoại</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog kiến thức -->
+    <section>
+        <h2 class="text-center mb-4">Chia sẻ kiến thức</h2>
+        <p class="text-center">Cập nhật các bài viết hữu ích về cách chăm sóc và nuôi dưỡng thú cưng từ đội ngũ chuyên gia của chúng tôi.</p>
+        <div class="text-center">
+            <a href="/Blog/Index" class="btn btn-primary">Đọc Blog</a>
+        </div>
+    </section>
 </div>

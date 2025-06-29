@@ -83,3 +83,10 @@ E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\Veterin
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\obj\Debug\net8.0\VeterinaryClinicSystem.genruntimeconfig.cache
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\obj\Debug\net8.0\ref\VeterinaryClinicSystem.dll
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\obj\Debug\net8.0\VeterinaryClinicSystem.sourcelink.json
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\obj\Debug\net8.0\VeterinaryClinicSystem.MvcApplicationPartsAssemblyInfo.cs

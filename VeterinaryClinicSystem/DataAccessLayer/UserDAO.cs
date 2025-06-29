@@ -17,7 +17,7 @@ namespace DataAccessLayer
         public static User GetUserById(int id)
         {
             using var context = new VeterinaryClinicSystemContext();
-            return context.Users.Include(u => u.Role).FirstOrDefault(u => u.UserId == id);
+            return context.Users.Include(u => u.Role).Include(u => u.Doctor).FirstOrDefault(u => u.UserId == id);
         }
 
         public static User GetUserByEmail(string email)
@@ -38,7 +38,7 @@ namespace DataAccessLayer
         public static void UpdateUser(User updatedUser)
         {
             using var context = new VeterinaryClinicSystemContext();
-            var existingUser = context.Users.FirstOrDefault(u => u.UserId == updatedUser.UserId);
+            var existingUser = context.Users.Include(u => u.Role).Include(u => u.Doctor).FirstOrDefault(u => u.UserId == updatedUser.UserId);
 
             if (existingUser != null)
             {
@@ -47,6 +47,17 @@ namespace DataAccessLayer
                 existingUser.PhoneNumber = updatedUser.PhoneNumber;
                 existingUser.Address = updatedUser.Address;
                 existingUser.AvatarUrl = updatedUser.AvatarUrl;
+
+                if (existingUser.RoleId == 3)
+                {
+                    if (existingUser.Doctor == null)
+                    {                       
+                        existingUser.Doctor.Specialty = updatedUser.Doctor?.Specialty;
+                        existingUser.Doctor.Degree = updatedUser.Doctor?.Degree;
+                        existingUser.Doctor.Description = updatedUser.Doctor?.Description;
+                    }
+                }
+
                 context.SaveChanges();
             }
             if (existingUser == null)
