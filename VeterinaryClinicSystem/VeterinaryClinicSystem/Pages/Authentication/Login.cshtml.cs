@@ -28,7 +28,7 @@ namespace VeterinaryClinicSystem.Pages.Authentication
             {
                 if (roleName == "Admin")
                 {
-                    return RedirectToPage("/Admin/Users");
+                    return RedirectToPage("/Admin/ManageUsers");
                 }
                 if (roleName == "Manager")
                 {

@@ -3,13 +3,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Service;
 
-namespace VeterinaryClinicSystem.Pages.Blog
+namespace VeterinaryClinicSystem.Pages.HomePage
 {
-    public class DetailModel : PageModel
+    public class Blog_DetailModel : PageModel
     {
         private readonly IBlogPostsService _blogPostsService;
 
-        public DetailModel(IBlogPostsService blogPostsService)
+        public Blog_DetailModel(IBlogPostsService blogPostsService)
         {
             _blogPostsService = blogPostsService;
         }

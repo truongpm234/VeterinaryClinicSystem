@@ -11,7 +11,8 @@ namespace Repository
 
     public class BlogPostsRepository : IBlogPostsRepository
     {
-        public List<BlogPost> GetAll() => BlogPostsDAO.GetAll();
+        public List<BlogPost> GetBlogByPublish() => BlogPostsDAO.GetBlogByPublish();
+        public List<BlogPost> GetAllBlogByAdmin() => BlogPostsDAO.GetAllBlogByAdmin();
         public BlogPost? GetById(int id) => BlogPostsDAO.GetById(id);
         public void Add(BlogPost post) => BlogPostsDAO.Add(post);
         public void Update(BlogPost post) => BlogPostsDAO.Update(post);

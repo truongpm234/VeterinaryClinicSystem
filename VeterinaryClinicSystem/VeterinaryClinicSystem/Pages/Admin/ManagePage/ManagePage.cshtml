@@ -1,0 +1,171 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Admin.ManagePage.ManagePageModel
+@{
+    ViewData["Title"] = "Admin Manage";
+}
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var session = HttpContextAccessor.HttpContext.Session;
+    var userRole = session.GetInt32("Role");
+    var isAdmin = userRole == 1;
+}
+
+@if (string.IsNullOrEmpty(Model.Section))
+{
+    <div class="container mt-4">
+        <div class="row justify-content-center g-4">
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 h-100 hover-shadow">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">🩺 Doctors Information</h5>
+                        <p class="card-text">Quản lý thông tin đội ngũ bác sĩ chuyên môn của phòng khám.</p>
+                        <a href="?section=doctors" class="btn btn-outline-primary w-100">Manage Doctors</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 h-100 hover-shadow">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">💊 Services Information</h5>
+                        <p class="card-text">Cập nhật và điều chỉnh các dịch vụ đang được cung cấp.</p>
+                        <a href="?section=services" class="btn btn-outline-success w-100">Manage Services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 h-100 hover-shadow">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-semibold">📰 Blogs Information</h5>
+                        <p class="card-text">Đăng bài viết, cập nhật và quản lý blog của phòng khám.</p>
+                        <a href="?section=blog" class="btn btn-outline-warning w-100">Manage Blogs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <h3 class="my-4 text-primary fw-bold">📋 Quản lý @Model.Section</h3>
+}
+
+@if (Model.Section == "doctors")
+{
+    <div class="table-responsive shadow-sm border rounded">
+        <table class="table table-hover align-middle">
+            <thead class="table-light">
+                <tr>
+                    <th>Avatar</th>
+                    <th>Name</th>
+                    <th>Specialty</th>
+                    <th>Degree</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Doctors)
+                {
+                    <tr>
+                        <td><img src="@item.user.AvatarUrl" width="50" class="rounded-circle" /></td>
+                        <td>@item.user.FullName</td>
+                        <td><span class="badge bg-info text-dark">@item.doctor.Specialty</span></td>
+                        <td>@item.doctor.Degree</td>
+                        <td>
+                            <a href="/Admin/ManagePage/EditDoctor?id=@item.user.UserId" class="btn btn-sm btn-warning">✏️ Edit</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else if (Model.Section == "services")
+{
+    <div class="table-responsive shadow-sm border rounded">
+        <table class="table table-striped table-hover align-middle">
+            <thead class="table-light">
+                <tr>
+                    <th>Service Name</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var service in Model.Services)
+                {
+                    <tr>
+                        <td>@service.Name</td>
+                        <td><span class="badge bg-secondary">@service.ServiceType</span></td>
+                        <td>@service.Price?.ToString("N0") VNĐ</td>
+                        <td>
+                            <a href="/Admin/ManagePage/EditService?id=@service.ServiceId" class="btn btn-sm btn-warning">✏️ Edit</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else if (Model.Section == "blog")
+{
+    <div class="table-responsive shadow-sm border rounded">
+        <table class="table table-bordered table-hover align-middle">
+            <thead class="table-light">
+                <tr>
+                    <th>Title</th>
+                    <th>Created At</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var blog in Model.BlogPosts)
+                {
+                    <tr>
+                        <td>@blog.Title</td>
+                        <td>@blog.CreatedAt?.ToString("dd/MM/yyyy")</td>
+                        <td>
+                            @if (blog.IsPublished == true)
+                            {
+                                <span class="badge bg-success">Published</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">Hidden</span>
+                            }
+                        </td>
+                        <td>
+                            <a href="/Admin/ManagePage/EditBlog?id=@blog.PostId" class="btn btn-sm btn-warning">✏️ Edit</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <div class="text-end mt-3">
+                <a href="/Admin/ManagePage/CreateBlog" class="btn btn-success">
+                    <i class="bi bi-plus-circle"></i> Create New Blog
+                </a>
+            </div>
+
+        </table>
+    </div>
+}
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show mt-3" role="alert">
+        ✅ @TempData["Message"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <script>
+        setTimeout(() => {
+            const alert = document.querySelector('.alert');
+            if (alert) {
+                alert.classList.remove('show');
+                alert.classList.add('fade');
+            }
+        }, 3000);
+    </script>
+}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">

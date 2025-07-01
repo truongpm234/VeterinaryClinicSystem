@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <Folder Include="Pages\Appointments\" />
+    <Folder Include="Pages\Blog\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="Models\Authentication\" />
     <Folder Include="Models\Doctors\" />

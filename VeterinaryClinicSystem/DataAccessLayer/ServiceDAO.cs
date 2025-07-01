@@ -25,6 +25,7 @@ namespace DataAccessLayer
         {
             using var context = new VeterinaryClinicSystemContext();
             var existing = context.Services.FirstOrDefault(s => s.ServiceId == updated.ServiceId);
+            
             if (existing != null)
             {
                 existing.Name = updated.Name;

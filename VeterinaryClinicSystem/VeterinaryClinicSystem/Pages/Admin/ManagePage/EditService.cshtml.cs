@@ -5,7 +5,7 @@ using BusinessObject;
 using Microsoft.AspNetCore.SignalR;
 using SignalRLab;
 
-namespace VeterinaryClinicSystem.Pages.Admin
+namespace VeterinaryClinicSystem.Pages.Admin.ManagePage
 {
     public class EditServiceModel : PageModel
     {
@@ -24,7 +24,7 @@ namespace VeterinaryClinicSystem.Pages.Admin
         public IActionResult OnGet(int id)
         {
             Service = _serviceService.GetServiceById(id);
-            if (Service == null) return RedirectToPage("/Admin/EditService", new { section = "services" });
+            if (Service == null) return RedirectToPage("/Admin/ManagePage/EditService", new { section = "services" });
             return Page();
         }
 
@@ -35,7 +35,7 @@ namespace VeterinaryClinicSystem.Pages.Admin
             TempData["Message"] = "Update Successfully!!";
             _hubContext.Clients.All.SendAsync("LoadAllItems");
 
-            return RedirectToPage("/Admin/ManagePage", new { section = "services" });
+            return RedirectToPage("/Admin/ManagePage/ManagePage", new { section = "services" });
         }
     }
 }

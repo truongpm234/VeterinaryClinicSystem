@@ -86,25 +86,28 @@
         <section>
             <h2 class="text-center mb-4">Chia sẻ kiến thức</h2>
             <p class="text-center">Cập nhật các bài viết hữu ích về cách chăm sóc và nuôi dưỡng thú cưng từ đội ngũ chuyên gia của chúng tôi.</p>
-            <div class="text-center">
-                <div class="row">
-                    @foreach (var post in Model.BlogPosts)
-                    {
-                        <div class="col-md-4 mb-4">
-                            <div class="card h-100">
-                                <img src="@post.CoverImageUrl" class="card-img-top" alt="cover" style="height:200px; object-fit:cover;" />
-                                <div class="card-body">
-                                    <h5 class="card-title">@post.Title</h5>
-                                    <p class="card-text">@post.Content.Substring(0, Math.Min(100, post.Content.Length))...</p>
-                                    <a asp-page="/Blog/Detail" asp-route-id="@post.PostId" class="btn btn-primary">Read more</a>
-                                </div>
+
+            <div class="row justify-content-center">
+                @foreach (var post in Model.BlogPosts)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="@post.CoverImageUrl" class="card-img-top" alt="cover" style="height:200px; object-fit:cover;" />
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">@post.Title</h5>
+                                <p class="card-text">@post.Content.Substring(0, Math.Min(100, post.Content.Length))...</p>
+                            </div>
+                            <div class="card-footer bg-transparent border-top-0 px-3 pb-3">
+                                <a asp-page="/HomePage/Blog_Detail" asp-route-id="@post.PostId" class="text-decoration-none text-primary fw-semibold">
+                                    ➤ Read more
+                                </a>
                             </div>
                         </div>
-                    }
-                </div>
-
+                    </div>
+                }
             </div>
         </section>
+
     </div>
     <script src="~/js/microsoft/signalr/dist/browser/signalr.js"></script>
     <script src="~/js/site.js"></script>
