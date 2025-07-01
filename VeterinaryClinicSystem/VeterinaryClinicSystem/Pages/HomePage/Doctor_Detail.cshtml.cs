@@ -1,4 +1,4 @@
-using BusinessObject;
+﻿using BusinessObject;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Service;
@@ -14,11 +14,22 @@ namespace VeterinaryClinicSystem.Pages.HomePage
             _doctorService = doctorService;
         }
 
-        public List<(User user, Doctor doctor)> Doctors { get; set; }
+        public User UserInfo { get; set; }
+        public Doctor DoctorInfo { get; set; }
 
-        public void OnGet()
+        public IActionResult OnGet(int id)
         {
-            Doctors = _doctorService.GetAllDoctors();
+            var doctor = _doctorService.GetDoctorByUserId(id);
+
+            if (doctor is (var user, var doc))
+            {
+                UserInfo = user;
+                DoctorInfo = doc;
+                return Page();
+            }
+            return NotFound();
+
         }
+
     }
 }

@@ -31,7 +31,7 @@
                             <h5 class="card-title">@service.Name</h5>
                             <p class="card-text text-muted">@service.ServiceType</p>
                             <p class="card-text">@service.Description?.Substring(0, Math.Min(100, service.Description.Length))...</p>
-                            <a asp-page="/Service/Detail" asp-route-id="@service.ServiceId" class="btn btn-outline-primary btn-sm">Xem chi tiết</a>
+                            <a asp-page="/HomePage/Service_Detail" asp-route-id="@service.ServiceId" class="btn btn-outline-primary btn-sm">Xem chi tiết</a>
                         </div>
                     </div>
                 </div>
@@ -69,8 +69,13 @@
 
                             <a href="/Appointments/"
                                class="btn btn-warning btn-sm w-100">
-                                🩺 Tư vấn trực tuyến
+                                🩺 Đặt lịch hoặc tư vấn
                             </a>
+                            <a href="/HomePage/Doctor_Detail/@item.user.UserId"
+                               class="btn btn-outline-primary btn-sm w-100 mt-2">
+                                🔍 Xem chi tiết
+                            </a>
+
                         </div>
                     </div>
                 }
