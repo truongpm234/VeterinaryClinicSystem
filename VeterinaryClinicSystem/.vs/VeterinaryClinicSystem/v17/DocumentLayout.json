@@ -350,8 +350,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\CreateBlog.cshtml",
               "ViewState": "AgIAABMAAAAAAAAAAAAswCIAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T07:40:25.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T07:40:25.546Z"
             },
             {
               "$type": "Document",
@@ -363,8 +362,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\CreateBlog.cshtml.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAADwv0EAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T07:41:38.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T07:41:38.164Z"
             },
             {
               "$type": "Document",
@@ -376,8 +374,7 @@
               "RelativeToolTip": "BusinessObject\\BlogPost.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAA8wBkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T04:56:02.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T04:56:02.431Z"
             },
             {
               "$type": "Document",
@@ -389,8 +386,7 @@
               "RelativeToolTip": "DataAccessLayer\\DoctorsDAO.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAowEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T09:31:55.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T09:31:55.201Z"
             },
             {
               "$type": "Document",
@@ -402,8 +398,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\ManagePage.cshtml.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAkwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T07:09:00.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T07:09:00.81Z"
             },
             {
               "$type": "Document",
@@ -415,8 +410,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\ManagePage.cshtml",
               "ViewState": "AgIAAHMAAAAAAAAAAAAswKAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T07:11:15.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T07:11:15.099Z"
             },
             {
               "$type": "Document",
@@ -428,8 +422,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Index.cshtml.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T17:28:15.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T17:28:15.916Z"
             },
             {
               "$type": "Document",
@@ -439,7 +432,7 @@
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Index.cshtml",
               "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Index.cshtml",
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-27T17:28:06.218Z",
               "EditorCaption": ""
@@ -454,8 +447,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T16:35:26.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T16:35:26.947Z"
             },
             {
               "$type": "Document",
@@ -467,8 +459,7 @@
               "RelativeToolTip": "DataAccessLayer\\BlogPostsDAO.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAkwCMAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T12:26:49.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T12:26:49.635Z"
             },
             {
               "$type": "Document",
@@ -480,8 +471,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Doctors\\Profile.cshtml.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAowF0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T09:03:32.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T09:03:32.607Z"
             },
             {
               "$type": "Document",
@@ -493,8 +483,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAADgAAAAAAAAAAAAswDQAAAB3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-29T04:53:35.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T04:53:35.384Z"
             },
             {
               "$type": "Document",
@@ -506,8 +495,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Authentication\\Register.cshtml.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwAUAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:56:13.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T14:56:13.302Z"
             },
             {
               "$type": "Document",
@@ -519,8 +507,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Authentication\\Logout.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T05:39:49.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T05:39:49.503Z"
             },
             {
               "$type": "Document",
@@ -532,8 +519,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAIwB4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T16:36:13.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T16:36:13.841Z"
             },
             {
               "$type": "Document",
@@ -545,8 +531,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\HomePage\\Blog_Detail.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T11:04:22.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T11:04:22.716Z"
             },
             {
               "$type": "Document",
@@ -558,8 +543,7 @@
               "RelativeToolTip": "DataAccessLayer\\VeterinaryClinicSystemContext.cs",
               "ViewState": "AgIAAGcAAAAAAAAAAAAQwGgAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T12:21:22.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T12:21:22.517Z"
             },
             {
               "$type": "Document",
@@ -571,8 +555,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditBlog.cshtml.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwDgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T07:09:27.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T07:09:27.364Z"
             },
             {
               "$type": "Document",
@@ -584,8 +567,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManageUsers.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAAEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T04:23:06.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T04:23:06.038Z"
             },
             {
               "$type": "Document",
@@ -597,8 +579,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\HomePage\\Service_Detail.cshtml.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T05:51:48.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T05:51:48.353Z"
             },
             {
               "$type": "Document",
@@ -610,8 +591,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\HomePage\\Service_Detail.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-29T05:51:34.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T05:51:34.826Z"
             },
             {
               "$type": "Document",
@@ -623,8 +603,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAQwBkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T09:45:16.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T09:45:16.536Z"
             },
             {
               "$type": "Document",
@@ -636,8 +615,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml",
               "ViewState": "AgIAAAoAAAAAAAAAAAAswBsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-29T09:43:50.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T09:43:50.847Z"
             },
             {
               "$type": "Document",
@@ -649,8 +627,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\HomePage\\Blog_Detail.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T11:04:54.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T11:04:54.556Z"
             },
             {
               "$type": "Document",
@@ -662,8 +639,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditService.cshtml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T07:09:18.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T07:09:18.692Z"
             },
             {
               "$type": "Document",
@@ -675,8 +651,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditService.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T07:10:38.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T07:10:38.241Z"
             },
             {
               "$type": "Document",
@@ -688,8 +663,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditDoctor.cshtml.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwCsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T07:09:24.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T07:09:24.39Z"
             },
             {
               "$type": "Document",
@@ -701,8 +675,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditDoctor.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T07:10:14.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T07:10:14.573Z"
             },
             {
               "$type": "Document",
@@ -714,8 +687,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditBlog.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAAEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T07:09:55.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-01T07:09:55.137Z"
             },
             {
               "$type": "Document",
@@ -727,8 +699,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManageUsers.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:25:16.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T04:25:16.176Z"
             },
             {
               "$type": "Document",
@@ -740,8 +711,7 @@
               "RelativeToolTip": "Service\\BlogPostsService.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAuwBQAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T12:29:57.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T12:29:57.097Z"
             },
             {
               "$type": "Document",
@@ -753,8 +723,7 @@
               "RelativeToolTip": "Service\\IBlogPostsService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T12:29:28.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T12:29:28.949Z"
             },
             {
               "$type": "Document",
@@ -766,8 +735,7 @@
               "RelativeToolTip": "Repository\\BlogPostsRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T12:28:59.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T12:28:59.349Z"
             },
             {
               "$type": "Document",
@@ -779,8 +747,7 @@
               "RelativeToolTip": "Repository\\IBlogPostsRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T12:28:34.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T12:28:34.248Z"
             },
             {
               "$type": "Document",
@@ -792,8 +759,7 @@
               "RelativeToolTip": "Repository\\IDoctorsRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T09:36:00.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T09:36:00.159Z"
             },
             {
               "$type": "Document",
@@ -805,8 +771,7 @@
               "RelativeToolTip": "Repository\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:20:41.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T04:20:41.385Z"
             },
             {
               "$type": "Document",
@@ -818,8 +783,7 @@
               "RelativeToolTip": "DataAccessLayer\\ServiceDAO.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T05:54:57.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T05:54:57.466Z"
             },
             {
               "$type": "Document",
