@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\homepage\\doctor_detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\homepage\\doctor_detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\homepage\\doctor_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\homepage\\doctor_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -19,8 +11,144 @@
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\managepage\\managepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\managepage\\managepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\managepage\\managepage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\managepage\\managepage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\managepage\\createblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\managepage\\createblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\managepage\\createblog.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\managepage\\createblog.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\blogpostsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\blogpostsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\doctorsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\doctorsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\businessobject\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\doctors\\profile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\doctors\\profile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\authentication\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\authentication\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\authentication\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\authentication\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\authentication\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\authentication\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\homepage\\blog_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\homepage\\blog_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\veterinaryclinicsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\veterinaryclinicsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\managepage\\editblog.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\managepage\\editblog.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\homepage\\service_detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\homepage\\service_detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\homepage\\service_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\homepage\\service_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\homepage\\doctor_detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\homepage\\doctor_detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\homepage\\doctor_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\homepage\\doctor_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\homepage\\blog_detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\homepage\\blog_detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\managepage\\editservice.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\managepage\\editservice.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\managepage\\editservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\managepage\\editservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\managepage\\editdoctor.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\managepage\\editdoctor.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\managepage\\editdoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\managepage\\editdoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\managepage\\editblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\managepage\\editblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\manageusers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\manageusers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\service\\blogpostsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|solutionrelative:service\\blogpostsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\service\\iblogpostsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|solutionrelative:service\\iblogpostsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\repository\\blogpostsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|solutionrelative:repository\\blogpostsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\repository\\iblogpostsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|solutionrelative:repository\\iblogpostsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\repository\\idoctorsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|solutionrelative:repository\\idoctorsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|solutionrelative:repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\servicedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\servicedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\service\\doctorsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,60 +163,8 @@
       "RelativeMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|solutionrelative:repository\\doctorsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\repository\\idoctorsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|solutionrelative:repository\\idoctorsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\editdoctor.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\editdoctor.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\editservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\editservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\homepage\\service_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\homepage\\service_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\homepage\\service_detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\homepage\\service_detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\managers\\profile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\managers\\profile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\editservice.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\editservice.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\servicedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\servicedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\blogpostsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\blogpostsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\editblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\editblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\managepage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\managepage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\editblog.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\editblog.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\managepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\managepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -97,10 +173,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0A277254-F1A0-41E0-8A6B-7A6170451B99}|SignalRLab\\SignalRLab.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\signalrlab\\signalrserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A277254-F1A0-41E0-8A6B-7A6170451B99}|SignalRLab\\SignalRLab.csproj|solutionrelative:signalrlab\\signalrserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\editdoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\editdoctor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\service\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,18 +195,6 @@
       "RelativeMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|solutionrelative:repository\\iservicesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\blog\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\blog\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\authentication\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\authentication\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -143,20 +203,8 @@
       "RelativeMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\businessobject\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\service\\iblogpostsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|solutionrelative:service\\iblogpostsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\customers\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\customers\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\blog\\detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\blog\\detail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\profile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -171,18 +219,6 @@
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\repository\\blogpostsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|solutionrelative:repository\\blogpostsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\repository\\iblogpostsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|solutionrelative:repository\\iblogpostsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\service\\blogpostsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|solutionrelative:service\\blogpostsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\repository\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|solutionrelative:repository\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -193,10 +229,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\staff\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\staff\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\doctors\\profile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\doctors\\profile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\customers\\profile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -223,10 +255,6 @@
       "RelativeMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\authentication\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\authentication\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|solutionrelative:service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -243,16 +271,8 @@
       "RelativeMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|solutionrelative:repository\\iauthenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|solutionrelative:repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\authentication\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\authentication\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\authentication\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\authentication\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\filters\\viewhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -271,24 +291,12 @@
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\users.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\users.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\authentication\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\authentication\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\veterinaryclinicsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\veterinaryclinicsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -318,7 +326,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 1210,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -334,85 +342,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DoctorsRepository.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\DoctorsRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\DoctorsRepository.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\DoctorsRepository.cs",
-              "RelativeToolTip": "Repository\\DoctorsRepository.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAcwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T09:37:03.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IDoctorsService.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IDoctorsService.cs",
-              "RelativeDocumentMoniker": "Service\\IDoctorsService.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IDoctorsService.cs",
-              "RelativeToolTip": "Service\\IDoctorsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T09:33:11.839Z",
+              "DocumentIndex": 4,
+              "Title": "CreateBlog.cshtml",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\CreateBlog.cshtml",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\CreateBlog.cshtml",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\CreateBlog.cshtml",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\CreateBlog.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswCIAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T07:40:25.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DoctorsService.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\DoctorsService.cs",
-              "RelativeDocumentMoniker": "Service\\DoctorsService.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\DoctorsService.cs",
-              "RelativeToolTip": "Service\\DoctorsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Title": "CreateBlog.cshtml.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\CreateBlog.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\CreateBlog.cshtml.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\CreateBlog.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\CreateBlog.cshtml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwv0EAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T09:33:29.006Z",
+              "WhenOpened": "2025-07-01T07:41:38.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Doctor_Detail.cshtml",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-29T09:43:50.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Doctor_Detail.cshtml.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml.cs*",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "BlogPost.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BlogPost.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\BlogPost.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BlogPost.cs",
+              "RelativeToolTip": "BusinessObject\\BlogPost.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA8wBkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T09:45:16.536Z",
+              "WhenOpened": "2025-06-29T04:56:02.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Index.cshtml",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Index.cshtml*",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Index.cshtml*",
-              "ViewState": "AgIAADgAAAAAAAAAAAAswEkAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T17:28:06.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "DoctorsDAO.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DoctorsDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\DoctorsDAO.cs",
@@ -426,84 +395,201 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ManagePage.cshtml.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\ManagePage.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\ManagePage.cshtml.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\ManagePage.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\ManagePage.cshtml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:09:00.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManagePage.cshtml",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\ManagePage.cshtml",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\ManagePage.cshtml",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\ManagePage.cshtml",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\ManagePage.cshtml",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAswKAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T07:11:15.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Index.cshtml.cs",
               "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T17:28:15.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IDoctorsRepository.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IDoctorsRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IDoctorsRepository.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IDoctorsRepository.cs",
-              "RelativeToolTip": "Repository\\IDoctorsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Index.cshtml",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Index.cshtml",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T17:28:06.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T16:35:26.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BlogPostsDAO.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\BlogPostsDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\BlogPostsDAO.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\BlogPostsDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\BlogPostsDAO.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwCMAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T09:36:00.159Z",
+              "WhenOpened": "2025-06-29T12:26:49.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "EditDoctor.cshtml.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\EditDoctor.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\EditDoctor.cshtml.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\EditDoctor.cshtml.cs",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\EditDoctor.cshtml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAjwB0AAAAYAAAAAAAAAA==",
+              "Title": "Profile.cshtml.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Doctors\\Profile.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Doctors\\Profile.cshtml.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Doctors\\Profile.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Doctors\\Profile.cshtml.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowF0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T12:34:36.181Z",
+              "WhenOpened": "2025-06-29T09:03:32.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "EditService.cshtml",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\EditService.cshtml",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\EditService.cshtml",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\EditService.cshtml",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\EditService.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswDQAAAB3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T12:35:39.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Profile.cshtml.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Managers\\Profile.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Managers\\Profile.cshtml.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Managers\\Profile.cshtml.cs",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Managers\\Profile.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T09:12:19.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Service_Detail.cshtml",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Service_Detail.cshtml",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\HomePage\\Service_Detail.cshtml",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Service_Detail.cshtml",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\HomePage\\Service_Detail.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-29T05:51:34.826Z",
+              "WhenOpened": "2025-06-29T04:53:35.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Register.cshtml.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Register.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Authentication\\Register.cshtml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:56:13.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Logout.cshtml.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Logout.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Authentication\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T05:39:49.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwB4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T16:36:13.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Blog_Detail.cshtml",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Blog_Detail.cshtml",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\HomePage\\Blog_Detail.cshtml",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Blog_Detail.cshtml",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\HomePage\\Blog_Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T11:04:22.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VeterinaryClinicSystemContext.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\VeterinaryClinicSystemContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\VeterinaryClinicSystemContext.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\VeterinaryClinicSystemContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\VeterinaryClinicSystemContext.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAQwGgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T12:21:22.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EditBlog.cshtml.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditBlog.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditBlog.cshtml.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditBlog.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditBlog.cshtml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwDgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:09:27.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ManageUsers.cshtml",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManageUsers.cshtml",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManageUsers.cshtml",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManageUsers.cshtml",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManageUsers.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T04:23:06.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Service_Detail.cshtml.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Service_Detail.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\HomePage\\Service_Detail.cshtml.cs",
@@ -516,106 +602,276 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
+              "Title": "Service_Detail.cshtml",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Service_Detail.cshtml",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\HomePage\\Service_Detail.cshtml",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Service_Detail.cshtml",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\HomePage\\Service_Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T05:51:34.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Doctor_Detail.cshtml.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T09:45:16.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Doctor_Detail.cshtml",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswBsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-29T09:43:50.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Blog_Detail.cshtml.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Blog_Detail.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\HomePage\\Blog_Detail.cshtml.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Blog_Detail.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\HomePage\\Blog_Detail.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T11:04:54.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "EditService.cshtml.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\EditService.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\EditService.cshtml.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\EditService.cshtml.cs",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\EditService.cshtml.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCMAAAAMAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditService.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditService.cshtml.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditService.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditService.cshtml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T12:35:43.156Z",
+              "WhenOpened": "2025-07-01T07:09:18.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BlogPostsDAO.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\BlogPostsDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\BlogPostsDAO.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\BlogPostsDAO.cs",
-              "RelativeToolTip": "DataAccessLayer\\BlogPostsDAO.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAwwEQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T12:26:49.635Z",
+              "DocumentIndex": 25,
+              "Title": "EditService.cshtml",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditService.cshtml",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditService.cshtml",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditService.cshtml",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditService.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T07:10:38.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 26,
+              "Title": "EditDoctor.cshtml.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditDoctor.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditDoctor.cshtml.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditDoctor.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditDoctor.cshtml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T07:09:24.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EditDoctor.cshtml",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditDoctor.cshtml",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditDoctor.cshtml",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditDoctor.cshtml",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditDoctor.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T07:10:14.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditBlog.cshtml",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditBlog.cshtml",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditBlog.cshtml",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditBlog.cshtml",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditBlog.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T07:09:55.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ManageUsers.cshtml.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManageUsers.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManageUsers.cshtml.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManageUsers.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManageUsers.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T04:25:16.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BlogPostsService.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\BlogPostsService.cs",
+              "RelativeDocumentMoniker": "Service\\BlogPostsService.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\BlogPostsService.cs",
+              "RelativeToolTip": "Service\\BlogPostsService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T12:29:57.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IBlogPostsService.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IBlogPostsService.cs",
+              "RelativeDocumentMoniker": "Service\\IBlogPostsService.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IBlogPostsService.cs",
+              "RelativeToolTip": "Service\\IBlogPostsService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T12:29:28.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BlogPostsRepository.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\BlogPostsRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\BlogPostsRepository.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\BlogPostsRepository.cs",
+              "RelativeToolTip": "Repository\\BlogPostsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T12:28:59.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IBlogPostsRepository.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IBlogPostsRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IBlogPostsRepository.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IBlogPostsRepository.cs",
+              "RelativeToolTip": "Repository\\IBlogPostsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T12:28:34.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IDoctorsRepository.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IDoctorsRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IDoctorsRepository.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IDoctorsRepository.cs",
+              "RelativeToolTip": "Repository\\IDoctorsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T09:36:00.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T04:20:41.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "ServiceDAO.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\ServiceDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\ServiceDAO.cs",
               "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\ServiceDAO.cs",
               "RelativeToolTip": "DataAccessLayer\\ServiceDAO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-29T05:54:57.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ManagePage.cshtml.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage.cshtml.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage.cshtml.cs",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage.cshtml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBkAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 37,
+              "Title": "DoctorsService.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\DoctorsService.cs",
+              "RelativeDocumentMoniker": "Service\\DoctorsService.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\DoctorsService.cs",
+              "RelativeToolTip": "Service\\DoctorsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T11:57:55.396Z"
+              "WhenOpened": "2025-06-29T09:33:29.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "EditBlog.cshtml.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\EditBlog.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\EditBlog.cshtml.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\EditBlog.cshtml.cs",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\EditBlog.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 38,
+              "Title": "IDoctorsService.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IDoctorsService.cs",
+              "RelativeDocumentMoniker": "Service\\IDoctorsService.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IDoctorsService.cs",
+              "RelativeToolTip": "Service\\IDoctorsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T12:30:09.491Z"
+              "WhenOpened": "2025-06-29T09:33:11.839Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EditBlog.cshtml",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\EditBlog.cshtml",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\EditBlog.cshtml",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\EditBlog.cshtml",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\EditBlog.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T12:29:06.83Z"
+              "DocumentIndex": 39,
+              "Title": "DoctorsRepository.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\DoctorsRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\DoctorsRepository.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\DoctorsRepository.cs",
+              "RelativeToolTip": "Repository\\DoctorsRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T09:37:03.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAUwGUAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-29T04:53:35.384Z"
+              "DocumentIndex": 40,
+              "Title": "Profile.cshtml.cs",
+              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Managers\\Profile.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Managers\\Profile.cshtml.cs",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Managers\\Profile.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Managers\\Profile.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T09:12:19.179Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ManagePage.cshtml",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage.cshtml",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage.cshtml",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage.cshtml",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage.cshtml",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAwwHUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T11:57:47.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 41,
               "Title": "site.js",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\wwwroot\\js\\site.js",
@@ -627,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 42,
               "Title": "SignalrServer.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalrServer.cs",
               "RelativeDocumentMoniker": "SignalRLab\\SignalrServer.cs",
@@ -639,19 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "EditDoctor.cshtml",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\EditDoctor.cshtml",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\EditDoctor.cshtml",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\EditDoctor.cshtml",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\EditDoctor.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAwwC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T12:34:33.689Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 43,
               "Title": "IAuthenticationService.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IAuthenticationService.cs",
               "RelativeDocumentMoniker": "Service\\IAuthenticationService.cs",
@@ -663,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 44,
               "Title": "ServicesService.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\ServicesService.cs",
               "RelativeDocumentMoniker": "Service\\ServicesService.cs",
@@ -675,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 45,
               "Title": "ServicesRepository.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\ServicesRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ServicesRepository.cs",
@@ -687,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 46,
               "Title": "IServicesService.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IServicesService.cs",
               "RelativeDocumentMoniker": "Service\\IServicesService.cs",
@@ -699,7 +943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 47,
               "Title": "IServicesRepository.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IServicesRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IServicesRepository.cs",
@@ -711,55 +955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-27T16:35:26.947Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADwvxgAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T16:36:13.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Blog\\Detail.cshtml",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Blog\\Detail.cshtml",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Blog\\Detail.cshtml",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Blog\\Detail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T11:04:22.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "BlogPost.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BlogPost.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\BlogPost.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BlogPost.cs",
-              "RelativeToolTip": "BusinessObject\\BlogPost.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T04:56:02.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 49,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\User.cs",
               "RelativeDocumentMoniker": "BusinessObject\\User.cs",
@@ -771,7 +967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 48,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\Profile.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\Profile.cshtml",
@@ -783,19 +979,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IBlogPostsService.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IBlogPostsService.cs",
-              "RelativeDocumentMoniker": "Service\\IBlogPostsService.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IBlogPostsService.cs",
-              "RelativeToolTip": "Service\\IBlogPostsService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T12:29:28.949Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 50,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Customers\\Profile.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Customers\\Profile.cshtml",
@@ -807,7 +991,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 51,
               "Title": "Profile.cshtml.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\Profile.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\Profile.cshtml.cs",
@@ -819,7 +1003,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 52,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Managers\\Profile.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Managers\\Profile.cshtml",
@@ -831,19 +1015,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Detail.cshtml.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Blog\\Detail.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Blog\\Detail.cshtml.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Blog\\Detail.cshtml.cs",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Blog\\Detail.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T11:04:54.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 53,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Program.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Program.cs",
@@ -855,43 +1027,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "BlogPostsRepository.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\BlogPostsRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\BlogPostsRepository.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\BlogPostsRepository.cs",
-              "RelativeToolTip": "Repository\\BlogPostsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T12:28:59.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "IBlogPostsRepository.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IBlogPostsRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IBlogPostsRepository.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IBlogPostsRepository.cs",
-              "RelativeToolTip": "Repository\\IBlogPostsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T12:28:34.248Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "BlogPostsService.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\BlogPostsService.cs",
-              "RelativeDocumentMoniker": "Service\\BlogPostsService.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\BlogPostsService.cs",
-              "RelativeToolTip": "Service\\BlogPostsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T12:29:57.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 54,
               "Title": "AuthenticationRepository.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\AuthenticationRepository.cs",
               "RelativeDocumentMoniker": "Repository\\AuthenticationRepository.cs",
@@ -903,7 +1039,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 57,
               "Title": "Profile.cshtml.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Customers\\Profile.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Customers\\Profile.cshtml.cs",
@@ -915,7 +1051,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 55,
               "Title": "Profile.cshtml.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Staff\\Profile.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Staff\\Profile.cshtml.cs",
@@ -927,7 +1063,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 60,
               "Title": "UserDAO.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\UserDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\UserDAO.cs",
@@ -939,7 +1075,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 56,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Staff\\Profile.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Staff\\Profile.cshtml",
@@ -951,7 +1087,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 58,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Doctors\\Profile.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Doctors\\Profile.cshtml",
@@ -963,19 +1099,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Profile.cshtml.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Doctors\\Profile.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Doctors\\Profile.cshtml.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Doctors\\Profile.cshtml.cs",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Doctors\\Profile.cshtml.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowF0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T09:03:32.607Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 59,
               "Title": "Doctor.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\Doctor.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Doctor.cs",
@@ -987,19 +1111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Register.cshtml.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Register.cshtml.cs",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Authentication\\Register.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:56:13.302Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 61,
               "Title": "DoctorSchedule.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\DoctorSchedule.cs",
               "RelativeDocumentMoniker": "BusinessObject\\DoctorSchedule.cs",
@@ -1011,7 +1123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 63,
               "Title": "IUserService.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IUserService.cs",
               "RelativeDocumentMoniker": "Service\\IUserService.cs",
@@ -1023,7 +1135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 62,
               "Title": "Service.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\Service.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Service.cs",
@@ -1035,7 +1147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 64,
               "Title": "UserService.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "Service\\UserService.cs",
@@ -1047,7 +1159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 65,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IUserRepository.cs",
@@ -1059,7 +1171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 66,
               "Title": "IAuthenticationRepository.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IAuthenticationRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IAuthenticationRepository.cs",
@@ -1071,19 +1183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:20:41.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 67,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Logout.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Logout.cshtml",
@@ -1095,19 +1195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Logout.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Logout.cshtml.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Logout.cshtml.cs",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Authentication\\Logout.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T05:39:49.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 68,
               "Title": "ViewHelper.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Filters\\ViewHelper.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Filters\\ViewHelper.cs",
@@ -1119,7 +1207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 69,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\_ViewImports.cshtml",
@@ -1131,7 +1219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 70,
               "Title": "AuthorizeFilter.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Filters\\AuthorizeFilter.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Filters\\AuthorizeFilter.cs",
@@ -1143,19 +1231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "Users.cshtml.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\Users.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\Users.cshtml.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\Users.cshtml.cs",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\Users.cshtml.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAiwCEAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:25:16.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 72,
               "Title": "Register.cshtml",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Register.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Register.cshtml",
@@ -1167,7 +1243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 73,
               "Title": "Authentication.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\Authentication.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Authentication.cs",
@@ -1179,7 +1255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 71,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\AccessDenied.cshtml",
@@ -1191,31 +1267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "Users.cshtml",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\Users.cshtml",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\Users.cshtml",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\Users.cshtml",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\Users.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCoAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T04:23:06.038Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "VeterinaryClinicSystemContext.cs",
-              "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\VeterinaryClinicSystemContext.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\VeterinaryClinicSystemContext.cs",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\VeterinaryClinicSystemContext.cs",
-              "RelativeToolTip": "DataAccessLayer\\VeterinaryClinicSystemContext.cs",
-              "ViewState": "AgIAABIBAAAAAAAAAAAQwDABAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T12:21:22.517Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 75,
               "Title": "Role.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\Role.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Role.cs",
@@ -1227,7 +1279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 74,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Properties\\launchSettings.json",
@@ -1239,7 +1291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 76,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "Service\\AuthenticationService.cs",
@@ -1251,7 +1303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 77,
               "Title": "AccessDenied.cshtml.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\AccessDenied.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\AccessDenied.cshtml.cs",
@@ -1263,7 +1315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 78,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\appsettings.json",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\appsettings.json",

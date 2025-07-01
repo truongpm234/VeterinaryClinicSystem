@@ -7,11 +7,11 @@ using VeterinaryClinicSystem.Filters;
 namespace VeterinaryClinicSystem.Pages.Admin
 {
     [AuthorizeFilter("Admin")]
-    public class UsersModel : PageModel
+    public class ManageUsersModel : PageModel
     {
         private readonly IUserService _userService;
 
-        public UsersModel(IUserService userService)
+        public ManageUsersModel(IUserService userService)
         {
             _userService = userService;
         }

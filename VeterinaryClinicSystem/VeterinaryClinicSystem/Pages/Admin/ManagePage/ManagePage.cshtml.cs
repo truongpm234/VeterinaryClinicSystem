@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Service;
 using BusinessObject;
 
-namespace VeterinaryClinicSystem.Pages.Admin
+namespace VeterinaryClinicSystem.Pages.Admin.ManagePage
 {
     public class ManagePageModel : PageModel
     {
@@ -39,7 +39,7 @@ namespace VeterinaryClinicSystem.Pages.Admin
                     Services = _serviceService.GetAllServices();
                     break;
                 case "blog":
-                    BlogPosts = _blogService.GetAll();
+                    BlogPosts = _blogService.GetAllBlogByAdmin();
                     break;
             }
 

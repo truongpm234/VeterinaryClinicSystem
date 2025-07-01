@@ -1,14 +1,9 @@
 ﻿@page "{id:int}"
-@model VeterinaryClinicSystem.Pages.Blog.DetailModel
+@model Blog_DetailModel
 @{
     ViewData["Title"] = Model.BlogPost?.Title ?? "Chi tiết bài viết";
 }
-@inject IHttpContextAccessor HttpContextAccessor
-@{
-    var session = HttpContextAccessor.HttpContext.Session;
-    var userRole = session.GetInt32("Role");
-    var isAdmin = userRole == 1;
-}
+
 <div class="container mt-4">
     @if (Model.BlogPost == null)
     {
@@ -30,10 +25,4 @@
     }
 
 </div>
-@if (isAdmin)
-{
-    <div class="text-end mb-3">
-        <a href="/Admin/ManagePage?section=blog" class="btn btn-outline-primary">Quản lý blog</a>
-    </div>
-}
 

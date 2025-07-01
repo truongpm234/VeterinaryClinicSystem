@@ -32,7 +32,7 @@ namespace VeterinaryClinicSystem.Pages
         {
             Services = _serviceService.GetAllServices();
             Doctors = _doctorService.GetAllDoctors();
-            BlogPosts = _blogService.GetAll();
+            BlogPosts = _blogService.GetBlogByPublish();
             _hubContext.Clients.All.SendAsync("LoadAllItems");
         }
     }

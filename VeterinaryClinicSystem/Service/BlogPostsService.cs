@@ -17,7 +17,8 @@ namespace Service
             _repo = _blogPostRepository;
         }
 
-        public List<BlogPost> GetAll() => _repo.GetAll();
+        public List<BlogPost> GetBlogByPublish() => _repo.GetBlogByPublish();
+        public List<BlogPost> GetAllBlogByAdmin() => _repo.GetAllBlogByAdmin();
         public BlogPost? GetById(int id) => _repo.GetById(id);
         public void Add(BlogPost post) => _repo.Add(post);
         public void Update(BlogPost post) => _repo.Update(post);

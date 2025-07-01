@@ -5,7 +5,7 @@ using BusinessObject;
 using Microsoft.AspNetCore.SignalR;
 using SignalRLab;
 
-namespace VeterinaryClinicSystem.Pages.Admin
+namespace VeterinaryClinicSystem.Pages.Admin.ManagePage
 {
     public class EditDoctorModel : PageModel
     {
@@ -26,7 +26,7 @@ namespace VeterinaryClinicSystem.Pages.Admin
         public IActionResult OnGet(int id)
         {
             var data = _doctorService.GetDoctorByUserId(id);
-            if (data.user == null) return RedirectToPage("/Admin/ManagePage", new { section = "doctors" });
+            if (data.user == null) return RedirectToPage("/Admin/ManagePage/ManagePage", new { section = "doctors" });
             User = data.user;
             Doctor = data.doctor;
             return Page();
@@ -41,7 +41,7 @@ namespace VeterinaryClinicSystem.Pages.Admin
 
             _hubContext.Clients.All.SendAsync("LoadAllItems");
 
-            return RedirectToPage("/Admin/ManagePage", new { section = "doctors" });
+            return RedirectToPage("/Admin/ManagePage/ManagePage", new { section = "doctors" });
         }
     }
 }

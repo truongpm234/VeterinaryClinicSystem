@@ -3,25 +3,34 @@
 @{
     ViewData["Title"] = "Chi tiết dịch vụ";
 }
-@inject IHttpContextAccessor HttpContextAccessor
-@{
-    var session = HttpContextAccessor.HttpContext.Session;
-    var userRole = session.GetInt32("Role"); 
-    var isAdmin = userRole == 1; 
-}
 
 <div class="container mt-5">
-    <h2>@Model.Service.Name</h2>
-    <p><strong>Loại dịch vụ:</strong> @Model.Service.ServiceType</p>
-    <p><strong>Giá:</strong> @Model.Service.Price?.ToString("N0") VNĐ</p>
-    <p><strong>Mô tả:</strong></p>
-    <p>@Model.Service.Description</p>
-    @if (isAdmin)
-    {
-        <div class="text-end mb-3">
-            <a href="/Admin/ManagePage?section=services" class="btn btn-outline-primary">Edit</a>
-        </div>
-    }
+    <div class="card shadow-sm border-0">
+        <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="card-title mb-0 text-primary">@Model.Service.Name</h2>               
+            </div>
 
-    <a asp-page="/Index" class="btn btn-secondary mt-3">Quay lại trang chủ</a>
+            <p class="mb-2">
+                <strong class="text-muted">🔖 Loại dịch vụ:</strong>
+                <span class="ms-1">@Model.Service.ServiceType</span>
+            </p>
+
+            <p class="mb-2">
+                <strong class="text-muted">💰 Giá:</strong>
+                <span class="ms-1">@Model.Service.Price?.ToString("N0") VNĐ</span>
+            </p>
+
+            <p class="mb-2">
+                <strong class="text-muted">📝 Mô tả:</strong>
+            </p>
+            <div class="bg-light p-3 rounded">
+                <p class="mb-0">@Model.Service.Description</p>
+            </div>
+
+            <div class="mt-4">
+                <a asp-page="/Index" class="btn btn-secondary">⬅️ Quay lại trang chủ</a>
+            </div>
+        </div>
+    </div>
 </div>

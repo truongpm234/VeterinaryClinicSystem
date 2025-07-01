@@ -9,11 +9,18 @@ namespace DataAccessLayer
 {
     public class BlogPostsDAO
     {
-        public static List<BlogPost> GetAll()
+        public static List<BlogPost> GetBlogByPublish()
         {
             using var context = new VeterinaryClinicSystemContext();
             return context.BlogPosts
                           .Where(p => p.IsPublished == true)
+                          .OrderByDescending(p => p.CreatedAt)
+                          .ToList();
+        }
+        public static List<BlogPost> GetAllBlogByAdmin()
+        {
+            using var context = new VeterinaryClinicSystemContext();
+            return context.BlogPosts
                           .OrderByDescending(p => p.CreatedAt)
                           .ToList();
         }
@@ -26,7 +33,7 @@ namespace DataAccessLayer
 
         public static void Add(BlogPost post)
         {
-            using var context = new VeterinaryClinicSystemContext();
+            using var context = new VeterinaryClinicSystemContext();           
             context.BlogPosts.Add(post);
             context.SaveChanges();
         }
@@ -40,9 +47,10 @@ namespace DataAccessLayer
             {
                 if (!string.IsNullOrWhiteSpace(updatedPost.Title))
                     existing.Title = updatedPost.Title;
-
-                if (!string.IsNullOrWhiteSpace(updatedPost.Slug))
-                    existing.Slug = updatedPost.Slug;
+                //if (!string.IsNullOrWhiteSpace(updatedPost.Slug))
+                //    existing.Slug = updatedPost.Slug;
+                if (string.IsNullOrWhiteSpace(updatedPost.Slug))
+                    updatedPost.Slug = updatedPost.Title?.ToLower().Replace(" ", "-") ?? "";
 
                 if (!string.IsNullOrWhiteSpace(updatedPost.Content))
                     existing.Content = updatedPost.Content;

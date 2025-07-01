@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\images\\5a824358-fc76-417a-8650-876f4b37e945_tay_giun.jpg",
+      "PackagePath": "staticwebassets\\images\\5a824358-fc76-417a-8650-876f4b37e945_tay_giun.jpg"
+    },
+    {
+      "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\images\\9c0fece3-aa79-4802-b423-a41548f9f42b_tam_meo.jpg",
+      "PackagePath": "staticwebassets\\images\\9c0fece3-aa79-4802-b423-a41548f9f42b_tam_meo.jpg"
+    },
+    {
       "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\images\\access_denied.png",
       "PackagePath": "staticwebassets\\images\\access_denied.png"
     },
@@ -21,8 +29,24 @@
       "PackagePath": "staticwebassets\\images\\background_avatar.png"
     },
     {
+      "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\images\\bbb8cb47-559d-4586-949a-c3c0606951fb_tay_giun.jpg",
+      "PackagePath": "staticwebassets\\images\\bbb8cb47-559d-4586-949a-c3c0606951fb_tay_giun.jpg"
+    },
+    {
       "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\images\\default-avatar.jpg",
       "PackagePath": "staticwebassets\\images\\default-avatar.jpg"
+    },
+    {
+      "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\images\\tam_meo.jpg",
+      "PackagePath": "staticwebassets\\images\\tam_meo.jpg"
+    },
+    {
+      "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\images\\tay_giun.jpg",
+      "PackagePath": "staticwebassets\\images\\tay_giun.jpg"
+    },
+    {
+      "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\images\\triet_san.jpg",
+      "PackagePath": "staticwebassets\\images\\triet_san.jpg"
     },
     {
       "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\js\\microsoft\\signalr\\dist\\browser\\signalr.js",
@@ -279,6 +303,22 @@
     {
       "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\uploads\\background_avatar.png",
       "PackagePath": "staticwebassets\\uploads\\background_avatar.png"
+    },
+    {
+      "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\uploads\\blog\\2e4f5191-52d6-4df2-b320-1c0457f401fa_triet_san.jpg",
+      "PackagePath": "staticwebassets\\uploads\\blog\\2e4f5191-52d6-4df2-b320-1c0457f401fa_triet_san.jpg"
+    },
+    {
+      "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\uploads\\blog\\35109666-86a3-4d9e-b878-5809fe9a0c4d_triet_san.jpg",
+      "PackagePath": "staticwebassets\\uploads\\blog\\35109666-86a3-4d9e-b878-5809fe9a0c4d_triet_san.jpg"
+    },
+    {
+      "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\uploads\\blog\\5b1fbc2f-0d11-418a-8b6a-da04201aa777_tay_giun.jpg",
+      "PackagePath": "staticwebassets\\uploads\\blog\\5b1fbc2f-0d11-418a-8b6a-da04201aa777_tay_giun.jpg"
+    },
+    {
+      "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\uploads\\blog\\e375e85a-18a4-46ea-985b-0567f8a4a447_tam_meo.jpg",
+      "PackagePath": "staticwebassets\\uploads\\blog\\e375e85a-18a4-46ea-985b-0567f8a4a447_tam_meo.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.VeterinaryClinicSystem.Microsoft.AspNetCore.StaticWebAssets.props",
