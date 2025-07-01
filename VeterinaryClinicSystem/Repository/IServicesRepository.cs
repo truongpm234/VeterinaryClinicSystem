@@ -7,6 +7,7 @@ namespace Repository
     {
         List<Service> GetAllServices();
         Service GetServiceById(int id);
-        
+        void UpdateService(Service updated);
+
     }
 }

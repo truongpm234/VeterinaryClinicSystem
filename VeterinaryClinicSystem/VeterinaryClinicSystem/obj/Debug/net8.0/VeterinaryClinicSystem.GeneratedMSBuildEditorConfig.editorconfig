@@ -22,6 +22,22 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNzRGVuaWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Admin/EditBlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdEJsb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Admin/EditDoctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdERvY3Rvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Admin/EditService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRWRpdFNlcnZpY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Admin/ManagePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cTWFuYWdlUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Admin/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Blog/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZ1xEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Customers/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJzXFByb2ZpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -54,6 +74,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/HomePage/Doctor_Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVBhZ2VcRG9jdG9yX0RldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/HomePage/Service_Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVBhZ2VcU2VydmljZV9EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -64,10 +92,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Service/Detail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VydmljZVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Shared/_ValidationScriptsPartial.cshtml]

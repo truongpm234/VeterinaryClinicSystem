@@ -10,8 +10,9 @@ namespace Repository
 {
     public class ServicesRepository : IServicesRepository
     {
-            public List<Service> GetAllServices() => ServiceDAO.GetAllServices();
-            public Service GetServiceById(int id) => ServiceDAO.GetServiceById(id);
+        public List<Service> GetAllServices() => ServiceDAO.GetAllServices();
+        public Service GetServiceById(int id) => ServiceDAO.GetServiceById(id);
+        public void UpdateService(Service updated) => ServiceDAO.UpdateService(updated);
 
     }
 }

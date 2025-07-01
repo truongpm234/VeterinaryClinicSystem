@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\images\\background_avatar.png"
     },
     {
+      "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\images\\default-avatar.jpg",
+      "PackagePath": "staticwebassets\\images\\default-avatar.jpg"
+    },
+    {
       "Id": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\js\\microsoft\\signalr\\dist\\browser\\signalr.js",
       "PackagePath": "staticwebassets\\js\\microsoft\\signalr\\dist\\browser\\signalr.js"
     },

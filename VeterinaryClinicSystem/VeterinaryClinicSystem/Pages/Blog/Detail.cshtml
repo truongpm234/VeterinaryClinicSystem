@@ -1,0 +1,39 @@
+﻿@page "{id:int}"
+@model VeterinaryClinicSystem.Pages.Blog.DetailModel
+@{
+    ViewData["Title"] = Model.BlogPost?.Title ?? "Chi tiết bài viết";
+}
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var session = HttpContextAccessor.HttpContext.Session;
+    var userRole = session.GetInt32("Role");
+    var isAdmin = userRole == 1;
+}
+<div class="container mt-4">
+    @if (Model.BlogPost == null)
+    {
+        <div class="alert alert-danger">@Model.BlogPost.Title.</div>
+    }
+    else
+    {
+        <h1 class="mb-3">@Model.BlogPost.Title</h1>
+        <p class="text-muted">Chuyên mục: @Model.BlogPost.Category | Ngày đăng: @Model.BlogPost.CreatedAt?.ToString("dd/MM/yyyy")</p>
+
+        @if (!string.IsNullOrEmpty(Model.BlogPost.CoverImageUrl))
+        {
+            <img src="@Model.BlogPost.CoverImageUrl" class="img-fluid rounded mb-4" alt="cover" style="max-height: 400px; object-fit: cover;" />
+        }
+
+        <div class="blog-content">
+            @Html.Raw(Model.BlogPost.Content)
+        </div>
+    }
+
+</div>
+@if (isAdmin)
+{
+    <div class="text-end mb-3">
+        <a href="/Admin/ManagePage?section=blog" class="btn btn-outline-primary">Quản lý blog</a>
+    </div>
+}
+

@@ -3,7 +3,7 @@
 var connection = new signalR.HubConnectionBuilder().withUrl("/signalRServer").build();
 
 connection.on("LoadAllItems", function () {
-    location.href = '/Product/Index';
+    location.href = '/Index';
 });
 
 connection.start().catch(function (err) {
