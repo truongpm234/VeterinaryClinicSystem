@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZHMZ2MgOp+1P1h0a+/pYdJo/ly43Ji2LFiQjPxU6Rvg=",
+  "Hash": "2bKZFr81tRFHiR9vyZjDIhiEw3FDvfZfE9ck+fVI0Go=",
   "Source": "VeterinaryClinicSystem",
   "BasePath": "_content/VeterinaryClinicSystem",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\background_avatar.png"
+    },
+    {
+      "Identity": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\images\\default-avatar.jpg",
+      "SourceId": "VeterinaryClinicSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\",
+      "BasePath": "_content/VeterinaryClinicSystem",
+      "RelativePath": "images/default-avatar.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\default-avatar.jpg"
     },
     {
       "Identity": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\js\\microsoft\\signalr\\dist\\browser\\signalr.js",

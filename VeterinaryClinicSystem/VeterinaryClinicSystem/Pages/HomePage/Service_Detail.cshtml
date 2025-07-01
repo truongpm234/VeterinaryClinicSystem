@@ -1,7 +1,13 @@
 ﻿@page "{id:int}"
-@model VeterinaryClinicSystem.Pages.Service.DetailModel
+@model VeterinaryClinicSystem.Pages.HomePage.Service_DetailModel
 @{
     ViewData["Title"] = "Chi tiết dịch vụ";
+}
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var session = HttpContextAccessor.HttpContext.Session;
+    var userRole = session.GetInt32("Role"); 
+    var isAdmin = userRole == 1; 
 }
 
 <div class="container mt-5">
@@ -10,6 +16,12 @@
     <p><strong>Giá:</strong> @Model.Service.Price?.ToString("N0") VNĐ</p>
     <p><strong>Mô tả:</strong></p>
     <p>@Model.Service.Description</p>
+    @if (isAdmin)
+    {
+        <div class="text-end mb-3">
+            <a href="/Admin/ManagePage?section=services" class="btn btn-outline-primary">Edit</a>
+        </div>
+    }
 
     <a asp-page="/Index" class="btn btn-secondary mt-3">Quay lại trang chủ</a>
 </div>

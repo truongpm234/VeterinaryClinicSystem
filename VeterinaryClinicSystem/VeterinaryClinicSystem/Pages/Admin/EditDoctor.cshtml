@@ -1,0 +1,49 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Admin.EditDoctorModel
+@{
+    ViewData["Title"] = "Edit Doctor";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="mb-4 text-center">🩺 Cập nhật thông tin bác sĩ</h2>
+
+            <form method="post" class="shadow p-4 rounded bg-light">
+                <input type="hidden" asp-for="Doctor.DoctorId" />
+                <input type="hidden" asp-for="User.UserId" />
+
+                <div class="form-group mb-3">
+                    <label asp-for="User.FullName" class="form-label fw-bold">Họ và tên</label>
+                    <input asp-for="User.FullName" class="form-control" placeholder="Nhập tên bác sĩ..." />
+                    <span class="text-danger" asp-validation-for="User.FullName"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Doctor.Specialty" class="form-label fw-bold">Chuyên môn</label>
+                    <input asp-for="Doctor.Specialty" class="form-control" placeholder="VD: Nội khoa, Ngoại khoa..." />
+                    <span class="text-danger" asp-validation-for="Doctor.Specialty"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Doctor.Degree" class="form-label fw-bold">Bằng cấp</label>
+                    <input asp-for="Doctor.Degree" class="form-control" placeholder="VD: Bác sĩ Thú y, Tiến sĩ..." />
+                    <span class="text-danger" asp-validation-for="Doctor.Degree"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Doctor.Description" class="form-label fw-bold">Mô tả</label>
+                    <textarea asp-for="Doctor.Description" class="form-control" rows="4" placeholder="Giới thiệu bác sĩ..."></textarea>
+                    <span class="text-danger" asp-validation-for="Doctor.Description"></span>
+                </div>
+
+                <div class="text-end">
+                    <button type="submit" class="btn btn-success px-4">💾 Lưu</button>
+                    <a asp-page="/Admin/ManagePage" asp-route-section="doctors" class="btn btn-secondary ms-2">↩ Quay lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+

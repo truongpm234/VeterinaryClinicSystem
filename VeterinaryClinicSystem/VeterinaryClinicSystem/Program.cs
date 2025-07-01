@@ -29,6 +29,15 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddScoped<IServicesRepository, ServicesRepository>();
 
+            builder.Services.AddScoped<IDoctorsService, DoctorsService>();
+
+            builder.Services.AddScoped<IDoctorsRepository, DoctorsRepository>();
+
+            builder.Services.AddScoped<IBlogPostsService, BlogPostsService>();
+
+            builder.Services.AddScoped<IBlogPostsRepository, BlogPostsRepository>();
+
+
             builder.Services.AddDbContext<VeterinaryClinicSystemContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 

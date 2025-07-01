@@ -1,4 +1,5 @@
-﻿using Repository;
+﻿using DataAccessLayer;
+using Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,9 @@ namespace Service
 
         public List<BusinessObject.Service> GetAllServices() => _serviceRepository.GetAllServices();
 
-        public BusinessObject.Service GetServiceById(int id) => _serviceRepository.GetServiceById(id);
+        public BusinessObject.Service GetServiceById(int id) => _serviceRepository.GetServiceById(id); 
+        public void UpdateService(BusinessObject.Service updated) => _serviceRepository.UpdateService(updated);
+
 
     }
 }

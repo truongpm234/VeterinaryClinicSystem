@@ -1,0 +1,119 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Admin.ManagePageModel
+@{
+    ViewData["Title"] = "Admin Manage";
+}
+@if (string.IsNullOrEmpty(Model.Section))
+{
+    <div class="alert alert-info">
+        <p>Select Space:</p>
+        <ul>
+            <li><a href="?section=doctors">Doctors Information</a></li>
+            <li><a href="?section=services">Services Information</a></li>
+            <li><a href="?section=blog">Blogs Information</a></li>
+        </ul>
+    </div>
+}
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var session = HttpContextAccessor.HttpContext.Session;
+    var userRole = session.GetInt32("Role");
+    var isAdmin = userRole == 1;
+}
+
+<h2>Quản lý @Model.Section</h2>
+
+@if (Model.Section == "doctors")
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Avatar</th>
+                <th>Name</th>
+                <th>Major</th>
+                <th>Specification</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Doctors)
+            {
+                <tr>
+                    <td><img src="@item.user.AvatarUrl" width="50" class="rounded-circle" /></td>
+                    <td>@item.user.FullName</td>
+                    <td>@item.doctor.Specialty</td>
+                    <td>@item.doctor.Degree</td>
+                    <td><a href="/Admin/EditDoctor?id=@item.user.UserId" class="btn btn-sm btn-warning">Edit</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else if (Model.Section == "services")
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name Service</th>
+                <th>Type</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var service in Model.Services)
+            {
+                <tr>
+                    <td>@service.Name</td>
+                    <td>@service.ServiceType</td>
+                    <td>@service.Price?.ToString("C")</td>
+                    <td><a href="/Admin/EditService?id=@service.ServiceId" class="btn btn-sm btn-warning">Edit</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else if (Model.Section == "blog")
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Create At</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var blog in Model.BlogPosts)
+            {
+                <tr>
+                    <td>@blog.Title</td>
+                    <td>@blog.CreatedAt?.ToString("dd/MM/yyyy")</td>
+                    <td><a href="/Admin/EditBlog?id=@blog.PostId" class="btn btn-sm btn-warning">Edit</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["Message"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', function () {
+            // Optional: Tự động ẩn sau 3 giây
+            setTimeout(function () {
+                var alert = document.querySelector('.alert');
+                if (alert) {
+                    alert.classList.remove('show');
+                    alert.classList.add('fade');
+                }
+            }, 3000);
+        });
+    </script>
+}
+
+

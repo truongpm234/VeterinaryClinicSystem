@@ -1,0 +1,46 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.HomePage.Doctor_DetailModel
+@{
+    ViewData["Title"] = "Our Doctors";
+}
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var session = HttpContextAccessor.HttpContext.Session;
+    var userRole = session.GetInt32("Role");
+    var isAdmin = userRole == 1;
+}
+<h2 class="mb-4">Our Doctors Team</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Ảnh đại diện</th>
+            <th>Họ tên</th>
+            <th>Email</th>
+            <th>Chuyên môn</th>
+            <th>Bằng cấp</th>
+            <th>Mô tả</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Doctors)
+        {
+            <tr>
+                <td>
+                    <img src="@item.user.AvatarUrl" alt="Avatar" style="width: 80px; height: 80px; object-fit: cover;" class="rounded-circle" />
+                </td>
+                <td>@item.user.FullName</td>
+                <td>@item.user.Email</td>
+                <td>@item.doctor.Specialty</td>
+                <td>@item.doctor.Degree</td>
+                <td>@item.doctor.Description</td>
+            </tr>
+        }
+    </tbody>
+</table>
+@if (isAdmin)
+{
+    <div class="text-end mb-3">
+        <a href="/Admin/ManagePage?section=doctors" class="btn btn-outline-primary">Edit</a>
+    </div>
+}
