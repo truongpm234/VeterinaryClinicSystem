@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BusinessObject;
 
 namespace Service
 {
@@ -21,6 +22,9 @@ namespace Service
 
         public BusinessObject.Service GetServiceById(int id) => _serviceRepository.GetServiceById(id); 
         public void UpdateService(BusinessObject.Service updated) => _serviceRepository.UpdateService(updated);
+        public void AddService(BusinessObject.Service service) => _serviceRepository.AddService(service);
+
+        public void DeleteService(int id) => _serviceRepository.DeleteService(id);
 
 
     }

@@ -7,7 +7,9 @@ namespace Repository
     {
         List<Service> GetAllServices();
         Service GetServiceById(int id);
+        void AddService(Service service);
         void UpdateService(Service updated);
+        void DeleteService(int id);
 
     }
 }

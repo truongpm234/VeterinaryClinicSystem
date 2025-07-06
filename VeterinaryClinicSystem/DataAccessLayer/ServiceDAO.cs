@@ -35,5 +35,24 @@ namespace DataAccessLayer
                 context.SaveChanges();
             }
         }
+
+        public static void DeleteService(int id)
+        {
+            using var context = new VeterinaryClinicSystemContext();
+            var service = context.Services.FirstOrDefault(s => s.ServiceId == id);
+            if (service != null)
+            {
+                context.Services.Remove(service);
+                context.SaveChanges();
+            }
+        }
+
+        public static void AddService(Service newService)
+        {
+            using var context = new VeterinaryClinicSystemContext();
+            context.Services.Add(newService);
+            context.SaveChanges();
+        }
+        
     }
 }

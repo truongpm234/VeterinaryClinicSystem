@@ -1,0 +1,47 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Staff.InventoryHistoryModel
+@using System.Globalization
+
+<h2 class="mt-4">Lịch sử Nhập / Xuất kho</h2>
+
+<table class="table table-bordered table-striped mt-3">
+    <thead class="table-light">
+        <tr>
+            <th>Thời gian</th>
+            <th>Tên thuốc</th>
+            <th>Loại giao dịch</th>
+            <th>Số lượng</th>
+            <th>Ghi chú</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Transactions)
+        {
+            <tr class="@(item.Type == "OUT" ? "table-danger" : "table-success")">
+                <td>@item.TransactionDate?.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>@item.Medication?.Name</td>
+                <td>
+                    @if (item.Type == "IN")
+                    {
+                        <span class="badge bg-success">Nhập</span>
+                    }
+                    else if (item.Type == "OUT")
+                    {
+                        <span class="badge bg-danger">Xuất</span>
+                    }
+                </td>
+                <td>@item.Quantity</td>
+                <td>@item.Note</td>
+
+                <td>
+                    <form method="post" asp-page-handler="Delete"
+                          onsubmit="return confirm('Bạn có chắc muốn xoá giao dịch này?');">
+                        <input type="hidden" name="id" value="@item.TransactionId" />
+                        <button type="submit" class="btn btn-sm btn-danger">XÓA</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
