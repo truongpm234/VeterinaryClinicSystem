@@ -1253,10 +1253,7 @@
           "Microsoft.Extensions.Configuration.Json": "8.0.0"
         },
         "runtime": {
-          "BusinessObject.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "BusinessObject.dll": {}
         }
       },
       "DataAccessLayer/1.0.0": {
@@ -1264,10 +1261,7 @@
           "BusinessObject": "1.0.0"
         },
         "runtime": {
-          "DataAccessLayer.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "DataAccessLayer.dll": {}
         }
       },
       "Repository/1.0.0": {
@@ -1275,10 +1269,7 @@
           "DataAccessLayer": "1.0.0"
         },
         "runtime": {
-          "Repository.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Repository.dll": {}
         }
       }
     }
