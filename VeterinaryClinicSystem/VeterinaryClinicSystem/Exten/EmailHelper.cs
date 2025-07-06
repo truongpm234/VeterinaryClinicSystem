@@ -10,7 +10,7 @@ using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Service
+namespace VeterinaryClinicSystem
 {
     public interface IEmailHelper
     {
@@ -59,3 +59,4 @@ namespace Service
         }
     }
 }
+//hi
