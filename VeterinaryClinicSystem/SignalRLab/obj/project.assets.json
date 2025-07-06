@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj",
+      "projectUniqueName": "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj",
       "projectName": "SignalRLab",
-      "projectPath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj",
+      "projectPath": "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\obj\\",
+      "outputPath": "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -724,7 +724,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -751,7 +752,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -6417,11 +6417,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
+      "projectUniqueName": "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
+      "projectPath": "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\obj\\",
+      "outputPath": "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6443,8 +6443,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj"
+            "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj"
             }
           }
         }
@@ -6458,7 +6458,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -6479,7 +6480,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

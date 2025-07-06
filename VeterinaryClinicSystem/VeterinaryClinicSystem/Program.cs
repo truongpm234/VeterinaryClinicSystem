@@ -18,7 +18,7 @@ namespace VeterinaryClinicSystem
 
             // Add services to the container.
             builder.Services.AddRazorPages();
-
+            builder.Services.AddScoped<AppointmentDAO>();
             // Xác thực, người dùng, blog, dịch vụ, bác sĩ (giữ nguyên của bạn)
             builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
             builder.Services.AddScoped<IAuthenticationRepository, AuthenticationRepository>();
@@ -31,9 +31,7 @@ namespace VeterinaryClinicSystem
             builder.Services.AddScoped<IBlogPostsService, BlogPostsService>();
             builder.Services.AddScoped<IBlogPostsRepository, BlogPostsRepository>();
 
-<<<<<<< HEAD
-            // DbContext
-=======
+
             builder.Services.AddScoped<IMedicationsService, MedicationsService>();
 
             builder.Services.AddScoped<IMedicationsRepository, MedicationsRepository>();
@@ -46,7 +44,6 @@ namespace VeterinaryClinicSystem
 
 
 
->>>>>>> c4a49fc9796e55dce3652547ddf80842da3986fe
             builder.Services.AddDbContext<VeterinaryClinicSystemContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 

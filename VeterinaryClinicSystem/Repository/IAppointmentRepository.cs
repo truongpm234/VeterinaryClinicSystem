@@ -11,9 +11,9 @@ namespace VeterinaryClinicSystem.Repositories
 {
     public interface IAppointmentRepository
     {
-        Task<Appointment> AddAsync(Appointment appt);
         Task<List<Appointment>> GetAllAsync();
-        Task<User> GetOwnerByIdAsync(int ownerId); 
+        Task<Appointment> AddAsync(Appointment appt);
+        Task<User> GetOwnerByIdAsync(int ownerId);
         Task<Doctor> GetDoctorByIdAsync(int doctorId);
     }
 }

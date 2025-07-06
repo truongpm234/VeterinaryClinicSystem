@@ -15,35 +15,23 @@ namespace Repositories
 {
     public class AppointmentRepository : IAppointmentRepository
     {
-        private readonly VeterinaryClinicSystemContext _ctx;
-        public AppointmentRepository(VeterinaryClinicSystemContext ctx) => _ctx = ctx;
+        private readonly AppointmentDAO _dao;
 
-        public async Task<Appointment> AddAsync(Appointment appt)
+        public AppointmentRepository(AppointmentDAO dao)
         {
-            _ctx.Appointments.Add(appt);
-            await _ctx.SaveChangesAsync();
-            return appt;
+            _dao = dao;
         }
 
-        public async Task<List<Appointment>> GetAllAsync()
-        {
-            return await _ctx.Appointments
-                .Include(a => a.Owner)
-                .Include(a => a.Pet)
-                .Include(a => a.Doctor)
-                .ToListAsync();
-        }
+        public Task<List<Appointment>> GetAllAsync()
+            => _dao.GetAllAsync();
 
-        public async Task<User> GetOwnerByIdAsync(int ownerId)
-        {
-            return await _ctx.Users.FindAsync(ownerId);
-        }
+        public Task<Appointment> AddAsync(Appointment appt)
+            => _dao.AddAsync(appt);
 
-        public async Task<Doctor> GetDoctorByIdAsync(int doctorId)
-        {
-            return await _ctx.Doctors
-                .Include(d => d.DoctorNavigation)
-                .FirstOrDefaultAsync(d => d.DoctorId == doctorId);
-        }
+        public Task<User> GetOwnerByIdAsync(int ownerId)
+            => _dao.GetOwnerByIdAsync(ownerId);
+
+        public Task<Doctor> GetDoctorByIdAsync(int doctorId)
+            => _dao.GetDoctorByIdAsync(doctorId);
     }
 }

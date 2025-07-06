@@ -24,3 +24,16 @@ D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\o
 D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\refint\SignalRLab.dll
 D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.pdb
 D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\ref\SignalRLab.dll
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\bin\Debug\net8.0\SignalRLab.deps.json
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\bin\Debug\net8.0\SignalRLab.dll
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\bin\Debug\net8.0\SignalRLab.pdb
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.csproj.AssemblyReference.cache
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.GeneratedMSBuildEditorConfig.editorconfig
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.AssemblyInfoInputs.cache
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.AssemblyInfo.cs
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.csproj.CoreCompileInputs.cache
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.sourcelink.json
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.dll
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\refint\SignalRLab.dll
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.pdb
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\ref\SignalRLab.dll

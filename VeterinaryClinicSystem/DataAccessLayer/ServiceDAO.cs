@@ -12,6 +12,7 @@ namespace DataAccessLayer
         public static List<Service> GetAllServices()
         {
             using var context = new VeterinaryClinicSystemContext();
+            
             return context.Services.ToList();
         }
 

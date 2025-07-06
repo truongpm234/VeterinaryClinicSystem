@@ -6152,11 +6152,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj",
+      "projectUniqueName": "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj",
       "projectName": "VeterinaryClinicSystem",
-      "projectPath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj",
+      "projectPath": "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\obj\\",
+      "outputPath": "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6178,14 +6178,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj"
+            "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj"
             },
-            "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj": {
-              "projectPath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj"
+            "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj": {
+              "projectPath": "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj"
             },
-            "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj": {
-              "projectPath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj"
+            "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj": {
+              "projectPath": "D:\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj"
             }
           }
         }
@@ -6199,7 +6199,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -6223,7 +6224,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
