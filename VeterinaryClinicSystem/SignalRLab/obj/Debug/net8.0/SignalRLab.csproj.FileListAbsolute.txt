@@ -11,3 +11,16 @@ E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalR
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.pdb
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\ref\SignalRLab.dll
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.sourcelink.json
+D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\bin\Debug\net8.0\SignalRLab.deps.json
+D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\bin\Debug\net8.0\SignalRLab.dll
+D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\bin\Debug\net8.0\SignalRLab.pdb
+D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.csproj.AssemblyReference.cache
+D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.GeneratedMSBuildEditorConfig.editorconfig
+D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.AssemblyInfoInputs.cache
+D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.AssemblyInfo.cs
+D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.csproj.CoreCompileInputs.cache
+D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.sourcelink.json
+D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.dll
+D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\refint\SignalRLab.dll
+D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.pdb
+D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\ref\SignalRLab.dll

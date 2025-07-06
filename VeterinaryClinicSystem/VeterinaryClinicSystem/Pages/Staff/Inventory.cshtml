@@ -1,0 +1,40 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Staff.InventoryModel
+
+<h2>Nhập / Xuất kho thuốc</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+<form method="post" class="mb-4">
+    <div class="mb-3">
+        <label for="MedicationId" class="form-label">Chọn thuốc</label>
+        <select asp-for="InventoryTransaction.MedicationId" class="form-select"
+                asp-items="@(new SelectList(Model.Medications, "MedicationId", "Name"))">
+            <option value="">-- Chọn thuốc --</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="InventoryTransaction.Type" class="form-label">Loại giao dịch</label>
+        <select asp-for="InventoryTransaction.Type" class="form-select">
+            <option value="">-- Chọn loại --</option>
+            <option value="IN">Nhập kho</option>
+            <option value="OUT">Xuất kho</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="InventoryTransaction.Quantity" class="form-label"></label>
+        <input asp-for="InventoryTransaction.Quantity" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="InventoryTransaction.Note" class="form-label"></label>
+        <textarea asp-for="InventoryTransaction.Note" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Xác nhận giao dịch</button>
+</form>
