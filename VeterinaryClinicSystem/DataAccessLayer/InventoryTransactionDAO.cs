@@ -1,4 +1,5 @@
 ﻿using BusinessObject;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -9,7 +10,9 @@ namespace DataAccessLayer
         public static List<InventoryTransaction> GetAll()
         {
             using var context = new VeterinaryClinicSystemContext();
+
             return context.InventoryTransactions
+                          .Include(t => t.Medication) 
                           .OrderByDescending(t => t.TransactionDate)
                           .ToList();
         }
