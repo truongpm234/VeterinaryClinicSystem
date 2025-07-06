@@ -1,0 +1,41 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Pets.IndexModel
+@{
+    ViewData["Title"] = "Pet List";
+}
+
+<h1>Pet List</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">Create New Pet</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Species</th>
+            <th>Breed</th>
+            <th>Gender</th>
+            <th>Weight</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Pets)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Species</td>
+                <td>@item.Breed</td>
+                <td>@item.Gender</td>
+                <td>@item.Weight</td>
+                <td>
+                    <a asp-page="Details" asp-route-id="@item.PetId">Details</a> |
+                    <a asp-page="Edit" asp-route-id="@item.PetId">Edit</a> |
+                    <a asp-page="Delete" asp-route-id="@item.PetId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,19 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Pets.DetailsModel
+@{
+    ViewData["Title"] = "Pet Details";
+}
+
+<h1>Pet Details</h1>
+
+<div>
+    <h4>@Model.Pet.Name</h4>
+    <p>Species: @Model.Pet.Species</p>
+    <p>Breed: @Model.Pet.Breed</p>
+    <p>Gender: @Model.Pet.Gender</p>
+    <p>BirthDate: @Model.Pet.BirthDate</p>
+    <p>Weight: @Model.Pet.Weight</p>
+    <p>Note: @Model.Pet.Note</p>
+</div>
+
+<a asp-page="Index" class="btn btn-secondary">Back to List</a>

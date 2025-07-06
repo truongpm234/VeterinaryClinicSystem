@@ -1,0 +1,31 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.MedicalRecords.ListModel
+
+<h2>Medical Records List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Record ID</th>
+            <th>Pet Name</th>
+            <th>Doctor Name</th>
+            <th>Appointment Date</th>
+            <th>Diagnosis</th>
+            <th>Follow-Up Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var record in Model.MedicalRecords)
+        {
+            <tr>
+                <td>@record.RecordId</td>
+                <td>@record.Pet?.Name</td>
+                <td>@record.Doctor?.DoctorNavigation?.FullName</td>
+                <td>@record.Appointment?.AppointmentDate?.ToString("yyyy-MM-dd")</td>
+                <td>@record.Diagnosis</td>
+                <td>@record.FollowUpDate?.ToString("yyyy-MM-dd")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
