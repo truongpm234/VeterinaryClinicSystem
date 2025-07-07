@@ -1,0 +1,14 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Admin.DashboardModel
+@{
+    ViewData["Title"] = "Dashboard - Admin";
+}
+
+<h2>Thống kê Hôm Nay & Tháng Này</h2>
+
+<div>
+    <p><strong>Lượt khám hôm nay:</strong> @Model.Stats.TotalAppointmentsToday</p>
+    <p><strong>Lượt khám trong tháng:</strong> @Model.Stats.TotalAppointmentsThisMonth</p>
+    <p><strong>Doanh thu hôm nay:</strong> @Model.Stats.RevenueToday.ToString("N0") VND</p>
+    <p><strong>Doanh thu trong tháng:</strong> @Model.Stats.RevenueThisMonth.ToString("N0") VND</p>
+</div>

@@ -1,4 +1,4 @@
-using DataAccessLayer;
+﻿using DataAccessLayer;
 using Microsoft.EntityFrameworkCore;
 using Repository;
 using Service;
@@ -36,6 +36,14 @@ namespace VeterinaryClinicSystem
             builder.Services.AddScoped<IBlogPostsService, BlogPostsService>();
 
             builder.Services.AddScoped<IBlogPostsRepository, BlogPostsRepository>();
+
+            builder.Services.AddScoped<DashboardDAO>();
+            builder.Services.AddScoped<IDashboardService, DashboardService>(); // Nếu có interface
+
+
+            builder.Services.AddScoped<DoctorDashboardDAO>();
+            builder.Services.AddScoped<DoctorDashboardService>();
+
 
 
             builder.Services.AddDbContext<VeterinaryClinicSystemContext>(options =>

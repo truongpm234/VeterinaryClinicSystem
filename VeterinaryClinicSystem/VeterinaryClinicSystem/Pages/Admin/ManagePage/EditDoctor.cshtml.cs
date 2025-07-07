@@ -21,7 +21,7 @@ namespace VeterinaryClinicSystem.Pages.Admin.ManagePage
         [BindProperty]
         public User User { get; set; }
         [BindProperty]
-        public Doctor Doctor { get; set; }
+        public BusinessObject.Doctor Doctor { get; set; }
 
         public IActionResult OnGet(int id)
         {

@@ -30,4 +30,5 @@ public partial class MedicalRecord
     public virtual Doctor? Doctor { get; set; }
 
     public virtual Pet? Pet { get; set; }
+    public bool? IsCompleted { get; set; } 
 }
