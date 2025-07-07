@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YYcx34nzZ/s=",
+  "dgSpecHash": "30X+VfGLfQ0=",
   "success": true,
-  "projectFilePath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
+  "projectFilePath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
