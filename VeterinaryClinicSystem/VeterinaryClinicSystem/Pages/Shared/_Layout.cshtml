@@ -1,5 +1,7 @@
 ﻿@inject Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<dynamic> HtmlHelper
 @inject IHttpContextAccessor HttpContextAccessor;
+
+
 @{
     var session = HttpContextAccessor.HttpContext.Session;
     var currentPath = HtmlHelper.ViewContext.HttpContext.Request.Path.Value?.ToLower();
@@ -27,14 +29,24 @@
                         data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                         aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
+                
                 </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-black" asp-area="" asp-page="/Admin/Dashboard">Dashboard</a>"
+                            <a class="nav-link fs-5" asp-page="/Dashboard">Dashboard</a>
                         </li>
-                    </ul>"
-            </div>
+
+                        @if (Context.Session.GetString("Role") == "Doctor")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" asp-page="/Doctor/DoctorDashboard">DoctorDashboard</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+
+
             
 
 
@@ -92,6 +104,8 @@
         </nav>
 
     </header>
+
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

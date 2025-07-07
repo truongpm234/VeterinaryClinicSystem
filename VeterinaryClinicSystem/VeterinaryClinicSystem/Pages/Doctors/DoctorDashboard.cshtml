@@ -1,0 +1,34 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Doctor.DoctorDashboardModel
+
+<h2>Doctor Dashboard</h2>
+
+<h4>Today Appointments:</h4>
+@if (Model.TodayAppointments.Any())
+{
+    <ul>
+        @foreach (var item in Model.TodayAppointments)
+        {
+            <li>@item.PatientName - @item.AppointmentDate</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No appointments today.</p>
+}
+
+<h4>Ongoing Cases:</h4>
+@if (Model.OngoingCases.Any())
+{
+    <ul>
+        @foreach (var caseItem in Model.OngoingCases)
+        {
+            <li>@caseItem.PatientName - @caseItem.Diagnosis</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No ongoing cases.</p>
+}

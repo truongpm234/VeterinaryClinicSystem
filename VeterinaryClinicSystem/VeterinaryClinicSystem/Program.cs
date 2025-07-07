@@ -41,6 +41,7 @@ namespace VeterinaryClinicSystem
             builder.Services.AddScoped<IDashboardService, DashboardService>(); // Nếu có interface
 
 
+
             builder.Services.AddScoped<DoctorDashboardDAO>();
             builder.Services.AddScoped<DoctorDashboardService>();
 
