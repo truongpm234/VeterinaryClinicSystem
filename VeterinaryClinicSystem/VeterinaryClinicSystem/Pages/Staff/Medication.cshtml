@@ -1,0 +1,88 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Staff.MedicationsModel
+
+<h2 class="mt-4">Quản lý thuốc & vật tư</h2>
+
+<!-- FORM THUỐC -->
+<form method="post" class="mb-4">
+    <input type="hidden" asp-for="Medication.MedicationId" />
+
+    <div class="mb-2">
+        <label asp-for="Medication.Name" class="form-label"></label>
+        <input asp-for="Medication.Name" class="form-control" />
+    </div>
+
+    <div class="mb-2">
+        <label asp-for="Medication.Unit" class="form-label"></label>
+        <input asp-for="Medication.Unit" class="form-control" />
+    </div>
+
+    <div class="mb-2">
+        <label asp-for="Medication.Price" class="form-label"></label>
+        <input asp-for="Medication.Price" class="form-control" />
+    </div>
+
+    <div class="mb-2">
+        <label asp-for="Medication.Stock" class="form-label"></label>
+        <input asp-for="Medication.Stock" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Medication.Description" class="form-label"></label>
+        <textarea asp-for="Medication.Description" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" formaction="?handler=Add" class="btn btn-success me-2">Thêm</button>
+    <button type="submit" formaction="?handler=Update" class="btn btn-primary">Cập nhật</button>
+</form>
+
+<!-- DANH SÁCH -->
+<table class="table table-bordered">
+    <thead class="table-light">
+        <tr>
+            <th>Tên thuốc</th>
+            <th>Đơn vị</th>
+            <th>Giá</th>
+            <th>Tồn kho</th>
+            <th>Mô tả</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Medications)
+        {
+            var rowClass = item.Stock < 5 ? "table-danger" :
+            item.Stock < 10 ? "table-warning" : "";
+
+            <tr class="@rowClass">
+                <td>@item.Name</td>
+                <td>@item.Unit</td>
+                <td>@(((decimal)item.Price).ToString("N0")) đ</td>
+                <td>
+                    @item.Stock
+                    @if (item.Stock < 10)
+                    {
+                        <span class="badge bg-warning text-dark ms-2">
+                            @((item.Stock < 1) ? "Hết thuốc" : "Sắp hết")
+                        </span>
+                    }
+                </td>
+                <td>@item.Description</td>
+                <td>
+                    <!-- SỬA -->
+                    <form method="post" asp-page-handler="Edit" class="d-inline">
+                        <input type="hidden" name="id" value="@item.MedicationId" />
+                        <button type="submit" class="btn btn-sm btn-warning">Sửa</button>
+                    </form>
+
+                    <!-- XOÁ -->
+                    <form method="post" asp-page-handler="Delete" class="d-inline"
+                          onsubmit="return confirm('Bạn có chắc muốn xoá thuốc này?');">
+                        <input type="hidden" name="id" value="@item.MedicationId" />
+                        <button type="submit" class="btn btn-sm btn-danger">Xoá</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

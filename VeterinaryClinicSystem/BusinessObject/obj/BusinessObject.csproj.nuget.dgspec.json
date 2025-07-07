@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj": {}
+    "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj": {}
   },
   "projects": {
-    "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj": {
+    "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\ghoul\\.nuget\\packages\\",
-        "outputPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\obj\\",
+        "projectPath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ghoul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

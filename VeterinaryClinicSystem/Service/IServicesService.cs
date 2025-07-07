@@ -10,7 +10,9 @@ namespace Service
     {
         List<BusinessObject.Service> GetAllServices();
         BusinessObject.Service GetServiceById(int id);
+        void AddService(BusinessObject.Service service);
         void UpdateService(BusinessObject.Service updated);
+        void DeleteService(int id);
     }
 
 }

@@ -6429,23 +6429,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ghoul\\.nuget\\packages\\": {},
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj",
+      "projectUniqueName": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj",
-      "packagesPath": "C:\\Users\\ghoul\\.nuget\\packages\\",
-      "outputPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\obj\\",
+      "projectPath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ghoul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6461,8 +6461,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj": {
-              "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj"
+            "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj": {
+              "projectPath": "D:\\HocTap\\PRN222\\Lab2\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj"
             }
           }
         }
@@ -6497,7 +6497,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
