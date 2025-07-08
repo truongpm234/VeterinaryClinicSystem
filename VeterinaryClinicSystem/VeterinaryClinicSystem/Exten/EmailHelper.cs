@@ -9,8 +9,9 @@ using System.Net;
 using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace VeterinaryClinicSystem
+using VeterinaryClinicSystem;
+using VeterinaryClinicSystem;
+namespace VeterinaryClinicSystem.Helpers
 {
     public interface IEmailHelper
     {
@@ -32,13 +33,14 @@ namespace VeterinaryClinicSystem
         {
             try
             {
-                var mail = new MailMessage
+                using var mail = new MailMessage
                 {
                     From = new MailAddress(_smtp.User),
                     Subject = subject,
                     Body = htmlBody,
                     IsBodyHtml = true
                 };
+                // !!! phải Add MailAddress, không thêm string
                 mail.To.Add(new MailAddress(toEmail));
 
                 using var client = new SmtpClient(_smtp.Host, _smtp.Port)
@@ -59,4 +61,3 @@ namespace VeterinaryClinicSystem
         }
     }
 }
-//hi

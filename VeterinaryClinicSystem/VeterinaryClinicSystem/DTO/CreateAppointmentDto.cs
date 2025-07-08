@@ -8,8 +8,10 @@ namespace VeterinaryClinicSystem
 {
     public class CreateAppointmentDto
     {
-        public string PatientName { get; set; }
-        public string PatientEmail { get; set; }
-        public string DoctorName { get; set; }
+        public int DoctorId { get; set; }
+        public string DoctorEmail { get; set; }
+        public int OwnerId { get; set; }
+        public string OwnerEmail { get; set; }
+        public DateTime AppointmentDate { get; set; }
     }
 }

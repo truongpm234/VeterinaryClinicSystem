@@ -1,13 +1,14 @@
 using DataAccessLayer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;  
 using Repositories;
 using Repository;
 using Service;
 using Services;
 using SignalRLab;
 using System.Text;
+using VeterinaryClinicSystem.Helpers;
 using VeterinaryClinicSystem.Repositories;
-
 namespace VeterinaryClinicSystem
 {
     public class Program
@@ -30,7 +31,7 @@ namespace VeterinaryClinicSystem
             builder.Services.AddScoped<IDoctorsRepository, DoctorsRepository>();
             builder.Services.AddScoped<IBlogPostsService, BlogPostsService>();
             builder.Services.AddScoped<IBlogPostsRepository, BlogPostsRepository>();
-
+            builder.Services.AddScoped<IEmailHelper, EmailHelper>();
 
             builder.Services.AddScoped<IMedicationsService, MedicationsService>();
 
@@ -60,11 +61,14 @@ namespace VeterinaryClinicSystem
 
             // * Thêm cho Appointment & Email *
             // Cấu hình Smtp
-            builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("Smtp"));
-            builder.Services.AddSingleton<IEmailHelper, EmailHelper>();
+            builder.Services.Configure<SmtpSettings>(
+                builder.Configuration.GetSection("SmtpSettings")
+            );
+
             // Repository & Service cho Appointment
+            builder.Services.AddScoped<AppointmentDAO>();
             builder.Services.AddScoped<IAppointmentRepository, AppointmentRepository>();
-            builder.Services.AddScoped<AppointmentService>();
+            builder.Services.AddScoped<IAppointmentService, AppointmentService>();
 
             var app = builder.Build();
 

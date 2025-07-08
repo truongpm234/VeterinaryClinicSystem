@@ -1,19 +1,19 @@
-﻿using BusinessObject;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿    using BusinessObject;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
 
-using System.Threading.Tasks;
+    using System.Threading.Tasks;
 
-namespace VeterinaryClinicSystem.Repositories
+namespace Repository
 {
     public interface IAppointmentRepository
     {
         Task<List<Appointment>> GetAllAsync();
         Task<Appointment> AddAsync(Appointment appt);
-        Task<User> GetOwnerByIdAsync(int ownerId);
+        Task<User> GetUserByIdAsync(int userId);
         Task<Doctor> GetDoctorByIdAsync(int doctorId);
     }
 }

@@ -11,11 +11,8 @@ namespace DataAccessLayer
     public class AppointmentDAO
     {
         private readonly VeterinaryClinicSystemContext _context;
-
         public AppointmentDAO(VeterinaryClinicSystemContext context)
-        {
-            _context = context;
-        }
+            => _context = context;
 
         public async Task<List<Appointment>> GetAllAsync()
         {
@@ -27,19 +24,15 @@ namespace DataAccessLayer
 
         public async Task<Appointment> AddAsync(Appointment appt)
         {
-            var e = (await _context.Appointments.AddAsync(appt)).Entity;
+            var entity = (await _context.Appointments.AddAsync(appt)).Entity;
             await _context.SaveChangesAsync();
-            return e;
+            return entity;
         }
 
-        public async Task<User> GetOwnerByIdAsync(int ownerId)
-        {
-            return await _context.Users.FindAsync(ownerId);
-        }
+        public Task<User> GetUserByIdAsync(int userId)
+            => _context.Users.FindAsync(userId).AsTask();
 
-        public async Task<Doctor> GetDoctorByIdAsync(int doctorId)
-        {
-            return await _context.Doctors.FindAsync(doctorId);
-        }
+        public Task<Doctor> GetDoctorByIdAsync(int doctorId)
+            => _context.Doctors.FindAsync(doctorId).AsTask();
     }
 }

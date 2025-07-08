@@ -1,4 +1,5 @@
 ﻿using BusinessObject;
+using Repository;
 using Service;
 using System;
 using System.Collections.Generic;
@@ -20,7 +21,5 @@ namespace Services
 
         public Task<Appointment> CreateAsync(Appointment appt)
             => _repo.AddAsync(appt);
-
-  
     }
 }

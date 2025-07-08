@@ -1,6 +1,7 @@
 ﻿using BusinessObject;
 using DataAccessLayer;
 using Microsoft.EntityFrameworkCore;
+using Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,11 +17,8 @@ namespace Repositories
     public class AppointmentRepository : IAppointmentRepository
     {
         private readonly AppointmentDAO _dao;
-
         public AppointmentRepository(AppointmentDAO dao)
-        {
-            _dao = dao;
-        }
+            => _dao = dao;
 
         public Task<List<Appointment>> GetAllAsync()
             => _dao.GetAllAsync();
@@ -28,8 +26,8 @@ namespace Repositories
         public Task<Appointment> AddAsync(Appointment appt)
             => _dao.AddAsync(appt);
 
-        public Task<User> GetOwnerByIdAsync(int ownerId)
-            => _dao.GetOwnerByIdAsync(ownerId);
+        public Task<User> GetUserByIdAsync(int userId)
+            => _dao.GetUserByIdAsync(userId);
 
         public Task<Doctor> GetDoctorByIdAsync(int doctorId)
             => _dao.GetDoctorByIdAsync(doctorId);
