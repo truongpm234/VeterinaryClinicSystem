@@ -21,9 +21,23 @@ namespace VeterinaryClinicSystem.Pages.MedicalRecords
         [BindProperty]
         public MedicalRecord MedicalRecord { get; set; }
 
-        public void OnGet()
+        // Thêm property này để hiển thị tên pet
+        public string PetName { get; set; } = string.Empty;
+
+        public void OnGet(int petId)
         {
-            // Có thể load dropdown PetId, DoctorId... nếu cần
+            // Gán sẵn PetId để form bind
+            MedicalRecord = new MedicalRecord
+            {
+                PetId = petId
+            };
+
+            // Truy vấn Pet để lấy tên
+            var pet = _context.Pets.FirstOrDefault(p => p.PetId == petId);
+            if (pet != null)
+            {
+                PetName = pet.Name ?? "Unknown";
+            }
         }
 
         public async Task<IActionResult> OnPostAsync()
@@ -37,8 +51,9 @@ namespace VeterinaryClinicSystem.Pages.MedicalRecords
 
             _service.AddMedicalRecord(MedicalRecord);
 
-            return RedirectToPage("/index"); // Hoặc trang bạn muốn điều hướng về
+            return RedirectToPage("/Pets/Index"); // Quay lại list Pet sau khi tạo
         }
     }
+
 
 }

@@ -1,31 +1,73 @@
 ﻿@page
 @model VeterinaryClinicSystem.Pages.MedicalRecords.ListModel
 
-<h2>Medical Records List</h2>
+@{
+    ViewData["Title"] = "Medical Records";
+}
+
+<h2>Danh sách hồ sơ bệnh án</h2>
+
+<form method="get" class="form-inline mb-3">
+    <input type="text" name="SearchString" value="@Model.SearchString" placeholder="Nhập tên thú cưng..."
+           class="form-control mr-2" />
+    <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+</form>
 
 <table class="table">
     <thead>
         <tr>
-            <th>Record ID</th>
-            <th>Pet Name</th>
-            <th>Doctor Name</th>
-            <th>Appointment Date</th>
-            <th>Diagnosis</th>
-            <th>Follow-Up Date</th>
+            <th>Tên thú cưng</th>
+            <th>Giờ hẹn</th>
+            <th>Thao tác</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var record in Model.MedicalRecords)
         {
             <tr>
-                <td>@record.RecordId</td>
                 <td>@record.Pet?.Name</td>
-                <td>@record.Doctor?.DoctorNavigation?.FullName</td>
-                <td>@record.Appointment?.AppointmentDate?.ToString("yyyy-MM-dd")</td>
-                <td>@record.Diagnosis</td>
-                <td>@record.FollowUpDate?.ToString("yyyy-MM-dd")</td>
+                <td>@record.Appointment?.AppointmentDate?.ToString("yyyy-MM-dd HH:mm")</td>
+                <td>
+                    <button type="button" class="btn btn-info" data-toggle="modal"
+                            data-target="#detailsModal-@record.RecordId">
+                        Xem chi tiết
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="detailsModal-@record.RecordId" tabindex="-1" role="dialog"
+                         aria-labelledby="detailsModalLabel-@record.RecordId" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="detailsModalLabel-@record.RecordId">Chi tiết hồ sơ</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p><strong>Mã hồ sơ:</strong> @record.RecordId</p>
+                                    <p><strong>Tên thú cưng:</strong> @record.Pet?.Name</p>
+                                    <p><strong>Bác sĩ:</strong> @record.Doctor?.DoctorNavigation?.FullName</p>
+                                    <p><strong>Ngày hẹn:</strong> @record.Appointment?.AppointmentDate?.ToString("yyyy-MM-dd HH:mm")</p>
+                                    <p><strong>Chẩn đoán:</strong> @record.Diagnosis</p>
+                                    <p><strong>Kết quả xét nghiệm:</strong> @record.TestResults</p>
+                                    <p><strong>Đơn thuốc:</strong> @record.Prescription</p>
+                                    <p><strong>Kế hoạch điều trị:</strong> @record.TreatmentPlan</p>
+                                    <p><strong>Ngày tái khám:</strong> @record.FollowUpDate?.ToString("yyyy-MM-dd")</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
             </tr>
         }
     </tbody>
 </table>
 
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+}

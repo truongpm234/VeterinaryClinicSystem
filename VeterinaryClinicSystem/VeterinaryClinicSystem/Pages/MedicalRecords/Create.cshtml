@@ -4,11 +4,13 @@
     ViewData["Title"] = "Create Medical Record";
 }
 
-<h1>Create Medical Record</h1>
+<h1>Tạo hồ sơ bệnh án</h1>
+
+<h4>Cho thú cưng: <strong>@Model.PetName</strong></h4>
+
 
 <form method="post">
     
-
     <input asp-for="MedicalRecord.PetId" type="hidden" class="form-control" />
     
     <input asp-for="MedicalRecord.DoctorId" type="hidden" class="form-control" />
@@ -37,4 +39,5 @@
     </div>
 
     <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-page="/Pets/Index" class="btn btn-secondary">Cancel</a>
 </form>

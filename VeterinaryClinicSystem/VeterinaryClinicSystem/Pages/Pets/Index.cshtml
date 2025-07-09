@@ -4,20 +4,20 @@
     ViewData["Title"] = "Pet List";
 }
 
-<h1>Pet List</h1>
+<h1>Danh sách thú cưng</h1>
 
-<p>
-    <a asp-page="Create" class="btn btn-primary">Create New Pet</a>
-</p>
+ @*  <p>
+      <a asp-page="Create" class="btn btn-primary">Create New Pet</a>
+  </p> *@
 
 <table class="table">
     <thead>
         <tr>
             <th>Name</th>
-            <th>Species</th>
-            <th>Breed</th>
-            <th>Gender</th>
-            <th>Weight</th>
+            <th>Giống loài</th>
+            <th>Giống</th>
+            <th>Giới tính</th>
+            <th>Cân nặng</th>
             <th></th>
         </tr>
     </thead>
@@ -31,9 +31,10 @@
                 <td>@item.Gender</td>
                 <td>@item.Weight</td>
                 <td>
-                    <a asp-page="Details" asp-route-id="@item.PetId">Details</a> |
-                    <a asp-page="Edit" asp-route-id="@item.PetId">Edit</a> |
-                    <a asp-page="Delete" asp-route-id="@item.PetId">Delete</a>
+                    <a asp-page="Details" asp-route-id="@item.PetId">Chi tiết</a> |
+                    <a asp-page="Edit" asp-route-id="@item.PetId">Sửa</a> |
+                    <a asp-page="Delete" asp-route-id="@item.PetId">Xóa</a>
+                    <a asp-page="/MedicalRecords/Create" asp-route-petId="@item.PetId">Tạo hồ sơ</a>
                 </td>
             </tr>
         }
