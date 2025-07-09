@@ -1,34 +1,43 @@
 ﻿@page
 @model VeterinaryClinicSystem.Pages.Doctor.DoctorDashboardModel
 
-<h2>Doctor Dashboard</h2>
 
-<h4>Today Appointments:</h4>
-@if (Model.TodayAppointments.Any())
-{
-    <ul>
+<h2>Lịch hẹn hôm nay</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Giờ hẹn</th>
+            <th>Bệnh nhân</th>
+            <th>Lý do</th>
+        </tr>
+    </thead>
+    <tbody>
         @foreach (var item in Model.TodayAppointments)
         {
-            <li>@item.PatientName - @item.AppointmentDate</li>
+            <tr>
+                <td>@item.AppointmentTime</td>
+                <td>@item.PatientName</td>
+                <td>@item.Reason</td>
+            </tr>
         }
-    </ul>
-}
-else
-{
-    <p>No appointments today.</p>
-}
+    </tbody>
+</table>
 
-<h4>Ongoing Cases:</h4>
-@if (Model.OngoingCases.Any())
-{
-    <ul>
-        @foreach (var caseItem in Model.OngoingCases)
+<h2>Ca bệnh đang theo dõi</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Bệnh nhân</th>
+            <th>Chẩn đoán</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OngoingCases)
         {
-            <li>@caseItem.PatientName - @caseItem.Diagnosis</li>
+            <tr>
+                <td>@item.PatientName</td>
+                <td>@item.Diagnosis</td>
+            </tr>
         }
-    </ul>
-}
-else
-{
-    <p>No ongoing cases.</p>
-}
+    </tbody>
+</table>

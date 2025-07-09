@@ -16,21 +16,17 @@ namespace DataAccessLayer
             var today = DateTime.Today;
 
             return _context.Appointments
-                .Include(a => a.Owner) // ✅ Load navigation property
-                .Where(a => a.DoctorId == doctorId
-                            && a.AppointmentDate.HasValue
-                            && a.AppointmentDate.Value.Date == today) // ✅ Check nullable
+                .Where(a => a.DoctorId == doctorId && a.AppointmentDate.HasValue && a.AppointmentDate.Value.Date == today)
                 .Select(a => new DoctorDashboardItem
                 {
                     AppointmentId = a.AppointmentId,
-                    PatientName = a.Owner != null ? a.Owner.FullName : "Không xác định",
-                    AppointmentDate = a.AppointmentDate ?? DateTime.MinValue,
-                    AppointmentTime = a.AppointmentDate.HasValue
-                        ? a.AppointmentDate.Value.TimeOfDay
-                        : TimeSpan.Zero,
-                    Reason = a.Note // dùng Note thay cho Reason
+                    PatientName = a.Owner != null ? a.Owner.FullName : "N/A",
+                    AppointmentDate = a.AppointmentDate.Value, // Explicitly cast to DateTime
+                    AppointmentTime = a.AppointmentDate.HasValue ? a.AppointmentDate.Value.TimeOfDay : TimeSpan.Zero,
+                    Reason = a.Note ?? "Không có ghi chú"
                 }).ToList();
         }
+
 
 
 
@@ -38,15 +34,18 @@ namespace DataAccessLayer
         public List<DoctorDashboardItem> GetOngoingCases(int doctorId)
         {
             return _context.MedicalRecords
-                .Include(m => m.Pet)
-                .Where(m => m.DoctorId == doctorId && !m.IsCompleted.GetValueOrDefault())
+                //.Where(m => m.DoctorId == doctorId && m.IsCompleted != true)
                 .Select(m => new DoctorDashboardItem
                 {
                     MedicalRecordId = m.RecordId,
-                    //PatientName = m..FullName,
-                    Diagnosis = m.Diagnosis,
+                    PatientName = m.Pet != null ? m.Pet.Name : // Fixed: Use 'Name' instead of 'PetName'
+                                   m.Appointment != null && m.Appointment.Owner != null
+                                       ? m.Appointment.Owner.FullName
+                                       : "Không rõ",
+                    Diagnosis = m.Diagnosis ?? "Chưa chẩn đoán",
                     IsOngoingCase = true
                 }).ToList();
         }
+
     }
 }

@@ -1,26 +1,35 @@
-﻿using Microsoft.AspNetCore.Mvc.RazorPages;
-using BusinessObject;
+﻿using BusinessObject;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 using Service;
 
 namespace VeterinaryClinicSystem.Pages.Doctor
 {
     public class DoctorDashboardModel : PageModel
     {
-        private readonly IDashboardService _dashboardService;
+        private readonly DoctorDashboardService _dashboardService;
 
-        public DoctorDashboardModel(IDashboardService dashboardService)
+        public List<DoctorDashboardItem> TodayAppointments { get; set; }
+        public List<DoctorDashboardItem> OngoingCases { get; set; }
+
+        public DoctorDashboardModel(DoctorDashboardService dashboardService)
         {
             _dashboardService = dashboardService;
         }
 
-        public List<DoctorDashboardItem> TodayAppointments { get; set; } = new();
-        public List<DoctorDashboardItem> OngoingCases { get; set; } = new();
-
         public void OnGet()
         {
-            int doctorId = 1; // Tạm hardcode để test
+            int? accountId = HttpContext.Session.GetInt32("Account");
+            if (accountId == null || HttpContext.Session.GetString("Role") != "Doctor")
+            {
+                RedirectToPage("/Authentication/Login"); // ngăn không đúng role
+                return;
+            }
+
+            int doctorId = accountId.Value;
+
             TodayAppointments = _dashboardService.GetTodayAppointments(doctorId);
             OngoingCases = _dashboardService.GetOngoingCases(doctorId);
         }
+
     }
 }

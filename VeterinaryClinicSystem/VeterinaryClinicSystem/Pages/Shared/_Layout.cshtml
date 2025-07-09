@@ -33,17 +33,20 @@
                 </button>
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link fs-5" asp-page="/Dashboard">Dashboard</a>
-                        </li>
-
+                        @if (Context.Session.GetString("Role") == "Admin" || Context.Session.GetString("Role") == "Staff")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" asp-page="/Admin/Dashboard">Dashboard</a>
+                            </li>
+                        }
                         @if (Context.Session.GetString("Role") == "Doctor")
                         {
                             <li class="nav-item">
-                                <a class="nav-link fs-5" asp-page="/Doctor/DoctorDashboard">DoctorDashboard</a>
+                                <a class="nav-link fs-5" asp-page="/Doctors/Dashboard">Doctor Dashboard</a>
                             </li>
                         }
                     </ul>
+
                 </div>
 
 
