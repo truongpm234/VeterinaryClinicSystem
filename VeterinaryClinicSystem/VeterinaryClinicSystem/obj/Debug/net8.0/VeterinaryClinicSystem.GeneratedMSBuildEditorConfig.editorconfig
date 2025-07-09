@@ -56,6 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXEFwcG9pbnRtZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Appointments/CreatePet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXENyZWF0ZVBldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Appointments/ViewAppointments.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXFZpZXdBcHBvaW50bWVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -102,6 +106,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Managers/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlcnNcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Pets/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGV0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Pets/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGV0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Pets/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGV0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Pets/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGV0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Pets/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGV0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Privacy.cshtml]

@@ -1,14 +1,14 @@
 ﻿using BusinessObject;
 using Repository;
-using Service;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using VeterinaryClinicSystem.Repositories;
-
-namespace Services
+using BusinessObject;
+namespace VeterinaryClinicSystem.AppointmentServices
 {
     public class AppointmentService : IAppointmentService
     {
@@ -21,5 +21,10 @@ namespace Services
 
         public Task<Appointment> CreateAsync(Appointment appt)
             => _repo.AddAsync(appt);
+        public Task<List<BusinessObject.Service>> GetAllServicesAsync()
+          => _repo.GetAllServicesAsync();
+
+        public Task<List<Pet>> GetPetsByOwnerAsync(int ownerId)
+            => _repo.GetPetsByOwnerAsync(ownerId);
     }
 }

@@ -31,5 +31,10 @@ namespace Repositories
 
         public Task<Doctor> GetDoctorByIdAsync(int doctorId)
             => _dao.GetDoctorByIdAsync(doctorId);
+        public Task<List<Service>> GetAllServicesAsync()
+            => _dao.GetAllServicesAsync();
+
+        public Task<List<Pet>> GetPetsByOwnerAsync(int ownerId)
+            => _dao.GetPetsByOwnerAsync(ownerId);
     }
 }

@@ -15,5 +15,7 @@ namespace Repository
         Task<Appointment> AddAsync(Appointment appt);
         Task<User> GetUserByIdAsync(int userId);
         Task<Doctor> GetDoctorByIdAsync(int doctorId);
+        Task<List<Service>> GetAllServicesAsync();
+        Task<List<Pet>> GetPetsByOwnerAsync(int ownerId);
     }
 }

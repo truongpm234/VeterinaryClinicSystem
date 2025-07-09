@@ -1,0 +1,15 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Customers.CreatePetModel
+@{
+    ViewData["Title"] = "Thêm thú cưng mới";
+}
+
+<h2>@ViewData["Title"]</h2>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Pet.Name"></label>
+        <input asp-for="Pet.Name" class="form-control" />
+    </div>
+    <!-- thêm các field Species, Breed, Gender, BirthDate, Weight, Note tương tự -->
+    <button type="submit" class="btn btn-primary">Lưu thú cưng</button>
+</form>

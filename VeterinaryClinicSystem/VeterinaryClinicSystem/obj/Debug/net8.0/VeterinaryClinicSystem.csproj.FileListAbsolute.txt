@@ -277,3 +277,7 @@ D:\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\obj\Debu
 D:\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\obj\Debug\net8.0\Veterina.E028C2A8.Up2Date
 D:\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\obj\Debug\net8.0\VeterinaryClinicSystem.genruntimeconfig.cache
 D:\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\obj\Debug\net8.0\ref\VeterinaryClinicSystem.dll
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\bin\Debug\net8.0\MailKit.dll
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\bin\Debug\net8.0\MimeKit.dll
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\bin\Debug\net8.0\NETCore.MailKit.dll
+D:\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\bin\Debug\net8.0\BouncyCastle.Crypto.dll
