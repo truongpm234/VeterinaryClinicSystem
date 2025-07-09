@@ -56,7 +56,6 @@ public partial class VeterinaryClinicSystemContext : DbContext
         optionsBuilder.UseSqlServer(GetConnectionString());
     }
 
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Appointment>(entity =>
@@ -71,7 +70,6 @@ public partial class VeterinaryClinicSystemContext : DbContext
             entity.Property(e => e.DoctorId).HasColumnName("DoctorID");
             entity.Property(e => e.OwnerId).HasColumnName("OwnerID");
             entity.Property(e => e.PetId).HasColumnName("PetID");
-            entity.Property(e => e.ScheduleId).HasColumnName("ScheduleID");
             entity.Property(e => e.ServiceId).HasColumnName("ServiceID");
             entity.Property(e => e.Status).HasMaxLength(20);
 
@@ -86,10 +84,6 @@ public partial class VeterinaryClinicSystemContext : DbContext
             entity.HasOne(d => d.Pet).WithMany(p => p.Appointments)
                 .HasForeignKey(d => d.PetId)
                 .HasConstraintName("FK__Appointme__PetID__4BAC3F29");
-
-            entity.HasOne(d => d.Schedule).WithMany(p => p.Appointments)
-                .HasForeignKey(d => d.ScheduleId)
-                .HasConstraintName("FK__Appointme__Sched__4E88ABD4");
 
             entity.HasOne(d => d.Service).WithMany(p => p.Appointments)
                 .HasForeignKey(d => d.ServiceId)
@@ -299,10 +293,11 @@ public partial class VeterinaryClinicSystemContext : DbContext
                 .HasColumnType("datetime");
             entity.Property(e => e.Email).HasMaxLength(100);
             entity.Property(e => e.FullName).HasMaxLength(100);
+            entity.Property(e => e.IsActive).HasDefaultValue(true);
             entity.Property(e => e.PasswordHash).HasMaxLength(255);
             entity.Property(e => e.PhoneNumber).HasMaxLength(20);
             entity.Property(e => e.RoleId).HasColumnName("RoleID");
-            entity.Property(e => e.IsActive).HasDefaultValue(true).HasColumnType("bit");
+
             entity.HasOne(d => d.Role).WithMany(p => p.Users)
                 .HasForeignKey(d => d.RoleId)
                 .HasConstraintName("FK__Users__RoleID__3B75D760");
