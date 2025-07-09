@@ -37,9 +37,6 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddScoped<IBlogPostsRepository, BlogPostsRepository>();
 
-<<<<<<< HEAD
-            //configure DB with EF
-=======
             builder.Services.AddScoped<IMedicationsService, MedicationsService>();
 
             builder.Services.AddScoped<IMedicationsRepository, MedicationsRepository>();
@@ -52,7 +49,6 @@ namespace VeterinaryClinicSystem
 
 
 
->>>>>>> f4e1af0e2dba5d14242c16ffa86a5be7a84bcc66
             builder.Services.AddDbContext<VeterinaryClinicSystemContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 
