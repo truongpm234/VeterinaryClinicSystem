@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignalRLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f58bfb50a0230782288065b7cd74a2c1a3fe1140")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efbe14fae2c903a35852c3a1f254ba4e6372e7d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignalRLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignalRLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
