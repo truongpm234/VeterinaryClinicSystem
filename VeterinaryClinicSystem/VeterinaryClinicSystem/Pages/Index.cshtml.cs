@@ -25,7 +25,7 @@ namespace VeterinaryClinicSystem.Pages
         }
 
         public List<BusinessObject.Service> Services { get; set; } = new();
-        public List<(User user, Doctor doctor)> Doctors { get; set; } = new();
+        public List<(User user, BusinessObject.Doctor doctor)> Doctors { get; set; } = new();
         public List<BlogPost> BlogPosts { get; set; }
 
         public void OnGet()

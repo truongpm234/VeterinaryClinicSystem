@@ -15,7 +15,7 @@ namespace VeterinaryClinicSystem.Pages.HomePage
         }
 
         public User UserInfo { get; set; }
-        public Doctor DoctorInfo { get; set; }
+        public BusinessObject.Doctor DoctorInfo { get; set; }
 
         public IActionResult OnGet(int id)
         {
