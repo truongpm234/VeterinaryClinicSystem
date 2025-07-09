@@ -14,19 +14,44 @@ namespace Service
 
         public DashboardStats GetDashboardStats()
         {
-            // Example implementation to ensure all code paths return a value
-            var stats = new DashboardStats
+            var today = DateTime.Today;
+            var now = DateTime.Now;
+
+            var totalAppointmentsToday = _context.Appointments
+                .Count(a => a.AppointmentDate.HasValue && a.AppointmentDate.Value.Date == today);
+
+            var totalAppointmentsThisMonth = _context.Appointments
+                .Count(a => a.CreatedAt.HasValue &&
+                            a.CreatedAt.Value.Month == now.Month &&
+                            a.CreatedAt.Value.Year == now.Year);
+
+            var revenueToday = _context.Appointments
+                .Where(a => a.AppointmentDate.HasValue && a.AppointmentDate.Value.Date == today)
+                .Join(_context.Services,
+                    appointment => appointment.ServiceId,
+                    service => service.ServiceId,
+                    (appointment, service) => service.Price ?? 0)
+                .Sum();
+
+            var revenueThisMonth = _context.Appointments
+                .Where(a => a.CreatedAt.HasValue &&
+                            a.CreatedAt.Value.Month == now.Month &&
+                            a.CreatedAt.Value.Year == now.Year)
+                .Join(_context.Services,
+                    appointment => appointment.ServiceId,
+                    service => service.ServiceId,
+                    (appointment, service) => service.Price ?? 0)
+                .Sum();
+
+            return new DashboardStats
             {
-                TotalAppointmentsToday = 0,
-                TotalAppointmentsThisMonth = 0,
-                RevenueToday = 0m,
-                RevenueThisMonth = 0m
+                TotalAppointmentsToday = totalAppointmentsToday,
+                TotalAppointmentsThisMonth = totalAppointmentsThisMonth,
+                RevenueToday = revenueToday,
+                RevenueThisMonth = revenueThisMonth
             };
-
-            // Add logic here to populate stats from _context if needed
-
-            return stats; // Ensure a value is always returned
         }
+
 
         public List<DoctorDashboardItem> GetTodayAppointments(int doctorId)
         {
