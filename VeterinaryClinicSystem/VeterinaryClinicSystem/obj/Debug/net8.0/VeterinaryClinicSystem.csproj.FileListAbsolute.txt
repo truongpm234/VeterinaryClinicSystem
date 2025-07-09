@@ -89,7 +89,6 @@ E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\Veterin
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
 E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
-E:\SE_SUMMER2025_S7\PRN222\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\obj\Debug\net8.0\VeterinaryClinicSystem.MvcApplicationPartsAssemblyInfo.cs
 D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\bin\Debug\net8.0\appsettings.Development.json
 D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\bin\Debug\net8.0\appsettings.json
 D:\HocTap\PRN222\Lab2\VeterinaryClinicSystem\VeterinaryClinicSystem\VeterinaryClinicSystem\bin\Debug\net8.0\VeterinaryClinicSystem.staticwebassets.runtime.json
