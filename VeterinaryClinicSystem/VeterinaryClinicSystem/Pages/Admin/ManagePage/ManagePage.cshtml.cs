@@ -21,7 +21,7 @@ namespace VeterinaryClinicSystem.Pages.Admin.ManagePage
         [BindProperty(SupportsGet = true)]
         public string Section { get; set; } = "";
 
-        public List<(User user, Doctor doctor)> Doctors { get; set; }
+        public List<(User user, BusinessObject.Doctor doctor)> Doctors { get; set; }
         public List<BusinessObject.Service> Services { get; set; }
         public List<BlogPost> BlogPosts { get; set; }
 

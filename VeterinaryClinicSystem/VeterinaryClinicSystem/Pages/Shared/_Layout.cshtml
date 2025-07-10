@@ -29,6 +29,24 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        @if (Context.Session.GetString("Role") == "Admin" || Context.Session.GetString("Role") == "Staff")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" asp-page="/Admin/Dashboard">Dashboard</a>
+                            </li>
+                        }
+                        @if (Context.Session.GetString("Role") == "Doctor")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link fs-5" asp-page="/Doctors/Dashboard">Doctor Dashboard</a>
+                            </li>
+                        }
+                    </ul>
+
+                </div>
+
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         @if (!isLoggedIn && currentPath != "/authentication/login")
