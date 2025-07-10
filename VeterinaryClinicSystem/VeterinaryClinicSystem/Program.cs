@@ -45,6 +45,15 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddScoped<IInventoryTransactionService, InventoryTransactionService>();
 
+            builder.Services.AddScoped<DoctorDashboardDAO>();
+
+            builder.Services.AddScoped<DoctorDashboardService>();
+
+            builder.Services.AddScoped<DashboardDAO>();
+
+            builder.Services.AddScoped<IDashboardService, DashboardService>();
+
+
 
 
 
@@ -66,6 +75,8 @@ namespace VeterinaryClinicSystem
             builder.Services.AddAuthorization();
 
             var app = builder.Build();
+            
+            //new
 
             //app.MapGet("/", context =>     //set default page khi run
             //{

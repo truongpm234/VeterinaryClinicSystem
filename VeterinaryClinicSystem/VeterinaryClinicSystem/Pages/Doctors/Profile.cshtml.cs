@@ -19,7 +19,7 @@ namespace VeterinaryClinicSystem.Pages.Doctors
         [BindProperty]
         public User User { get; set; }
         [BindProperty]
-        public Doctor? Doctor { get; set; }
+        public BusinessObject.Doctor? Doctor { get; set; }
         [BindProperty(SupportsGet = true)]
         public bool IsEditing { get; set; } = false;
         [BindProperty]
