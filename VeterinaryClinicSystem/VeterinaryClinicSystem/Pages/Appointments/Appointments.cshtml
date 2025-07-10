@@ -1,0 +1,62 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Customers.CreateAppointmentModel
+@{
+    ViewData["Title"] = "Tạo lịch hẹn";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Appointment.DoctorId">Bác sĩ</label>
+        <select asp-for="Appointment.DoctorId"
+                class="form-control"
+                asp-items="Model.DoctorList">
+            <option value="">-- Chọn bác sĩ --</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Appointment.ServiceId">Loại dịch vụ</label>
+        <select asp-for="Appointment.ServiceId"
+                class="form-control"
+                asp-items="Model.ServiceList">
+            <option value="">-- Chọn dịch vụ --</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Appointment.PetId">Vật nuôi</label>
+        <div class="d-flex align-items-center">
+            <select asp-for="Appointment.PetId"
+                    class="form-control"
+                    asp-items="Model.PetList">
+                <option value="">-- Chọn pet --</option>
+            </select>
+            <a asp-page="/Pets/Create"
+               class="btn btn-link ms-2"
+               asp-route-returnUrl="/Customers/CreateAppointment">
+                Tạo pet mới
+            </a>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Appointment.AppointmentDate">Thời gian hẹn</label>
+        <input asp-for="Appointment.AppointmentDate"
+               type="datetime-local"
+               step="60"
+               class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Đặt lịch</button>
+</form>

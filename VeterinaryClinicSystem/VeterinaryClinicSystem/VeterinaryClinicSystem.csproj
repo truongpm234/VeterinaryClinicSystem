@@ -13,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Appointments\" />
     <Folder Include="Pages\Blog\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="Models\Authentication\" />
@@ -23,7 +22,6 @@
     <Folder Include="Models\Customers\" />
     <Folder Include="Models\Pets\" />
     <Folder Include="Models\Staff\" />
-    <Folder Include="Pages\Pets\" />
     <Folder Include="wwwroot\uploads\" />
   </ItemGroup>
 

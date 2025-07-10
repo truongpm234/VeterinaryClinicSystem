@@ -1,0 +1,35 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Appointments.ViewAppointmentsModel
+@{
+    ViewData["Title"] = "Danh sách lịch hẹn";
+}
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Chủ nuôi</th>
+            <th>Thú cưng</th>
+            <th>Bác sĩ</th>
+            <th>Ngày giờ</th>
+            <th>Trạng thái</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.AppointmentsList != null)
+        {
+            foreach (var a in Model.AppointmentsList)
+            {
+                <tr>
+                    <td>@a.AppointmentId</td>
+                    <td>@a.Owner?.FullName</td>
+                    <td>@a.Pet?.Name</td>
+                    <td>@a.Doctor?.DoctorNavigation?.FullName</td>
+                    <td>@a.AppointmentDate?.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>@a.Status</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

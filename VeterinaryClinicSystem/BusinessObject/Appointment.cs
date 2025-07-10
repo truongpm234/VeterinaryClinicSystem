@@ -13,6 +13,8 @@ public partial class Appointment
 
     public int? DoctorId { get; set; }
 
+    public int? ScheduleId { get; set; }
+
     public int? ServiceId { get; set; }
 
     public DateTime? AppointmentDate { get; set; }
@@ -22,8 +24,6 @@ public partial class Appointment
     public string? Note { get; set; }
 
     public DateTime? CreatedAt { get; set; }
-
-    public int? Shift { get; set; }
 
     public virtual Doctor? Doctor { get; set; }
 
@@ -36,6 +36,8 @@ public partial class Appointment
     public virtual User? Owner { get; set; }
 
     public virtual Pet? Pet { get; set; }
+
+    public virtual DoctorSchedule? Schedule { get; set; }
 
     public virtual Service? Service { get; set; }
 }
