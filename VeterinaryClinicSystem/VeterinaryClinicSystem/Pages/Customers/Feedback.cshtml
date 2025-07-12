@@ -1,4 +1,17 @@
 ﻿@page
 @model VeterinaryClinicSystem.Pages.Customers.FeedbackModel
-@{
-}
+
+<h2>Gửi phản hồi</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label>Đánh giá (1-5):</label>
+        <input type="number" asp-for="Input.Rating" min="1" max="5" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label>Góp ý:</label>
+        <textarea asp-for="Input.Comment" class="form-control" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Gửi</button>
+    <a asp-page="/Index" class="btn btn-secondary mt-2">Hủy</a>
+</form>

@@ -88,6 +88,13 @@
                                         
 
                                     }
+                                    @if (Context.Session.GetString("Role") == "Customer")
+                                    {
+                                        <li><a class="dropdown-item" asp-page="/Customers/Feedback">Feedback</a></li>
+                                    }
+
+
+
                                     @if (Context.Session.GetString("Role") == "Manager")
                                     {
                                         <li><a class="dropdown-item" href="/Managers/Profile">Profile Information</a></li>
@@ -98,6 +105,7 @@
                                     <li><hr class="dropdown-divider" /></li>
 
                                 </ul>
+
                             </li>
                         }
                     </ul>
