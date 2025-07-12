@@ -5,11 +5,11 @@ using Service;
 
 namespace VeterinaryClinicSystem.Pages.HomePage
 {
-    public class Blog_DetailModel : PageModel
+    public class Blog_Detail : PageModel
     {
         private readonly IBlogPostsService _blogPostsService;
 
-        public Blog_DetailModel(IBlogPostsService blogPostsService)
+        public Blog_Detail(IBlogPostsService blogPostsService)
         {
             _blogPostsService = blogPostsService;
         }

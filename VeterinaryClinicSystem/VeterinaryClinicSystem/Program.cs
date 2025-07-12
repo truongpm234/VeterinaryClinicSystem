@@ -53,6 +53,12 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddScoped<IDashboardService, DashboardService>();
 
+            builder.Services.AddAuthentication("CookieAuth").AddCookie("CookieAuth", options =>
+            {
+                options.LoginPath = "/Authentication/Login";
+                options.AccessDeniedPath = "/Authentication/AccessDenied";
+            });
+
 
 
 
@@ -93,6 +99,7 @@ namespace VeterinaryClinicSystem
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapFallbackToPage("/Authentication/Login");
@@ -104,6 +111,7 @@ namespace VeterinaryClinicSystem
             app.UseSession();
 
             app.Run();
+            
         }
     }
 }

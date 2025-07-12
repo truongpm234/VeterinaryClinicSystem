@@ -1,6 +1,9 @@
 using BusinessObject;
+using DataAccessLayer;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.SignalR;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Service;
 using SignalRLab;
@@ -14,14 +17,17 @@ namespace VeterinaryClinicSystem.Pages
         private readonly IDoctorsService _doctorService;
         private readonly IBlogPostsService _blogService;
         private readonly IHubContext<SignalrServer> _hubContext;
-        public IndexModel(ILogger<IndexModel> logger, IServicesService serviceService, IDoctorsService doctorService, IBlogPostsService blogPostsService, IHubContext<SignalrServer> hubContext)
+        //private readonly DbContext _context; // Added DbContext dependency
+        private readonly VeterinaryClinicSystemContext _Context; // Assuming this is your DbContext class
+
+        public IndexModel(ILogger<IndexModel> logger, IServicesService serviceService, IDoctorsService doctorService, IBlogPostsService blogPostsService, IHubContext<SignalrServer> hubContext, VeterinaryClinicSystemContext context)
         {
             _logger = logger;
             _serviceService = serviceService;
             _doctorService = doctorService;
             _blogService = blogPostsService;
             _hubContext = hubContext;
-
+            _Context = context; // Initialize _context
         }
 
         public List<BusinessObject.Service> Services { get; set; } = new();
@@ -35,5 +41,33 @@ namespace VeterinaryClinicSystem.Pages
             BlogPosts = _blogService.GetBlogByPublish();
             _hubContext.Clients.All.SendAsync("LoadAllItems");
         }
+
+        public List<Feedback> Feedbacks { get; set; } = new();
+        [BindProperty(SupportsGet = true)]
+        public int PageNumber { get; set; } = 1;
+
+        public int TotalPages { get; set; }
+
+        public void OnGetFeedback()
+        {
+            Services = _serviceService.GetAllServices();
+            Doctors = _doctorService.GetAllDoctors();
+            BlogPosts = _blogService.GetBlogByPublish();
+            
+            _hubContext.Clients.All.SendAsync("LoadAllItems");
+
+            // Load Feedbacks
+            int pageSize = 3;
+            var totalFeedback = _Context.Feedbacks.Count();
+
+            TotalPages = (int)Math.Ceiling(totalFeedback / (double)pageSize);
+
+            Feedbacks = _Context.Feedbacks
+                .OrderByDescending(f => f.CreatedAt)
+                .Skip((PageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+        }
+
     }
 }
