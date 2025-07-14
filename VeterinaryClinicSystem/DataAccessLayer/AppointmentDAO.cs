@@ -17,22 +17,28 @@ namespace DataAccessLayer
         public Task<List<Appointment>> GetAllAsync()
         {
             return _context.Appointments
-                           .Include(a => a.Owner)
-                           .Include(a => a.Doctor)
-                               .ThenInclude(d => d.DoctorNavigation) 
-                           .Include(a => a.Service) 
-                           .Include(a => a.Pet)      
-                           .ToListAsync();
+                .Include(a => a.Owner)
+                .Include(a => a.Pet)
+                .Include(a => a.Doctor)
+                    .ThenInclude(d => d.DoctorNavigation)
+                .Include(a => a.Service)
+                .ToListAsync();
         }
 
         public async Task<Appointment> AddAsync(Appointment appt)
         {
-            appt.CreatedAt = DateTime.UtcNow;
             var entity = (await _context.Appointments.AddAsync(appt)).Entity;
             await _context.SaveChangesAsync();
             return entity;
         }
-
+        public async Task<bool> UpdateStatusAsync(int appointmentId, string status)
+        {
+            var appt = await _context.Appointments.FindAsync(appointmentId);
+            if (appt == null) return false;
+            appt.Status = status;
+            await _context.SaveChangesAsync();
+            return true;
+        }
         public Task<User> GetUserByIdAsync(int userId)
             => _context.Users.FindAsync(userId).AsTask();
 

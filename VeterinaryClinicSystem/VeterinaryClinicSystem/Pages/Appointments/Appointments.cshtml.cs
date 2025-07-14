@@ -54,7 +54,7 @@ namespace VeterinaryClinicSystem.Pages.Customers
 
             Appointment.OwnerId   = userId.Value;
             Appointment.CreatedAt = DateTime.UtcNow;
-
+            Appointment.Status = "Đang xử lý";
             _context.Appointments.Add(Appointment);
             await _context.SaveChangesAsync();
 

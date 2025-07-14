@@ -24,7 +24,10 @@ namespace Repositories
             => _dao.GetAllAsync();
 
         public Task<Appointment> AddAsync(Appointment appt)
-            => _dao.AddAsync(appt);
+                => _dao.AddAsync(appt);
+
+        public Task<bool> UpdateStatusAsync(int appointmentId, string status)
+            => _dao.UpdateStatusAsync(appointmentId, status);
 
         public Task<User> GetUserByIdAsync(int userId)
             => _dao.GetUserByIdAsync(userId);

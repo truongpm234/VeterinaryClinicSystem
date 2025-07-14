@@ -12,6 +12,9 @@ namespace VeterinaryClinicSystem.AppointmentServices
     {
         Task<List<Appointment>> GetAllAsync();
         Task<Appointment> CreateAsync(Appointment appt);
+
+       Task<bool> AcceptAsync(int appointmentId);
+      Task<bool> AcceptAsync(int appointmentId, string newStatus);
         Task<List<BusinessObject.Service>> GetAllServicesAsync();
         Task<List<Pet>> GetPetsByOwnerAsync(int ownerId);
     }

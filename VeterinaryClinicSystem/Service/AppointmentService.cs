@@ -21,6 +21,11 @@ namespace VeterinaryClinicSystem.AppointmentServices
 
         public Task<Appointment> CreateAsync(Appointment appt)
             => _repo.AddAsync(appt);
+        public Task<bool> AcceptAsync(int appointmentId)
+       => _repo.UpdateStatusAsync(appointmentId, "Xác nhận đặt lịch");
+
+    public Task<bool> AcceptAsync(int appointmentId, string newStatus)
+       => _repo.UpdateStatusAsync(appointmentId, newStatus);
         public Task<List<BusinessObject.Service>> GetAllServicesAsync()
           => _repo.GetAllServicesAsync();
 

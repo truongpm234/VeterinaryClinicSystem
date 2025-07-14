@@ -54,7 +54,7 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddDbContext<VeterinaryClinicSystemContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
-
+            builder.Services.AddDistributedMemoryCache();
             // Session, SignalR, Authorization (giữ nguyên của bạn)
             builder.Services.AddSession(options =>
             {
@@ -76,7 +76,7 @@ namespace VeterinaryClinicSystem
             builder.Services.AddScoped<AppointmentDAO>();
             builder.Services.AddScoped<IAppointmentRepository, AppointmentRepository>();
             builder.Services.AddScoped<IAppointmentService, AppointmentService>();
-
+            builder.Services.AddScoped<AppointmentService>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -86,13 +86,14 @@ namespace VeterinaryClinicSystem
             }
             app.UseStaticFiles();
             app.UseRouting();
+            app.UseSession();
             app.UseAuthorization();
 
             // Map các endpoint
-            app.MapFallbackToPage("/Authentication/Login");
-            app.MapHub<SignalrServer>("/signalRServer");
             app.MapRazorPages();
-            app.UseSession();
+            app.MapHub<SignalrServer>("/signalRServer");
+
+            app.MapFallbackToPage("/Authentication/Login");
 
             app.Run();
         }

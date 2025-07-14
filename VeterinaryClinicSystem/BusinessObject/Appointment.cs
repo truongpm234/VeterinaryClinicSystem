@@ -5,6 +5,11 @@ namespace BusinessObject;
 
 public partial class Appointment
 {
+    public Appointment()
+    {
+        Status = "Đang xử lý";
+        CreatedAt = DateTime.UtcNow;
+    }
     public int AppointmentId { get; set; }
 
     public int? PetId { get; set; }

@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\appointments\\viewappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\appointments\\viewappointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\appointments\\viewappointments.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\appointments\\viewappointments.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\appointmentdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\appointmentdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\repository\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|solutionrelative:repository\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\repository\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEC8617B-DE5B-442A-988B-C8F3FE0E141B}|Repository\\Repository.csproj|solutionrelative:repository\\iappointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\service\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|solutionrelative:service\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\service\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|solutionrelative:service\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\appointments\\appointments.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\appointments\\appointments.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\authentication\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +41,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\authentication\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\appointments\\appointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\appointments\\appointments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\businessobject\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\businessobject\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\service\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|solutionrelative:service\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\service\\petservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|solutionrelative:service\\petservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -162,10 +214,6 @@
       "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\servicedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\businessobject\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\inventorytransactiondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\inventorytransactiondao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -290,10 +338,6 @@
       "RelativeMoniker": "D:0:0:{0A277254-F1A0-41E0-8A6B-7A6170451B99}|SignalRLab\\SignalRLab.csproj|solutionrelative:signalrlab\\signalrserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\service\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|solutionrelative:service\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|d:\\asm-prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\service\\servicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B411A97-0EDA-4BDC-BA0E-1D44C75CFDB2}|Service\\Service.csproj|solutionrelative:service\\servicesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -401,7 +445,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 1144,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -425,56 +469,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Index.cshtml.cs",
-              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAjwBsAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "Service\\IAppointmentService.cs",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IAppointmentService.cs",
+              "RelativeToolTip": "Service\\IAppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T17:28:15.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DashboardStats.cs",
-              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\DashboardStats.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\DashboardStats.cs",
-              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\DashboardStats.cs",
-              "RelativeToolTip": "BusinessObject\\DashboardStats.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T14:54:45.106Z"
+              "WhenOpened": "2025-07-10T14:09:01.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\Dashboard.cshtml",
-              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\Dashboard.cshtml",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\Dashboard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "IAppointmentRepository.cs",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IAppointmentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IAppointmentRepository.cs",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IAppointmentRepository.cs",
+              "RelativeToolTip": "Repository\\IAppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T03:02:07.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppointmentRepository.cs",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\AppointmentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\AppointmentRepository.cs",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\AppointmentRepository.cs",
+              "RelativeToolTip": "Repository\\AppointmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T14:08:34.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppointmentDAO.cs",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\AppointmentDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\AppointmentDAO.cs",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\AppointmentDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\AppointmentDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T03:02:13.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewAppointments.cshtml",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Appointments\\ViewAppointments.cshtml",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Appointments\\ViewAppointments.cshtml",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Appointments\\ViewAppointments.cshtml*",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Appointments\\ViewAppointments.cshtml*",
+              "ViewState": "AgIAADQAAAAAAAAAAAAqwFAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T15:06:24.971Z",
+              "WhenOpened": "2025-07-13T02:57:18.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewAppointments.cshtml.cs",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Appointments\\ViewAppointments.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Appointments\\ViewAppointments.cshtml.cs",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Appointments\\ViewAppointments.cshtml.cs*",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Appointments\\ViewAppointments.cshtml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T14:09:08.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "Service\\AppointmentService.cs",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\AppointmentService.cs",
+              "RelativeToolTip": "Service\\AppointmentService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T14:08:47.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Appointments.cshtml.cs",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Appointments\\Appointments.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Appointments\\Appointments.cshtml.cs",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Appointments\\Appointments.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Appointments\\Appointments.cshtml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T02:57:31.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Profile.cshtml.cs",
-              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Staff\\Profile.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Staff\\Profile.cshtml.cs",
-              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Staff\\Profile.cshtml.cs",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Staff\\Profile.cshtml.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAjwBQAAAAWAAAAAAAAAA==",
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T09:18:04.871Z"
+              "WhenOpened": "2025-06-27T16:36:13.841Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml",
@@ -487,25 +599,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs",
-              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs*",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAABHAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Program.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Program.cs",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Program.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Program.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwGYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T16:36:13.841Z",
+              "WhenOpened": "2025-06-27T12:22:48.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\appsettings.json",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\appsettings.json",
-              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\appsettings.json*",
-              "RelativeToolTip": "VeterinaryClinicSystem\\appsettings.json*",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\appsettings.json",
+              "RelativeToolTip": "VeterinaryClinicSystem\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-27T11:37:05.277Z",
@@ -513,20 +625,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Program.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Program.cs",
-              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Program.cs*",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Program.cs*",
-              "ViewState": "AgIAABoAAAAAAAAAAAAqwDIAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T12:22:48.135Z",
+              "DocumentIndex": 12,
+              "Title": "Appointments.cshtml",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Appointments\\Appointments.cshtml",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Appointments\\Appointments.cshtml",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Appointments\\Appointments.cshtml",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Appointments\\Appointments.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T02:57:11.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\Appointment.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Appointment.cs",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\Appointment.cs",
+              "RelativeToolTip": "BusinessObject\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T14:12:28.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\User.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\User.cs",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\User.cs",
+              "RelativeToolTip": "BusinessObject\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T13:03:46.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Service\\IAuthenticationService.cs",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IAuthenticationService.cs",
+              "RelativeToolTip": "Service\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T14:14:31.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PetService.cs",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\PetService.cs",
+              "RelativeDocumentMoniker": "Service\\PetService.cs",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\PetService.cs",
+              "RelativeToolTip": "Service\\PetService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T14:08:58.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAjwBsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T17:28:15.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DashboardStats.cs",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\DashboardStats.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\DashboardStats.cs",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\DashboardStats.cs",
+              "RelativeToolTip": "BusinessObject\\DashboardStats.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T14:54:45.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\Dashboard.cshtml",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T15:06:24.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Profile.cshtml.cs",
+              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Staff\\Profile.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Staff\\Profile.cshtml.cs",
+              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Staff\\Profile.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Staff\\Profile.cshtml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAjwBQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T09:18:04.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "DashboardService.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\DashboardService.cs",
               "RelativeDocumentMoniker": "Service\\DashboardService.cs",
@@ -538,7 +749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 20,
               "Title": "VeterinaryClinicSystemContext.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\VeterinaryClinicSystemContext.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\VeterinaryClinicSystemContext.cs",
@@ -550,7 +761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 22,
               "Title": "Profile.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Managers\\Profile.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Managers\\Profile.cshtml.cs",
@@ -562,7 +773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "Doctor_Detail.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml.cs",
@@ -574,7 +785,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "Profile.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Doctors\\Profile.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Doctors\\Profile.cshtml.cs",
@@ -586,7 +797,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "Profile.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Customers\\Profile.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Customers\\Profile.cshtml.cs",
@@ -598,7 +809,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 27,
               "Title": "Profile.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\Profile.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\Profile.cshtml.cs",
@@ -610,7 +821,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 28,
               "Title": "ManagePage.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\ManagePage.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\ManagePage.cshtml.cs",
@@ -622,7 +833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "EditDoctor.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditDoctor.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditDoctor.cshtml.cs",
@@ -634,7 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 30,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\alvin\\AppData\\Local\\Temp\\.vsdbgsrc\\1c8d4193c77fbdbd85218ec47fe762b1088340151c82d06427fd790e158752b7\\Program.cs",
               "ToolTip": "C:\\Users\\alvin\\AppData\\Local\\Temp\\.vsdbgsrc\\1c8d4193c77fbdbd85218ec47fe762b1088340151c82d06427fd790e158752b7\\Program.cs [Read Only]",
@@ -645,7 +856,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 34,
               "Title": "Dashboard.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Doctors\\Dashboard.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Doctors\\Dashboard.cshtml.cs",
@@ -657,7 +868,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 33,
               "Title": "DoctorDashboard.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Doctors\\DoctorDashboard.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Doctors\\DoctorDashboard.cshtml",
@@ -669,7 +880,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 32,
               "Title": "DoctorDashboard.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Doctors\\DoctorDashboard.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Doctors\\DoctorDashboard.cshtml.cs",
@@ -681,7 +892,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 31,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Shared\\_Layout.cshtml",
@@ -693,7 +904,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 35,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Doctors\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Doctors\\Dashboard.cshtml",
@@ -705,7 +916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 36,
               "Title": "Feedback.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Customers\\Feedback.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Customers\\Feedback.cshtml",
@@ -717,7 +928,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 37,
               "Title": "FeedbackStats.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\FeedbackStats.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\FeedbackStats.cshtml.cs",
@@ -729,7 +940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 38,
               "Title": "FeedbackStats.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\FeedbackStats.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\FeedbackStats.cshtml",
@@ -741,7 +952,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 39,
               "Title": "Dashboard.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\Dashboard.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\Dashboard.cshtml.cs",
@@ -753,7 +964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 40,
               "Title": "IFeedbackService.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IFeedbackService.cs",
               "RelativeDocumentMoniker": "Service\\IFeedbackService.cs",
@@ -765,7 +976,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 41,
               "Title": "FeedbackService.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\FeedbackService.cs",
               "RelativeDocumentMoniker": "Service\\FeedbackService.cs",
@@ -777,7 +988,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 42,
               "Title": "DoctorDashboardService.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\DoctorDashboardService.cs",
               "RelativeDocumentMoniker": "Service\\DoctorDashboardService.cs",
@@ -789,7 +1000,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 43,
               "Title": "IDashboardService.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IDashboardService.cs",
               "RelativeDocumentMoniker": "Service\\IDashboardService.cs",
@@ -801,7 +1012,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 44,
               "Title": "IFeedbackRepository.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IFeedbackRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IFeedbackRepository.cs",
@@ -813,7 +1024,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 45,
               "Title": "IDashboardRepository.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IDashboardRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IDashboardRepository.cs",
@@ -825,7 +1036,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 46,
               "Title": "FeedbackRepository.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\FeedbackRepository.cs",
               "RelativeDocumentMoniker": "Repository\\FeedbackRepository.cs",
@@ -837,7 +1048,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 48,
               "Title": "DashboardRepository.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\DashboardRepository.cs",
               "RelativeDocumentMoniker": "Repository\\DashboardRepository.cs",
@@ -849,7 +1060,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 49,
               "Title": "FeedbackDAO.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\FeedbackDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\FeedbackDAO.cs",
@@ -861,7 +1072,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 50,
               "Title": "DoctorDashboardDAO.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DoctorDashboardDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\DoctorDashboardDAO.cs",
@@ -873,7 +1084,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 51,
               "Title": "DoctorDashboardItem.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\DoctorDashboardItem.cs",
               "RelativeDocumentMoniker": "BusinessObject\\DoctorDashboardItem.cs",
@@ -885,7 +1096,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 47,
               "Title": "DoctorsRepository.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\DoctorsRepository.cs",
               "RelativeDocumentMoniker": "Repository\\DoctorsRepository.cs",
@@ -897,7 +1108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 53,
               "Title": "InventoryTransactionDAO.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\InventoryTransactionDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\InventoryTransactionDAO.cs",
@@ -909,7 +1120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 54,
               "Title": "DoctorsDAO.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DoctorsDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\DoctorsDAO.cs",
@@ -921,7 +1132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 58,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Index.cshtml",
@@ -933,7 +1144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 52,
               "Title": "ServiceDAO.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\ServiceDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\ServiceDAO.cs",
@@ -945,19 +1156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Appointment.cs",
-              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\Appointment.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\Appointment.cs",
-              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\Appointment.cs",
-              "RelativeToolTip": "BusinessObject\\Appointment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T14:12:28.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 57,
               "Title": "CreateBlog.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\CreateBlog.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\CreateBlog.cshtml",
@@ -969,7 +1168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 56,
               "Title": "CreateBlog.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\CreateBlog.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\CreateBlog.cshtml.cs",
@@ -981,7 +1180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 55,
               "Title": "ManageUsers.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManageUsers.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManageUsers.cshtml",
@@ -993,7 +1192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 59,
               "Title": "ManagePage.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\ManagePage.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\ManagePage.cshtml",
@@ -1005,7 +1204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 60,
               "Title": "BlogPostsDAO.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\BlogPostsDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\BlogPostsDAO.cs",
@@ -1017,7 +1216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 61,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Register.cshtml.cs",
@@ -1029,7 +1228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 62,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Logout.cshtml.cs",
@@ -1041,7 +1240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 63,
               "Title": "Blog_Detail.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Blog_Detail.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\HomePage\\Blog_Detail.cshtml",
@@ -1053,7 +1252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 64,
               "Title": "EditBlog.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditBlog.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditBlog.cshtml.cs",
@@ -1065,7 +1264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 65,
               "Title": "Service_Detail.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Service_Detail.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\HomePage\\Service_Detail.cshtml.cs",
@@ -1077,7 +1276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 66,
               "Title": "Service_Detail.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Service_Detail.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\HomePage\\Service_Detail.cshtml",
@@ -1089,7 +1288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 67,
               "Title": "Doctor_Detail.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\HomePage\\Doctor_Detail.cshtml",
@@ -1101,7 +1300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 68,
               "Title": "Blog_Detail.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\HomePage\\Blog_Detail.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\HomePage\\Blog_Detail.cshtml.cs",
@@ -1113,7 +1312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 69,
               "Title": "EditService.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditService.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditService.cshtml.cs",
@@ -1125,7 +1324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 70,
               "Title": "EditService.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditService.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditService.cshtml",
@@ -1137,7 +1336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 71,
               "Title": "EditDoctor.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditDoctor.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditDoctor.cshtml",
@@ -1149,7 +1348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 72,
               "Title": "EditBlog.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditBlog.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManagePage\\EditBlog.cshtml",
@@ -1161,7 +1360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 73,
               "Title": "ManageUsers.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\ManageUsers.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\ManageUsers.cshtml.cs",
@@ -1173,7 +1372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 74,
               "Title": "BlogPostsService.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\BlogPostsService.cs",
               "RelativeDocumentMoniker": "Service\\BlogPostsService.cs",
@@ -1185,7 +1384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 75,
               "Title": "IBlogPostsService.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IBlogPostsService.cs",
               "RelativeDocumentMoniker": "Service\\IBlogPostsService.cs",
@@ -1197,7 +1396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 76,
               "Title": "BlogPostsRepository.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\BlogPostsRepository.cs",
               "RelativeDocumentMoniker": "Repository\\BlogPostsRepository.cs",
@@ -1209,7 +1408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 77,
               "Title": "IBlogPostsRepository.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IBlogPostsRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IBlogPostsRepository.cs",
@@ -1221,7 +1420,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 78,
               "Title": "IDoctorsRepository.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IDoctorsRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IDoctorsRepository.cs",
@@ -1233,7 +1432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 79,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
@@ -1245,7 +1444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 80,
               "Title": "DoctorsService.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\DoctorsService.cs",
               "RelativeDocumentMoniker": "Service\\DoctorsService.cs",
@@ -1257,7 +1456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 81,
               "Title": "IDoctorsService.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IDoctorsService.cs",
               "RelativeDocumentMoniker": "Service\\IDoctorsService.cs",
@@ -1269,7 +1468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 82,
               "Title": "site.js",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\wwwroot\\js\\site.js",
@@ -1281,7 +1480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 83,
               "Title": "SignalrServer.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalrServer.cs",
               "RelativeDocumentMoniker": "SignalRLab\\SignalrServer.cs",
@@ -1293,19 +1492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "IAuthenticationService.cs",
-              "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IAuthenticationService.cs",
-              "RelativeDocumentMoniker": "Service\\IAuthenticationService.cs",
-              "ToolTip": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IAuthenticationService.cs",
-              "RelativeToolTip": "Service\\IAuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:14:31.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 84,
               "Title": "ServicesService.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\ServicesService.cs",
               "RelativeDocumentMoniker": "Service\\ServicesService.cs",
@@ -1317,7 +1504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 85,
               "Title": "ServicesRepository.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\ServicesRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ServicesRepository.cs",
@@ -1329,7 +1516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 86,
               "Title": "IServicesService.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IServicesService.cs",
               "RelativeDocumentMoniker": "Service\\IServicesService.cs",
@@ -1341,7 +1528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 87,
               "Title": "IServicesRepository.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IServicesRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IServicesRepository.cs",
@@ -1353,7 +1540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 88,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Admin\\Profile.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Admin\\Profile.cshtml",
@@ -1365,7 +1552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 89,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Customers\\Profile.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Customers\\Profile.cshtml",
@@ -1377,7 +1564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 90,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Managers\\Profile.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Managers\\Profile.cshtml",
@@ -1389,7 +1576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 91,
               "Title": "AuthenticationRepository.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\AuthenticationRepository.cs",
               "RelativeDocumentMoniker": "Repository\\AuthenticationRepository.cs",
@@ -1401,7 +1588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 94,
               "Title": "UserDAO.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\UserDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\UserDAO.cs",
@@ -1413,7 +1600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 92,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Staff\\Profile.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Staff\\Profile.cshtml",
@@ -1425,7 +1612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 93,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Doctors\\Profile.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Doctors\\Profile.cshtml",
@@ -1437,7 +1624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 95,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IUserService.cs",
               "RelativeDocumentMoniker": "Service\\IUserService.cs",
@@ -1449,7 +1636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 96,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "Service\\UserService.cs",
@@ -1461,7 +1648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 97,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IUserRepository.cs",
@@ -1473,7 +1660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 98,
               "Title": "IAuthenticationRepository.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IAuthenticationRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IAuthenticationRepository.cs",
@@ -1485,7 +1672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 99,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Logout.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Logout.cshtml",
@@ -1497,7 +1684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 100,
               "Title": "ViewHelper.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Filters\\ViewHelper.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Filters\\ViewHelper.cs",
@@ -1509,7 +1696,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 101,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\_ViewImports.cshtml",
@@ -1521,7 +1708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 102,
               "Title": "AuthorizeFilter.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Filters\\AuthorizeFilter.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Filters\\AuthorizeFilter.cs",
@@ -1533,7 +1720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 104,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Authentication\\Register.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Authentication\\Register.cshtml",
@@ -1545,7 +1732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 105,
               "Title": "Authentication.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\Authentication.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Authentication.cs",
@@ -1557,7 +1744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 103,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\AccessDenied.cshtml",
@@ -1569,7 +1756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 106,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Properties\\launchSettings.json",
@@ -1581,7 +1768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 107,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "Service\\AuthenticationService.cs",
@@ -1593,7 +1780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 108,
               "Title": "AccessDenied.cshtml.cs",
               "DocumentMoniker": "D:\\ASM-PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\AccessDenied.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\AccessDenied.cshtml.cs",

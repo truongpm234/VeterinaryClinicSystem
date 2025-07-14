@@ -13,6 +13,7 @@ namespace Repository
     {
         Task<List<Appointment>> GetAllAsync();
         Task<Appointment> AddAsync(Appointment appt);
+        Task<bool> UpdateStatusAsync(int appointmentId, string status);
         Task<User> GetUserByIdAsync(int userId);
         Task<Doctor> GetDoctorByIdAsync(int doctorId);
         Task<List<Service>> GetAllServicesAsync();
