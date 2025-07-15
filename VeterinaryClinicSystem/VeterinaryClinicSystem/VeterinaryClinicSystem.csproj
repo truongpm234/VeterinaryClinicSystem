@@ -13,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Appointments\" />
     <Folder Include="Pages\Blog\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="Models\Authentication\" />

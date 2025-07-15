@@ -4,6 +4,7 @@ using Repository;
 using Service;
 using SignalRLab;
 using System.Text;
+using VeterinaryClinicSystem.Extension;
 
 namespace VeterinaryClinicSystem
 {
@@ -37,6 +38,8 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddScoped<IBlogPostsRepository, BlogPostsRepository>();
 
+            builder.Services.AddScoped<IEmailHelper, EmailHelper>();
+
             builder.Services.AddScoped<IMedicationsService, MedicationsService>();
 
             builder.Services.AddScoped<IMedicationsRepository, MedicationsRepository>();
@@ -53,6 +56,13 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddScoped<IDashboardService, DashboardService>();
 
+            builder.Services.AddScoped<IAppointmentRepository, AppointmentRepository>();
+
+            builder.Services.AddScoped<IAppointmentService, AppointmentService>();
+
+            builder.Services.AddScoped<IPetRepository, PetRepository>();
+
+            builder.Services.AddScoped<IPetService, PetService>();
 
 
 
@@ -60,6 +70,8 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddDbContext<VeterinaryClinicSystemContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
+
+            builder.Services.AddDistributedMemoryCache();
 
             builder.Services.AddSession(options =>
             {
@@ -73,6 +85,10 @@ namespace VeterinaryClinicSystem
             builder.Services.AddHttpContextAccessor();
 
             builder.Services.AddAuthorization();
+
+            builder.Services.Configure<SmtpSettings>(
+                builder.Configuration.GetSection("SmtpSettings")
+            );
 
             var app = builder.Build();
             

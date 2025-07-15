@@ -44,7 +44,7 @@ namespace VeterinaryClinicSystem.Pages.Authentication
                 }
                 if (roleName == "Customer")
                 {
-                    return RedirectToPage("/Customers/Profile");
+                    return RedirectToPage("/Appointments/CreateAppointments");
                 }
 
                 return RedirectToPage("/Privacy");
@@ -88,9 +88,11 @@ namespace VeterinaryClinicSystem.Pages.Authentication
             
             HttpContext.Session.SetInt32("Account", userAccount.UserId);
             HttpContext.Session.SetString("FullName", userAccount.FullName ?? "");
+            HttpContext.Session.SetInt32("RoleId", userAccount.RoleId ?? 0);
             HttpContext.Session.SetString("Role", userAccount.Role?.RoleName ?? "");
             HttpContext.Session.SetString("AvatarUrl", userAccount.AvatarUrl ?? "/images/default-avatar.png");
-
+            HttpContext.Session.SetInt32("UserId", userAccount.UserId);
+            HttpContext.Session.SetInt32("RoleId", userAccount.RoleId ?? 0);
             return RedirectToPage("/Index");
         }
     }

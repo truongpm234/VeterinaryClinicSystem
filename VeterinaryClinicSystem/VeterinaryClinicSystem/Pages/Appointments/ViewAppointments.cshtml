@@ -1,0 +1,103 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Appointments.ViewAppointmentsModel
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpCtx
+
+@{
+    ViewData["Title"] = "Danh sách lịch hẹn";
+    var allowedRoles = new[] { 1, 2, 3, 4 };
+    var currentRole = HttpCtx.HttpContext.Session.GetInt32("RoleId") ?? 0;
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Chủ nuôi</th>
+            <th>Thú cưng</th>
+            <th>Bác sĩ</th>
+            <th>Ngày giờ</th>
+            <th>Trạng thái</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var a in Model.AppointmentsList)
+        {
+            var status = a.Status ?? "Đang xử lý";
+            var css = status == "Đặt lịch thành công" ? "text-success"
+            : status == "Từ chối hẹn" ? "text-danger"
+            : "";
+
+            <tr>
+                <td>@a.AppointmentId</td>
+                <td>@a.Owner?.FullName</td>
+                <td>@a.Pet?.Name</td>
+                <td>@a.Doctor?.DoctorNavigation?.FullName</td>
+                <td>@a.AppointmentDate?.ToString("dd/MM/yyyy HH:mm")</td>
+                <td><span class="@css">@status</span></td>
+                <td>
+                    @if (status == "Đang xử lý" && allowedRoles.Contains(currentRole))
+                    {
+                        <div class="btn-group" role="group">
+                            <form method="post" asp-page-handler="Accept">
+                                <input type="hidden" name="appointmentId" value="@a.AppointmentId" />
+                                <button type="submit" class="btn btn-sm btn-success">Accept</button>
+                            </form>
+                            <form method="post" asp-page-handler="Reject" class="ms-1">
+                                <input type="hidden" name="appointmentId" value="@a.AppointmentId" />
+                                <button type="submit" class="btn btn-sm btn-danger">Reject</button>
+                            </form>
+                        </div>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (Model.TotalPages > 1)
+{
+    <nav>
+        <ul class="pagination">
+            <li class="page-item @(Model.PageNumber == 1 ? "disabled" : "")">
+                <a class="page-link" asp-route-PageNumber="@(Model.PageNumber - 1)">Previous</a>
+            </li>
+
+            @{
+                bool ellipsisShown = false;
+                for (int i = 1; i <= Model.TotalPages; i++)
+                {
+                    bool showPage = i <= 2
+                    || i > Model.TotalPages - 2
+                    || (i >= Model.PageNumber - 1 && i <= Model.PageNumber + 1);
+
+                    if (!showPage)
+                    {
+                        if (!ellipsisShown)
+                        {
+                            <li class="page-item disabled">
+                                <span class="page-link">…</span>
+                            </li>
+                            ellipsisShown = true;
+                        }
+                        continue;
+                    }
+
+                    <li class="page-item @(i == Model.PageNumber ? "active" : "")">
+                        <a class="page-link" asp-route-PageNumber="@i">@i</a>
+                    </li>
+                ;
+
+                    ellipsisShown = false;
+                }
+            }
+
+            <li class="page-item @(Model.PageNumber == Model.TotalPages ? "disabled" : "")">
+                <a class="page-link" asp-route-PageNumber="@(Model.PageNumber + 1)">Next</a>
+            </li>
+        </ul>
+    </nav>
+}
