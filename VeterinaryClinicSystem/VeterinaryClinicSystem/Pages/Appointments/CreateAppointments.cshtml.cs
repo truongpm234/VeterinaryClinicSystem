@@ -26,10 +26,10 @@ namespace VeterinaryClinicSystem.Pages.Appointments
 
         [BindProperty]
         public Appointment Appointment { get; set; }
-
         [BindProperty(SupportsGet = true)]
         public int? DoctorIdFromRoute { get; set; }
-
+        [BindProperty(SupportsGet = true)]
+        public int? ServiceIdFromRoute { get; set; }
         public SelectList DoctorList { get; set; }
         public SelectList ServiceList { get; set; }
         public SelectList PetList { get; set; }
@@ -79,6 +79,8 @@ namespace VeterinaryClinicSystem.Pages.Appointments
                     }
                 }
             }
+            if (ServiceIdFromRoute.HasValue)
+                Appointment.ServiceId = ServiceIdFromRoute.Value;
 
             return Page();
         }
@@ -100,15 +102,24 @@ namespace VeterinaryClinicSystem.Pages.Appointments
                 await PopulateSelectListsAsync(userId.Value);
                 return Page();
             }
-
+            if (DoctorIdFromRoute.HasValue)
+            {
+                Appointment.DoctorId = DoctorIdFromRoute.Value;
+            }
             Appointment.OwnerId = userId.Value;
             Appointment.CreatedAt = DateTime.UtcNow;
             Appointment.Status = "Đang xử lý";
 
-            await _appointmentService.CreateAsync(Appointment);
+            await _appointmentService.AddAsync(Appointment);
 
             // Gửi email xác nhận
             var owner = await _context.Users.FindAsync(Appointment.OwnerId);
+
+            if (string.IsNullOrWhiteSpace(owner?.Email))
+            {
+                TempData["Error"] = "Không thể gửi email vì tài khoản không có địa chỉ email.";
+                return RedirectToPage("/Index");
+            }
             var doctor = await _context.Users.FindAsync(Appointment.DoctorId);
             var service = await _context.Services.FindAsync(Appointment.ServiceId);
             var pet = await _context.Pets.FindAsync(Appointment.PetId);

@@ -1,44 +1,42 @@
 using BusinessObject;
+using DataAccessLayer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.Identity.UI.Services;
 using Service;
 
 namespace VeterinaryClinicSystem.Pages.Staff
 {
     public class ViewAppointmentsModel : PageModel
     {
-        private readonly IAppointmentService _svc;
-        private const int PageSize = 10;
-        public ViewAppointmentsModel(IAppointmentService svc)
-            => _svc = svc;
+        private readonly IAppointmentService _appointment;
+
+        public ViewAppointmentsModel(IAppointmentService appointment)
+        {
+            _appointment = appointment;
+        }
 
         public List<Appointment> AppointmentsList { get; set; } = new();
-        [BindProperty(SupportsGet = true)]
-        public int PageNumber { get; set; } = 1;
-
-        public int TotalPages { get; private set; }
+        public List<(DoctorSchedule Schedule, string DoctorName)> SchedulesWithDoctorName { get; set; } = new();
 
         public async Task OnGetAsync()
         {
-            var all = await _svc.GetAllAsync();
-            var count = all.Count;
-            TotalPages = (int)Math.Ceiling(count / (double)PageSize);
-
-            AppointmentsList = all
-                .Skip((PageNumber - 1) * PageSize)
-                .Take(PageSize)
-                .ToList();
+            AppointmentsList = await _appointment.GetAllAppointmentsAsync();
+            SchedulesWithDoctorName = await _appointment.GetDoctorSchedulesWithNamesAsync();
         }
 
         public async Task<IActionResult> OnPostAcceptAsync(int appointmentId)
         {
-            await _svc.AcceptAsync(appointmentId, "Đặt lịch thành công");
+            var success = await _appointment.AcceptAppointmentAsync(appointmentId);
+            if (!success)
+            {
+                TempData["Error"] = "Ca làm này đã có người đặt.";
+            }
             return RedirectToPage();
         }
+
         public async Task<IActionResult> OnPostRejectAsync(int appointmentId)
         {
-            await _svc.AcceptAsync(appointmentId, "Từ chối hẹn");
+            await _appointment.RejectAppointmentAsync(appointmentId);
             return RedirectToPage();
         }
     }

@@ -40,7 +40,7 @@ namespace VeterinaryClinicSystem.Pages.Authentication
                 }
                 if (roleName == "Staff")
                 {
-                    return RedirectToPage("/Staff/Profile");
+                    return RedirectToPage("/Staff/ViewAppointments");
                 }
                 if (roleName == "Customer")
                 {

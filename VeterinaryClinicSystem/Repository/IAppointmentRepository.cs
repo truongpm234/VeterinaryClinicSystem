@@ -1,4 +1,5 @@
 ﻿using BusinessObject;
+using DataAccessLayer;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,10 @@ namespace Repository
 {
     public interface IAppointmentRepository
     {
-        Task<List<Appointment>> GetAllAsync();
+        public Task<List<Appointment>> GetAllAppointmentsAsync();
+        public Task<List<(DoctorSchedule, string)>> GetDoctorSchedulesWithNamesAsync();
+        public Task<bool> AcceptAppointmentAsync(int appointmentId);
+        public Task RejectAppointmentAsync(int appointmentId);
         Task<Appointment> AddAsync(Appointment appt);
         Task<bool> UpdateStatusAsync(int appointmentId, string status);
         Task<User> GetUserByIdAsync(int userId);

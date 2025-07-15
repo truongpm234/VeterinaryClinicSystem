@@ -5,12 +5,17 @@
 
 @{
     ViewData["Title"] = "Danh sách lịch hẹn";
-    var allowedRoles = new[] { 4 };
     var currentRole = HttpCtx.HttpContext.Session.GetInt32("RoleId") ?? 0;
 }
 
 <h2>@ViewData["Title"]</h2>
 
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<h4>📋 Lịch hẹn</h4>
 <table class="table table-striped">
     <thead>
         <tr>
@@ -18,9 +23,10 @@
             <th>Chủ nuôi</th>
             <th>Thú cưng</th>
             <th>Bác sĩ</th>
-            <th>Ngày giờ</th>
+            <th>Ngày</th>
+            <th>Ca</th>
             <th>Trạng thái</th>
-            <th></th>
+            <th>Action</th>
         </tr>
     </thead>
     <tbody>
@@ -30,25 +36,25 @@
             var css = status == "Đặt lịch thành công" ? "text-success"
             : status == "Từ chối hẹn" ? "text-danger"
             : "";
-
             <tr>
                 <td>@a.AppointmentId</td>
                 <td>@a.Owner?.FullName</td>
                 <td>@a.Pet?.Name</td>
                 <td>@a.Doctor?.DoctorNavigation?.FullName</td>
-                <td>@a.AppointmentDate?.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>@a.AppointmentDate?.ToString("dd/MM/yyyy")</td>
+                <td>Ca @a.Shift</td>
                 <td><span class="@css">@status</span></td>
                 <td>
-                    @if (status == "Đang xử lý" && allowedRoles.Contains(currentRole))
+                    @if (status == "Đang xử lý")
                     {
-                        <div class="btn-group" role="group">
+                        <div class="btn-group">
                             <form method="post" asp-page-handler="Accept">
                                 <input type="hidden" name="appointmentId" value="@a.AppointmentId" />
-                                <button type="submit" class="btn btn-sm btn-success">Accept</button>
+                                <button type="submit" class="btn btn-sm btn-success">✔</button>
                             </form>
                             <form method="post" asp-page-handler="Reject" class="ms-1">
                                 <input type="hidden" name="appointmentId" value="@a.AppointmentId" />
-                                <button type="submit" class="btn btn-sm btn-danger">Reject</button>
+                                <button type="submit" class="btn btn-sm btn-danger">✖</button>
                             </form>
                         </div>
                     }
@@ -58,46 +64,25 @@
     </tbody>
 </table>
 
-@if (Model.TotalPages > 1)
-{
-    <nav>
-        <ul class="pagination">
-            <li class="page-item @(Model.PageNumber == 1 ? "disabled" : "")">
-                <a class="page-link" asp-route-PageNumber="@(Model.PageNumber - 1)">Previous</a>
-            </li>
-
-            @{
-                bool ellipsisShown = false;
-                for (int i = 1; i <= Model.TotalPages; i++)
-                {
-                    bool showPage = i <= 2
-                    || i > Model.TotalPages - 2
-                    || (i >= Model.PageNumber - 1 && i <= Model.PageNumber + 1);
-
-                    if (!showPage)
-                    {
-                        if (!ellipsisShown)
-                        {
-                            <li class="page-item disabled">
-                                <span class="page-link">…</span>
-                            </li>
-                            ellipsisShown = true;
-                        }
-                        continue;
-                    }
-
-                    <li class="page-item @(i == Model.PageNumber ? "active" : "")">
-                        <a class="page-link" asp-route-PageNumber="@i">@i</a>
-                    </li>
-                ;
-
-                    ellipsisShown = false;
-                }
-            }
-
-            <li class="page-item @(Model.PageNumber == Model.TotalPages ? "disabled" : "")">
-                <a class="page-link" asp-route-PageNumber="@(Model.PageNumber + 1)">Next</a>
-            </li>
-        </ul>
-    </nav>
-}
+<h4 class="mt-5">📆 Lịch làm việc của bác sĩ</h4>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tên bác sĩ</th>
+            <th>Ngày làm</th>
+            <th>Ca</th>
+            <th>Sẵn sàng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.SchedulesWithDoctorName)
+        {
+            <tr>
+                <td>@item.DoctorName</td>
+                <td>@item.Schedule.WorkDate?.ToString("dd/MM/yyyy")</td>
+                <td>@item.Schedule.Note</td>
+                <td>@(item.Schedule.IsAvailable == true ? "✔ Có" : "❌ Không")</td>
+            </tr>
+        }
+    </tbody>
+</table>

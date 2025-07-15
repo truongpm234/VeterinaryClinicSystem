@@ -10,7 +10,6 @@ using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 using VeterinaryClinicSystem;
-using VeterinaryClinicSystem;
 
 namespace VeterinaryClinicSystem.Extension
 {
@@ -32,6 +31,12 @@ namespace VeterinaryClinicSystem.Extension
 
         public async Task<bool> SendEmailAsync(string toEmail, string subject, string htmlBody)
         {
+            if (string.IsNullOrWhiteSpace(toEmail))
+            {
+                _logger.LogError("Email address is null or empty.");
+                return false;
+            }
+
             try
             {
                 using var mail = new MailMessage
@@ -41,7 +46,7 @@ namespace VeterinaryClinicSystem.Extension
                     Body = htmlBody,
                     IsBodyHtml = true
                 };
-                // !!! phải Add MailAddress, không thêm string
+
                 mail.To.Add(new MailAddress(toEmail));
 
                 using var client = new SmtpClient(_smtp.Host, _smtp.Port)
@@ -60,5 +65,6 @@ namespace VeterinaryClinicSystem.Extension
                 return false;
             }
         }
+
     }
 }
