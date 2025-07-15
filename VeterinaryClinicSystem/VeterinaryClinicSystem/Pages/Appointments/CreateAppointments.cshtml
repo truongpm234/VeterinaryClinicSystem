@@ -1,0 +1,92 @@
+﻿@page "{doctorId:int?}"
+@model VeterinaryClinicSystem.Pages.Appointments.CreateAppointmentModel
+@{
+    ViewData["Title"] = "Tạo lịch hẹn";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4 text-primary">📅 @ViewData["Title"]</h2>
+
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-success">@TempData["Message"]</div>
+    }
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <form method="post" class="border rounded p-4 shadow-sm bg-light">
+        @if (!Model.DoctorIdFromRoute.HasValue)
+        {
+            <div class="form-group mb-3">
+                <label asp-for="Appointment.DoctorId" class="form-label fw-semibold">👨‍⚕️ Chọn bác sĩ</label>
+                <select asp-for="Appointment.DoctorId"
+                        class="form-control"
+                        asp-items="Model.DoctorList">
+                    <option value="">-- Chọn bác sĩ --</option>
+                </select>
+            </div>
+        }
+        else
+        {
+            <input type="hidden" asp-for="Appointment.DoctorId" value="@Model.DoctorIdFromRoute.Value" />
+            <div class="alert alert-info mb-3">
+                📌 Đặt lịch với bác sĩ:
+                <strong>
+                    @(Model.DoctorList?.FirstOrDefault(d => d.Value == Model.DoctorIdFromRoute.Value.ToString())?.Text ?? "[Tên bác sĩ không tìm thấy]")
+                </strong>
+            </div>
+        }
+
+        <div class="form-group mb-3">
+            <label asp-for="Appointment.ServiceId" class="form-label fw-semibold">🩺 Loại dịch vụ</label>
+            <select asp-for="Appointment.ServiceId"
+                    class="form-control"
+                    asp-items="Model.ServiceList">
+                <option value="">-- Chọn dịch vụ --</option>
+            </select>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Appointment.PetId" class="form-label fw-semibold">🐾 Vật nuôi</label>
+            <div class="d-flex align-items-center">
+                <select asp-for="Appointment.PetId"
+                        class="form-control"
+                        asp-items="Model.PetList">
+                    <option value="">-- Chọn pet --</option>
+                </select>
+                <a asp-page="/Pets/Create"
+                   class="btn btn-link ms-2"
+                   asp-route-returnUrl="/Appointments/CreateAppointment?doctorId=@Model.DoctorIdFromRoute">
+                    ➕ Tạo pet mới
+                </a>
+            </div>
+        </div>
+
+        <div class="form-group mb-4">
+            <label asp-for="Appointment.AppointmentDate" class="form-label fw-semibold">📅 Ngày hẹn</label>
+            <input asp-for="Appointment.AppointmentDate"
+                   type="date"
+                   class="form-control" />
+        </div>
+
+        <div class="form-group mb-4">
+            <label asp-for="Appointment.Shift" class="form-label fw-semibold">🕒 Ca làm</label>
+            <select asp-for="Appointment.Shift" class="form-control">
+                <option value="">-- Chọn ca --</option>
+                <option value="1">Ca 1 (7h - 8h30h)</option>
+                <option value="2">Ca 2 (8h30h - 10h)</option>
+                <option value="3">Ca 3 (10h - 11h30)</option>
+                <option value="4">Ca 4 (1h30 - 3h)</option>
+                <option value="5">Ca 5 (3h - 4h30h)</option>
+            </select>
+        </div>
+        <div class="form-group mb-4">
+            <label asp-for="Appointment.Note" class="form-label fw-semibold">Ghi chú</label>
+            <input asp-for="Appointment.Note" type="text" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-success w-100">✅ Đặt lịch ngay</button>
+    </form>
+</div>

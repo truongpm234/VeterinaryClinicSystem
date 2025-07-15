@@ -48,7 +48,7 @@
                 {
                     <div class="col-md-3 mb-4">
                         <div class="card shadow-sm rounded p-3 text-center h-100">
-                            <img src="@(!string.IsNullOrEmpty(item.user.AvatarUrl) ? item.user.AvatarUrl : "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\wwwroot\\images\\default-avatar.jpg")"
+                            <img src="@(!string.IsNullOrEmpty(item.user.AvatarUrl) ? item.user.AvatarUrl : "wwwroot\\images\\default-avatar.jpg")"
                                  class="rounded-circle mx-auto mb-2" alt=""
                                  style="width: 100px; height: 100px; object-fit: cover;" />
 
@@ -67,10 +67,11 @@
 
                             <p class="text-muted small">@item.doctor.Description</p>
 
-                            <a href="/Appointments/"
+                            <a href="/Appointments/CreateAppointment?doctorId=@item.user.UserId"
                                class="btn btn-warning btn-sm w-100">
                                 🩺 Đặt lịch hoặc tư vấn
                             </a>
+
                             <a href="/HomePage/Doctor_Detail/@item.user.UserId"
                                class="btn btn-outline-primary btn-sm w-100 mt-2">
                                 🔍 Xem chi tiết

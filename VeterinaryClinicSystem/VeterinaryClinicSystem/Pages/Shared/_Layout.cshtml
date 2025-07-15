@@ -85,8 +85,11 @@
                                         <li><a class="dropdown-item" href="/Staff/Inventory">Nhập/Xuất Kho</a> </li>
                                         <li><a class="dropdown-item" href="/Staff/InventoryHistory">Lịch sử giao dịch</a></li>
                                         <li><hr class="dropdown-divider" /></li>
-                                        
-
+                                    }
+                                    @if (Context.Session.GetString("Role") == "Customer")
+                                    {
+                                        <li><a class="dropdown-item" href="/Customers/Profile">Profile Information</a></li>
+                                        <li><hr class="dropdown-divider" /></li>
                                     }
                                     @if (Context.Session.GetString("Role") == "Manager")
                                     {

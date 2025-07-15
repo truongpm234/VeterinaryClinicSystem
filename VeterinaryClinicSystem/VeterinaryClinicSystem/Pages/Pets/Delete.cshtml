@@ -1,0 +1,21 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Pets.DeleteModel
+@{
+    ViewData["Title"] = "Delete Pet";
+}
+
+<h1>Delete Pet</h1>
+
+<h3>Are you sure you want to delete this pet?</h3>
+
+<div>
+    <h4>@Model.Pet.Name</h4>
+    <p>Species: @Model.Pet.Species</p>
+    <p>Breed: @Model.Pet.Breed</p>
+</div>
+
+<form method="post">
+    <input type="hidden" asp-for="Pet.PetId" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+</form>
