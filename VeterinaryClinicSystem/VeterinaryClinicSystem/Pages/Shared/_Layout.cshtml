@@ -23,6 +23,12 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">PetClinicSystem</a>
+
+                @if (Context.Session.GetString("Role") == "Customer")
+                {
+                    <a class="nav-link text-primary fw-bold ms-3" href="/Customers/Feedback">Feedback</a>
+                }
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -40,7 +46,7 @@
                         @if (Context.Session.GetString("Role") == "Doctor")
                         {
                             <li class="nav-item">
-                                <a class="nav-link fs-5" asp-page="/Doctors/Dashboard">Doctor Dashboard</a>
+                                <a class="nav-link fs-5" asp-page="/Doctors/DoctorDashboard">Doctor Dashboard</a>
                             </li>
                         }
                     </ul>
@@ -88,9 +94,12 @@
                                         
 
                                     }
+
                                     @if (Context.Session.GetString("Role") == "Customer")
                                     {
-                                        <li><a class="dropdown-item" asp-page="/Customers/Feedback">Feedback</a></li>
+                                        
+                                        <li><a class="dropdown-item" href="/Customers/Profile">Profile Information</a></li>
+                                        <li><hr class="dropdown-divider" /></li>
                                     }
 
 

@@ -109,35 +109,24 @@
         </section>
 
         <section>
-            <h2>Feedback</h2>
-
-            @if (Model.Feedbacks != null && Model.Feedbacks.Any())
+            @foreach (var fb in Model.Feedbacks)
             {
-                foreach (var f in Model.Feedbacks)
-                {
-                    <div style="border:1px solid #ccc; padding:10px; margin-bottom:10px;">
-                        <strong>⭐ @f.Rating</strong>
-                        <p>@f.Comment</p>
-                        <small>@(f.CreatedAt?.ToShortDateString() ?? "Chưa xác định")</small>
-                    </div>
-                }
-
-                <div>
-                    @if (Model.PageNumber > 1)
-                    {
-                        <a asp-page="/Index" asp-route-PageNumber="@(Model.PageNumber - 1)">← Trước</a>
-                    }
-                    @if (Model.PageNumber < Model.TotalPages)
-                    {
-                        <a asp-page="/Index" asp-route-PageNumber="@(Model.PageNumber + 1)">Tiếp →</a>
-                    }
+                <div class="card p-2 mb-2">
+                    <strong>@(fb.Customer?.FullName ?? "Ẩn danh")</strong> đánh giá bác sĩ
+                    <strong>@(fb.Doctor?.DoctorNavigation?.FullName ?? "Không rõ")</strong>:<br />
+                    <span>Rating: @fb.Rating ⭐</span><br />
+                    <span>@fb.Comment</span><br />
+                    <small class="text-muted">Vào lúc: @fb.CreatedAt?.ToString("dd/MM/yyyy HH:mm")</small>
                 </div>
             }
-            else
-            {
-                <p>Không có feedback nào để hiển thị.</p>
-            }
         </section>
+        
+
+
+       
+
+
+
 
 
 

@@ -33,41 +33,40 @@ namespace VeterinaryClinicSystem.Pages
         public List<BusinessObject.Service> Services { get; set; } = new();
         public List<(User user, BusinessObject.Doctor doctor)> Doctors { get; set; } = new();
         public List<BlogPost> BlogPosts { get; set; }
-
+        public List<Feedback> Feedbacks { get; set; }
         public void OnGet()
         {
             Services = _serviceService.GetAllServices();
             Doctors = _doctorService.GetAllDoctors();
             BlogPosts = _blogService.GetBlogByPublish();
-            _hubContext.Clients.All.SendAsync("LoadAllItems");
-        }
 
-        public List<Feedback> Feedbacks { get; set; } = new();
-        [BindProperty(SupportsGet = true)]
-        public int PageNumber { get; set; } = 1;
+            //_hubContext.Clients.All.SendAsync("LoadAllItems");
 
-        public int TotalPages { get; set; }
-
-        public void OnGetFeedback()
-        {
-            Services = _serviceService.GetAllServices();
-            Doctors = _doctorService.GetAllDoctors();
-            BlogPosts = _blogService.GetBlogByPublish();
-            
-            _hubContext.Clients.All.SendAsync("LoadAllItems");
-
-            // Load Feedbacks
             int pageSize = 3;
             var totalFeedback = _Context.Feedbacks.Count();
 
             TotalPages = (int)Math.Ceiling(totalFeedback / (double)pageSize);
 
+            
+            if (PageNumber < 1) PageNumber = 1;
+            if (PageNumber > TotalPages) PageNumber = TotalPages;
+
             Feedbacks = _Context.Feedbacks
+                .Include(f => f.Customer)
+                .Include(f => f.Doctor).ThenInclude(d => d.DoctorNavigation)
                 .OrderByDescending(f => f.CreatedAt)
-                .Skip((PageNumber - 1) * pageSize)
-                .Take(pageSize)
+                .Take(3)
                 .ToList();
         }
+
+
+        
+        [BindProperty(SupportsGet = true)]
+        public int PageNumber { get; set; } = 1;
+
+        public int TotalPages { get; set; }
+
+        
 
     }
 }

@@ -10,8 +10,8 @@ namespace Service
     public interface IDashboardService
     {
         DashboardStats GetDashboardStats();
-        List<DoctorDashboardItem> GetTodayAppointments(int doctorId);
-        List<DoctorDashboardItem> GetOngoingCases(int doctorId);
+        List<DoctorDashboard> GetTodayAppointments(int doctorId);
+        List<DoctorDashboard> GetOngoingCases(int doctorId);
     }
 }
 

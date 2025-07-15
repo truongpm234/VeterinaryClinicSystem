@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BusinessObject;
 
 namespace Service
 {
-    internal class IFeedbackService
+    public interface IFeedbackService
     {
+        List<Feedback> GetAll();
+        Feedback? GetById(int id);
+        void Add(Feedback feedback);
+        void Update(Feedback feedback);
+        void Delete(int id);
+        
+        List<User> GetDoctors();
     }
 }

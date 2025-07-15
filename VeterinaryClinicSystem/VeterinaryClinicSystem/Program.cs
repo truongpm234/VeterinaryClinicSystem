@@ -45,13 +45,20 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddScoped<IInventoryTransactionService, InventoryTransactionService>();
 
+            builder.Services.AddScoped<IDoctorDashboardService, DoctorDashboardService>();
+            builder.Services.AddScoped<IDoctorDashboardRepository, DoctorDashboardRepository>();
+           
             builder.Services.AddScoped<DoctorDashboardDAO>();
 
-            builder.Services.AddScoped<DoctorDashboardService>();
-
+            builder.Services.AddScoped<IDashboardService, DashboardService>();
             builder.Services.AddScoped<DashboardDAO>();
 
-            builder.Services.AddScoped<IDashboardService, DashboardService>();
+            builder.Services.AddScoped<IFeedbackRepository, FeedbackRepository>();
+            builder.Services.AddScoped<IFeedbackService, FeedbackService>();
+
+            builder.Services.AddScoped<FeedbackDAO>();
+
+
 
             builder.Services.AddAuthentication("CookieAuth").AddCookie("CookieAuth", options =>
             {

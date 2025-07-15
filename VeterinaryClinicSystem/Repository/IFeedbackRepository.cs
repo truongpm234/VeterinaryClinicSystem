@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BusinessObject;
 
 namespace Repository
 {
-    internal class IFeedbackRepository
+    public interface IFeedbackRepository
     {
+        List<Feedback> GetAll();
+        Feedback? GetById(int id);
+        void Add(Feedback feedback);
+        void Update(Feedback feedback);
+        void Delete(int id);
+        void Save();
     }
 }

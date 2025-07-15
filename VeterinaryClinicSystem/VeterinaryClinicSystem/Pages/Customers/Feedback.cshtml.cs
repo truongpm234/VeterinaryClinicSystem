@@ -1,15 +1,11 @@
-using BusinessObject;
-using DataAccessLayer;
-using Microsoft.AspNetCore.Authorization;
+ï»¿using BusinessObject;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using DataAccessLayer;
 
 namespace VeterinaryClinicSystem.Pages.Customers
 {
-
-
-
-    [Authorize(Roles = "Customer")]
     public class FeedbackModel : PageModel
     {
         private readonly VeterinaryClinicSystemContext _context;
@@ -20,35 +16,45 @@ namespace VeterinaryClinicSystem.Pages.Customers
         }
 
         [BindProperty]
-        public Feedback Input { get; set; }
+        public Feedback Input { get; set; } = new Feedback();
 
-        public IActionResult OnGet()
+        public List<User> Doctors { get; set; } = new();
+        public List<Appointment> Appointments { get; set; } = new();
+       
+
+        public void OnGet()
         {
-            return Page();
+            var userId = HttpContext.Session.GetInt32("Account");
+            if (userId == null) return;
+
+            Doctors = _context.Users
+                .Where(u => u.RoleId == 3 && u.IsActive)
+                .ToList();
+
+            Appointments = _context.Appointments
+            .Include(a => a.Doctor).ThenInclude(d => d.DoctorNavigation)
+             .Where(a => a.OwnerId == userId && a.Status == "Completed") // Sá»­a tá»« CustomerId -> OwnerId
+            .ToList();
+
         }
+
 
         public IActionResult OnPost()
         {
             if (!ModelState.IsValid)
                 return Page();
+            var userId = HttpContext.Session.GetInt32("Account");
+            if (userId == null)
+                return RedirectToPage("/Authentication/Login");
 
+            Input.CustomerId = userId;
             Input.CreatedAt = DateTime.Now;
-            Input.CustomerId = GetCustomerId(); // t? vi?t hàm này n?u c?n
+
             _context.Feedbacks.Add(Input);
             _context.SaveChanges();
 
-            return RedirectToPage("/Index");
-        }
 
-        private int GetCustomerId()
-        {
-            var userIdClaim = User.FindFirst("UserID");
-            if (userIdClaim == null)
-            {
-                throw new Exception("UserID claim not found.");
-            }
-            return int.Parse(userIdClaim.Value);
+            return RedirectToPage("/index");
         }
-
     }
 }
