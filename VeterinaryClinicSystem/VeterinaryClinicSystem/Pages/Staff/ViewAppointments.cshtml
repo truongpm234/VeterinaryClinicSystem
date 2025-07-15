@@ -1,11 +1,11 @@
 ﻿@page
-@model VeterinaryClinicSystem.Pages.Appointments.ViewAppointmentsModel
+@model VeterinaryClinicSystem.Pages.Staff.ViewAppointmentsModel
 @using Microsoft.AspNetCore.Http
 @inject IHttpContextAccessor HttpCtx
 
 @{
     ViewData["Title"] = "Danh sách lịch hẹn";
-    var allowedRoles = new[] { 1, 2, 3, 4 };
+    var allowedRoles = new[] { 4 };
     var currentRole = HttpCtx.HttpContext.Session.GetInt32("RoleId") ?? 0;
 }
 

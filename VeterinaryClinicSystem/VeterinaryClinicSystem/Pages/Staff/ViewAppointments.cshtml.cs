@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Service;
 
-namespace VeterinaryClinicSystem.Pages.Appointments
+namespace VeterinaryClinicSystem.Pages.Staff
 {
     public class ViewAppointmentsModel : PageModel
     {
@@ -23,7 +23,7 @@ namespace VeterinaryClinicSystem.Pages.Appointments
         {
             var all = await _svc.GetAllAsync();
             var count = all.Count;
-            TotalPages = (int)System.Math.Ceiling(count / (double)PageSize);
+            TotalPages = (int)Math.Ceiling(count / (double)PageSize);
 
             AppointmentsList = all
                 .Skip((PageNumber - 1) * PageSize)
