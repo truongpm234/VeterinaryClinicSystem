@@ -15,5 +15,7 @@ public partial class DoctorSchedule
 
     public string? Note { get; set; }
 
+    public int? Shift { get; set; }
+
     public virtual Doctor? Doctor { get; set; }
 }

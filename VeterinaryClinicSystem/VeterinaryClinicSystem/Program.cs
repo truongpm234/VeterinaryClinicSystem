@@ -71,7 +71,7 @@ namespace VeterinaryClinicSystem
             builder.Services.AddDbContext<VeterinaryClinicSystemContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 
-            builder.Services.AddDistributedMemoryCache();
+            //builder.Services.AddDistributedMemoryCache();
 
             builder.Services.AddSession(options =>
             {

@@ -11,8 +11,11 @@ namespace Service
 {
     public interface IAppointmentService
     {
-        Task<List<Appointment>> GetAllAsync();
-        Task<Appointment> CreateAsync(Appointment appt);
+        public Task<List<Appointment>> GetAllAppointmentsAsync();
+        public Task<List<(DoctorSchedule, string)>> GetDoctorSchedulesWithNamesAsync();
+        public Task<bool> AcceptAppointmentAsync(int appointmentId);
+        public Task RejectAppointmentAsync(int appointmentId);
+        public Task<Appointment> AddAsync(Appointment appt);
         Task<bool> AcceptAsync(int appointmentId);
         Task<bool> AcceptAsync(int appointmentId, string newStatus);
         Task<List<BusinessObject.Service>> GetAllServicesAsync();

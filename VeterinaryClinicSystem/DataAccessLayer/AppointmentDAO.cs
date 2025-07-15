@@ -11,17 +11,91 @@ namespace DataAccessLayer
 {
     public class AppointmentDAO
     {
-        public static Task<List<Appointment>> GetAllAsync()
+        public static async Task<List<Appointment>> GetAllAppointmentsAsync()
         {
             using var _context = new VeterinaryClinicSystemContext();
-
-            return _context.Appointments
+            var result = await _context.Appointments
                 .Include(a => a.Owner)
                 .Include(a => a.Pet)
                 .Include(a => a.Doctor)
                     .ThenInclude(d => d.DoctorNavigation)
                 .Include(a => a.Service)
                 .ToListAsync();
+            return result;
+        }
+
+        public static async Task<List<(DoctorSchedule, string)>> GetDoctorSchedulesWithNamesAsync()
+        {
+            using var _context = new VeterinaryClinicSystemContext();
+            var list = await _context.DoctorSchedules
+                .Include(s => s.Doctor)
+                    .ThenInclude(d => d.DoctorNavigation)
+                .Select(s => new ValueTuple<DoctorSchedule, string>(s, s.Doctor!.DoctorNavigation.FullName))
+                .ToListAsync();
+
+            return list;
+        }
+
+        public static async Task<bool> AcceptAppointmentAsync(int appointmentId)
+        {
+            using var _context = new VeterinaryClinicSystemContext();
+            var appt = await _context.Appointments.FindAsync(appointmentId);
+            if (appt == null) return false;
+
+            var existing = await _context.Appointments.AnyAsync(a => a.DoctorId == appt.DoctorId
+                && a.AppointmentDate!.Value.Date == appt.AppointmentDate.Value.Date
+                && a.Shift == appt.Shift
+                && a.Status == "Đặt lịch thành công");
+
+            if (existing) return false;
+
+            appt.Status = "Đặt lịch thành công";
+
+            var workDate = DateOnly.FromDateTime(appt.AppointmentDate.Value);
+            var note = $"Ca {appt.Shift}";
+
+            var schedule = await _context.DoctorSchedules.FirstOrDefaultAsync(s =>
+                s.DoctorId == appt.DoctorId &&
+                s.WorkDate == workDate &&
+                s.Note == note);
+
+            if (schedule != null)
+            {
+                schedule.IsAvailable = false;
+            }
+            else
+            {
+                var newSchedule = new DoctorSchedule
+                {
+                    DoctorId = appt.DoctorId,
+                    WorkDate = workDate,
+                    IsAvailable = false,
+                    Note = note,
+                    Shift = appt.Shift
+                };
+                _context.DoctorSchedules.Add(newSchedule);
+            }
+
+            await _context.SaveChangesAsync();
+            return true;
+        }
+
+        public static async Task RejectAppointmentAsync(int appointmentId)
+        {
+            using var _context = new VeterinaryClinicSystemContext();
+            var appt = await _context.Appointments.FindAsync(appointmentId);
+            if (appt == null) return;
+
+            appt.Status = "Từ chối hẹn";
+
+            var schedule = await _context.DoctorSchedules.FirstOrDefaultAsync(s => s.DoctorId == appt.DoctorId
+                && s.WorkDate == DateOnly.FromDateTime(appt.AppointmentDate.Value)
+                && s.Note == ($"Ca {appt.Shift}"));
+
+            if (schedule != null)
+                schedule.IsAvailable = true;
+
+            await _context.SaveChangesAsync();
         }
 
         public static async Task<Appointment> AddAsync(Appointment appt)
@@ -46,7 +120,7 @@ namespace DataAccessLayer
         {
             using var _context = new VeterinaryClinicSystemContext();
 
-            return _context.Users.FindAsync(userId).AsTask(); 
+            return _context.Users.FindAsync(userId).AsTask();
         }
 
         public static Task<Doctor> GetDoctorByIdAsync(int doctorId)
@@ -59,7 +133,7 @@ namespace DataAccessLayer
         {
             using var _context = new VeterinaryClinicSystemContext();
             return _context.Services
-                       .OrderBy(s => s.Name)   // ví dụ sort theo tên
+                       .OrderBy(s => s.Name)   
                        .ToListAsync();
         }
 

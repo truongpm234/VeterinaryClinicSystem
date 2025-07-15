@@ -13,9 +13,15 @@ namespace Service
     public class AppointmentService : IAppointmentService
     {
         private readonly IAppointmentRepository _repo;
-        public AppointmentService(IAppointmentRepository repo) => _repo = repo;
-        public Task<List<Appointment>> GetAllAsync() => _repo.GetAllAsync();
-        public Task<Appointment> CreateAsync(Appointment appt) => _repo.AddAsync(appt);
+        public AppointmentService(IAppointmentRepository repo)
+        { 
+            _repo = repo; 
+        }
+        public Task<List<Appointment>> GetAllAppointmentsAsync() => _repo.GetAllAppointmentsAsync();
+        public Task<List<(DoctorSchedule, string)>> GetDoctorSchedulesWithNamesAsync() => _repo.GetDoctorSchedulesWithNamesAsync();
+        public Task<bool> AcceptAppointmentAsync(int appointmentId) => _repo.AcceptAppointmentAsync(appointmentId);
+        public async Task RejectAppointmentAsync(int appointmentId) => _repo.RejectAppointmentAsync(appointmentId); 
+        public Task<Appointment> AddAsync(Appointment appt) => _repo.AddAsync(appt);
         public Task<bool> AcceptAsync(int appointmentId) => _repo.UpdateStatusAsync(appointmentId, "Xác nhận đặt lịch");
         public Task<bool> AcceptAsync(int appointmentId, string newStatus) => _repo.UpdateStatusAsync(appointmentId, newStatus);
         public Task<List<BusinessObject.Service>> GetAllServicesAsync() => _repo.GetAllServicesAsync();
