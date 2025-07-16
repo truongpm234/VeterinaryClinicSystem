@@ -27,6 +27,7 @@ namespace Repository
         Task<List<SelectListItem>> GetPetSelectListByOwnerAsync(int ownerId);
         public Task<Appointment> GetAppointmentByIdAsync(int appointmentId);
         public Task<DoctorSchedule?> GetScheduleByDoctorDateShiftAsync(int doctorId, DateOnly date, int shift);
+        public Task<List<Appointment>> GetAppointmentsByUserAsync(int userId);
 
     }
 }

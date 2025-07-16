@@ -1,0 +1,44 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Appointments.HistoryModel
+@{
+    ViewData["Title"] = "Lịch sử đặt hẹn";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (!Model.AppointmentHistory.Any())
+{
+    <p>❌ Không có lịch hẹn nào.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Ngày hẹn</th>
+                <th>Thú cưng</th>
+                <th>Bác sĩ</th>
+                <th>Dịch vụ</th>
+                <th>Ca</th>
+                <th>Ghi chú</th>
+                <th>Trạng thái</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var a in Model.AppointmentHistory)
+            {
+                <tr>
+                    <td>@a.AppointmentDate?.ToString("dd/MM/yyyy")</td>
+                    <td>@a.Pet?.Name</td>
+                    <td>@a.Doctor?.DoctorNavigation?.FullName</td>
+                    <td>@a.Service?.Name</td>
+                    <td>Ca @a.Shift</td>
+                    <td>@a.Note</td>
+                    <td>@a.Status</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.0/signalr.js"></script>
+<script src="~/js/appointmentHub.js"></script>

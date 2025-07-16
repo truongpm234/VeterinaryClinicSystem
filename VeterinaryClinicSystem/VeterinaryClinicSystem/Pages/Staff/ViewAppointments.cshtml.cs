@@ -14,12 +14,14 @@ namespace VeterinaryClinicSystem.Pages.Staff
         private readonly IAppointmentService _appointment;
         private readonly IEmailHelper _emailHelper;
         private readonly VeterinaryClinicSystemContext _context;
+        private readonly IHubContext<AppointmentHub> _hubContext;
 
-        public ViewAppointmentsModel(IAppointmentService appointment, IEmailHelper emailHelper, VeterinaryClinicSystemContext context)
+        public ViewAppointmentsModel(IAppointmentService appointment, IEmailHelper emailHelper, VeterinaryClinicSystemContext context, IHubContext<AppointmentHub> hubContext)
         {
             _appointment = appointment;
             _emailHelper = emailHelper;
             _context = context;
+            _hubContext = hubContext;
         }
 
         public List<Appointment> AppointmentsList { get; set; } = new();
@@ -55,7 +57,10 @@ namespace VeterinaryClinicSystem.Pages.Staff
                 Note = appointment.Note
             };
 
+            await _hubContext.Clients.All.SendAsync("ReceiveAppointmentUpdate", $"Lịch hẹn {appointmentId} đã được cập nhật.");
+
             await _emailHelper.EmailForAcceptAppointment(appointment, acceptedSchedule, _context);
+
             return RedirectToPage();
         }
 
@@ -94,6 +99,8 @@ namespace VeterinaryClinicSystem.Pages.Staff
 
             // Nếu chưa quá giờ thì từ chối bình thường
             await _appointment.RejectAppointmentAsync(appointmentId);
+
+            await _hubContext.Clients.All.SendAsync("ReceiveAppointmentUpdate", $"Lịch hẹn {appointmentId} đã bị từ chối.");
 
             await _emailHelper.EmailForRejectAppointment(appointment, schedule, _context);
 

@@ -28,7 +28,8 @@ namespace Repository
         public Task<List<SelectListItem>> GetServiceSelectListAsync() => AppointmentDAO.GetServiceSelectListAsync();
         public Task<List<SelectListItem>> GetPetSelectListByOwnerAsync(int ownerId) => AppointmentDAO.GetPetSelectListByOwnerAsync(ownerId);
         public Task<Appointment> GetAppointmentByIdAsync(int appointmentId) => AppointmentDAO.GetAppointmentByIdAsync(appointmentId);
-        public Task<DoctorSchedule?> GetScheduleByDoctorDateShiftAsync(int doctorId, DateOnly date, int shift) => AppointmentDAO.GetScheduleByDoctorDateShiftAsync(doctorId, date, shift);    
+        public Task<DoctorSchedule?> GetScheduleByDoctorDateShiftAsync(int doctorId, DateOnly date, int shift) => AppointmentDAO.GetScheduleByDoctorDateShiftAsync(doctorId, date, shift);
+        public  Task<List<Appointment>> GetAppointmentsByUserAsync(int userId) => AppointmentDAO.GetAppointmentsByUserAsync(userId);
 
 
 
