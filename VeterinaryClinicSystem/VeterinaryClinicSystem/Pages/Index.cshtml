@@ -67,11 +67,36 @@
 
                             <p class="text-muted small">@item.doctor.Description</p>
 
-                            <a href="/Appointments/CreateAppointment?doctorId=@item.user.UserId"
+                            @*                             <a href="/Appointments/CreateAppointment?doctorId=@item.user.UserId"
                                class="btn btn-warning btn-sm w-100">
                                 🩺 Đặt lịch hoặc tư vấn
-                            </a>
+                            </a> *@
+                            @{
+                                int serviceId = item.doctor.Specialty switch
+                                {
+                                    "Surgery" => 1,
+                                    "Internal Medicine" => 2,
+                                    "Dermatology" => 3,
+                                    "Dentistry" => 4,
+                                    "Vaccination" => 5,
+                                    _ => 1
+                                };
 
+                                @if (serviceId > 0)
+                                {
+                                    <a asp-page="/Appointments/CreateAppointments"
+                                       asp-route-doctorId="@item.user.UserId"
+                                       asp-route-serviceId="@serviceId"
+                                       class="btn btn-warning btn-sm w-100">
+                                        🩺 Đặt lịch hoặc tư vấn
+                                    </a>
+                                }
+                                else
+                                {
+                                    <a class="btn btn-secondary btn-sm w-100 disabled">Không khả dụng</a>
+                                }
+
+                            }
                             <a href="/HomePage/Doctor_Detail/@item.user.UserId"
                                class="btn btn-outline-primary btn-sm w-100 mt-2">
                                 🔍 Xem chi tiết

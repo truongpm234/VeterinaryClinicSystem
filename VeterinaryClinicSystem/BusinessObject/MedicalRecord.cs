@@ -19,7 +19,7 @@ public partial class MedicalRecord
 
     public string? Prescription { get; set; }
 
-    public string? TreatmentPlan { get; set; }
+    public bool? IsFollow { get; set; }
 
     public DateOnly? FollowUpDate { get; set; }
 

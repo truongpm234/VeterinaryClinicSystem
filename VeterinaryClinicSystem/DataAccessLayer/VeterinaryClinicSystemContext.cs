@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using BusinessObject;
+﻿using BusinessObject;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using System;
+using System.Collections.Generic;
 
 namespace DataAccessLayer;
 
@@ -239,6 +239,23 @@ public partial class VeterinaryClinicSystemContext : DbContext
             entity.HasOne(d => d.User).WithMany(p => p.Notifications)
                 .HasForeignKey(d => d.UserId)
                 .HasConstraintName("FK__Notificat__UserI__534D60F1");
+        });
+
+        modelBuilder.Entity<CareSchedule>(entity =>
+        {
+            entity.HasKey(e => e.ScheduleId).HasName("PK__CareSche__9C8A5B692268F146");
+
+            entity.Property(e => e.ScheduleId).HasColumnName("ScheduleID");
+            entity.Property(e => e.CareType).HasMaxLength(100);
+            entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+            entity.Property(e => e.PetId).HasColumnName("PetID");
+
+            entity.HasOne(d => d.Pet).WithMany(p => p.CareSchedules)
+                .HasForeignKey(d => d.PetId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_CareSchedules_Pets");
         });
 
         modelBuilder.Entity<Pet>(entity =>
