@@ -199,8 +199,18 @@ namespace DataAccessLayer
                     s.WorkDate.Value == date &&
                     s.Shift == shift);
         }
-
-
+        public static async Task<List<Appointment>> GetAppointmentsByUserAsync(int userId)
+        {
+            using var _context = new VeterinaryClinicSystemContext();
+            return await _context.Appointments
+                .Include(a => a.Pet)
+                .Include(a => a.Doctor)
+                    .ThenInclude(d => d.DoctorNavigation)
+                .Include(a => a.Service)
+                .Where(a => a.OwnerId == userId)
+                .OrderByDescending(a => a.AppointmentDate)
+                .ToListAsync();
+        }
 
     }
 }

@@ -130,8 +130,7 @@ namespace VeterinaryClinicSystem.Pages.Appointments
                 TempData["Error"] = "❌ Lịch hẹn đã được tạo nhưng không thể gửi thông báo qua email.";
             }
 
-            return RedirectToPage();
-
+            return RedirectToPage("/Appointments/History", new { userId = userId.Value });
         }
 
         private async Task PopulateSelectListsAsync(int userId)

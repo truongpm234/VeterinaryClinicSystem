@@ -31,6 +31,7 @@ namespace Service
         public Task<List<SelectListItem>> GetPetSelectListByOwnerAsync(int ownerId) => _repo.GetPetSelectListByOwnerAsync(ownerId);
         public Task<Appointment> GetAppointmentByIdAsync(int appointmentId) => _repo.GetAppointmentByIdAsync(appointmentId);
         public Task<DoctorSchedule?> GetScheduleByDoctorDateShiftAsync(int doctorId, DateOnly date, int shift) => _repo.GetScheduleByDoctorDateShiftAsync(doctorId, date, shift);
+        public Task<List<Appointment>> GetAppointmentsByUserAsync(int userId) => _repo.GetAppointmentsByUserAsync(userId);
 
     }
 }
