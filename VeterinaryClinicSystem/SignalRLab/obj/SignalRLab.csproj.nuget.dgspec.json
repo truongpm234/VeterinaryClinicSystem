@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj": {}
+    "D:\\fbt\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj": {}
   },
   "projects": {
-    "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj": {
+    "D:\\fbt\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj",
+        "projectUniqueName": "D:\\fbt\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj",
         "projectName": "SignalRLab",
-        "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj",
-        "packagesPath": "C:\\Users\\ghoul\\.nuget\\packages\\",
-        "outputPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\obj\\",
+        "projectPath": "D:\\fbt\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj",
+        "packagesPath": "C:\\Users\\alvin\\.nuget\\packages\\",
+        "outputPath": "D:\\fbt\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ghoul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alvin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

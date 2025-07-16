@@ -8,5 +8,6 @@ namespace Repository
 {
     internal class IDashboardRepository
     {
+      
     }
 }

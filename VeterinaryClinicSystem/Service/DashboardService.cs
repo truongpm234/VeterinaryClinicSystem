@@ -53,10 +53,10 @@ namespace Service
         }
 
 
-        public List<DoctorDashboardItem> GetTodayAppointments(int doctorId)
+        public List<DoctorDashboard> GetTodayAppointments(int doctorId)
         {
             // Initialize an empty list to ensure all code paths return a value
-            var appointments = new List<DoctorDashboardItem>();
+            var appointments = new List<DoctorDashboard>();
 
             // Add logic here to populate appointments from _context if needed
             // Example:
@@ -77,9 +77,9 @@ namespace Service
             return appointments; // Ensure a value is always returned
         }
 
-        public List<DoctorDashboardItem> GetOngoingCases(int doctorId)
+        public List<DoctorDashboard> GetOngoingCases(int doctorId)
         {
-            var ongoingCases = new List<DoctorDashboardItem>();
+            var ongoingCases = new List<DoctorDashboard>();
             // your implementation here
             return ongoingCases;
         }

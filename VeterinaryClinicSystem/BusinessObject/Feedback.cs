@@ -24,4 +24,7 @@ public partial class Feedback
     public virtual User? Customer { get; set; }
 
     public virtual Doctor? Doctor { get; set; }
+
+
+
 }

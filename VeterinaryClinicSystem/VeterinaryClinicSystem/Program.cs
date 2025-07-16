@@ -48,11 +48,13 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddScoped<IInventoryTransactionService, InventoryTransactionService>();
 
-            builder.Services.AddScoped<DoctorDashboardDAO>();
+            
 
             builder.Services.AddScoped<DoctorDashboardService>();
 
             builder.Services.AddScoped<DashboardDAO>();
+
+           
 
             builder.Services.AddScoped<IDashboardService, DashboardService>();
 
@@ -60,6 +62,16 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddScoped<IAppointmentService, AppointmentService>();
 
+            builder.Services.AddScoped<IFeedbackRepository, FeedbackRepository>();
+
+            builder.Services.AddScoped<IFeedbackService, FeedbackService>();
+            builder.Services.AddScoped<FeedbackDAO>();
+
+            builder.Services.AddScoped<IDoctorDashboardService, DoctorDashboardService>();
+
+            builder.Services.AddScoped<IDoctorDashboardRepository, DoctorDashboardRepository>();
+
+            builder.Services.AddScoped<DoctorDashboardDAO>();
             builder.Services.AddScoped<IPetRepository, PetRepository>();
 
             builder.Services.AddScoped<IPetService, PetService>();

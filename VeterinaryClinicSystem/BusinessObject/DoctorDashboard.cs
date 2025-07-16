@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessObject
 {
-    public class DoctorDashboardItem
+    public class DoctorDashboard
     {
         public int AppointmentId { get; set; }
         public string PatientName { get; set; }

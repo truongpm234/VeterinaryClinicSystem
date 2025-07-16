@@ -1,4 +1,42 @@
 ﻿@page
 @model VeterinaryClinicSystem.Pages.Customers.FeedbackModel
-@{
-}
+
+<h2>Gửi Feedback</h2>
+
+<form method="post">
+    <div>
+        <label>Rating</label>
+        <input asp-for="Input.Rating" class="form-control" />
+    </div>
+
+    <div>
+        <label>Comment</label>
+        <textarea asp-for="Input.Comment" class="form-control"></textarea>
+    </div>
+
+    <div>
+        <label>Chọn bác sĩ</label>
+        <select asp-for="Input.DoctorId" class="form-control">
+            <option value="">-- Chọn bác sĩ --</option>
+            @foreach (var doctor in Model.Doctors)
+            {
+                <option value="@doctor.UserId">@doctor.FullName</option>
+            }
+        </select>
+    </div>
+
+    <div>
+        <label>Chọn lịch hẹn đã khám</label>
+        <select asp-for="Input.AppointmentId" class="form-control">
+            <option value="">-- Chọn lịch hẹn --</option>
+            @foreach (var appointment in Model.Appointments)
+            {
+                <option value="@appointment.AppointmentId">
+                    @($"Ngày {appointment.AppointmentDate:dd/MM/yyyy} với bác sĩ {appointment.Doctor.DoctorNavigation.FullName}")
+                </option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Gửi feedback</button>
+</form>
