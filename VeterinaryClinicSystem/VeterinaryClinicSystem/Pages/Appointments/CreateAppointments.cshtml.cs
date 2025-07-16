@@ -3,8 +3,10 @@ using DataAccessLayer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using Service;
+using SignalRLab;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
@@ -18,12 +20,15 @@ namespace VeterinaryClinicSystem.Pages.Appointments
         private readonly IEmailHelper _emailHelper;
         private readonly VeterinaryClinicSystemContext _context;
         private readonly ILogger<CreateAppointmentModel> _logger;
-        public CreateAppointmentModel(IAppointmentService appointmentService, IEmailHelper emailHelper, VeterinaryClinicSystemContext context, ILogger<CreateAppointmentModel> logger)
+        private readonly IHubContext<AppointmentHub> _hubContext;
+
+        public CreateAppointmentModel(IAppointmentService appointmentService, IEmailHelper emailHelper, VeterinaryClinicSystemContext context, ILogger<CreateAppointmentModel> logger, IHubContext<AppointmentHub> hubContext)
         {
             _appointmentService = appointmentService;
             _emailHelper = emailHelper;
             _context = context;
             _logger = logger;
+            _hubContext = hubContext;
         }
 
         [BindProperty]
@@ -112,10 +117,21 @@ namespace VeterinaryClinicSystem.Pages.Appointments
             Appointment.Status = "Đang xử lý";
 
             await _appointmentService.AddAsync(Appointment);
-            
+
+            await _hubContext.Clients.All.SendAsync("ReceiveAppointment", "Lịch hẹn mới vừa được tạo!");
+
             bool sent = await _emailHelper.EmailForCreateAppointment(Appointment, _context);
-            
-            return RedirectToPage("/Index");
+            if (sent)
+            {
+                TempData["Message"] = "✅ Lịch hẹn đã được hệ thống xác nhận qua email.";
+            }
+            else
+            {
+                TempData["Error"] = "❌ Lịch hẹn đã được tạo nhưng không thể gửi thông báo qua email.";
+            }
+
+            return RedirectToPage();
+
         }
 
         private async Task PopulateSelectListsAsync(int userId)

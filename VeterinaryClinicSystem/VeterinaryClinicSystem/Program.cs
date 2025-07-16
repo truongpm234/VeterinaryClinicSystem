@@ -1,4 +1,4 @@
-using DataAccessLayer;
+﻿using DataAccessLayer;
 using Microsoft.EntityFrameworkCore;
 using Repository;
 using Service;
@@ -66,8 +66,6 @@ namespace VeterinaryClinicSystem
 
 
 
-
-
             builder.Services.AddDbContext<VeterinaryClinicSystemContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 
@@ -114,6 +112,8 @@ namespace VeterinaryClinicSystem
             app.MapFallbackToPage("/Authentication/Login");
 
             app.MapHub<SignalrServer>("/signalRServer");
+
+            app.MapHub<AppointmentHub>("/appointmentHub");
 
             app.MapRazorPages();
 

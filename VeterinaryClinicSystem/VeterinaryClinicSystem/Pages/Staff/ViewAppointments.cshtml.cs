@@ -2,7 +2,9 @@ using BusinessObject;
 using DataAccessLayer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.SignalR;
 using Service;
+using SignalRLab;
 using VeterinaryClinicSystem.Extension;
 
 namespace VeterinaryClinicSystem.Pages.Staff
@@ -27,7 +29,6 @@ namespace VeterinaryClinicSystem.Pages.Staff
         {
             AppointmentsList = await _appointment.GetAllAppointmentsAsync();
             SchedulesWithDoctorName = await _appointment.GetDoctorSchedulesWithNamesAsync();
-
             await UpdateScheduleStatusAsync();
         }
 
@@ -55,7 +56,6 @@ namespace VeterinaryClinicSystem.Pages.Staff
             };
 
             await _emailHelper.EmailForAcceptAppointment(appointment, acceptedSchedule, _context);
-
             return RedirectToPage();
         }
 
@@ -87,13 +87,14 @@ namespace VeterinaryClinicSystem.Pages.Staff
                 await _context.SaveChangesAsync();
 
                 await _emailHelper.EmailForLateAppointmentAsync(appointment, _context);
+                TempData["Message"] = "⏰ Đã từ chối lịch hẹn vì đã quá giờ.";
 
-                TempData["Message"] = "⏰ Lịch hẹn quá giờ đã bị từ chối.";
                 return RedirectToPage();
             }
 
             // Nếu chưa quá giờ thì từ chối bình thường
             await _appointment.RejectAppointmentAsync(appointmentId);
+
             await _emailHelper.EmailForRejectAppointment(appointment, schedule, _context);
 
             TempData["Message"] = "📛 Đã từ chối lịch hẹn.";
