@@ -80,13 +80,28 @@ namespace VeterinaryClinicSystem.Pages.Appointments
                     if (doctorItem != null)
                     {
                         var newList = doctor.ToList();
-                        newList.Insert(0, doctorItem); 
+                        newList.Insert(0, doctorItem);
                         DoctorList = new SelectList(newList, "Value", "Text");
                     }
                 }
             }
+
             if (ServiceIdFromRoute.HasValue)
+            {
                 Appointment.ServiceId = ServiceIdFromRoute.Value;
+
+                if (!ServiceList.Any(s => s.Value == ServiceIdFromRoute.Value.ToString()))
+                {
+                    var allServices = await _appointmentService.GetServiceSelectListAsync();
+                    var matched = allServices.FirstOrDefault(s => s.Value == ServiceIdFromRoute.Value.ToString());
+                    if (matched != null)
+                    {
+                        var newList = allServices.ToList();
+                        newList.Insert(0, matched);
+                        ServiceList = new SelectList(newList, "Value", "Text");
+                    }
+                }
+            }
 
             return Page();
         }

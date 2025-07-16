@@ -29,5 +29,7 @@ public partial class Pet
 
     public virtual ICollection<MedicalRecord> MedicalRecords { get; set; } = new List<MedicalRecord>();
 
+    public virtual ICollection<CareSchedule> CareSchedules { get; set; } = new List<CareSchedule>();
+
     public virtual User? Owner { get; set; }
 }
