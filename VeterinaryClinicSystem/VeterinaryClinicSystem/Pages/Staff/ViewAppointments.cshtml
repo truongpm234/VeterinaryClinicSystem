@@ -14,6 +14,10 @@
 {
     <div class="alert alert-danger">@TempData["Error"]</div>
 }
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-success">@TempData["Message"]</div>
+}
 
 <h4>📋 Lịch hẹn</h4>
 <table class="table table-striped">
@@ -25,7 +29,6 @@
             <th>Bác sĩ</th>
             <th>Ngày</th>
             <th>Ca</th>
-            <th>Trạng thái</th>
             <th>Action</th>
         </tr>
     </thead>
@@ -36,6 +39,11 @@
             var css = status == "Đặt lịch thành công" ? "text-success"
             : status == "Từ chối hẹn" ? "text-danger"
             : "";
+
+            // Check if there's a schedule conflict
+            var hasConflict = Model.CheckScheduleConflict(a.DoctorId, a.AppointmentDate, a.Shift);
+            var isPastAppointment = a.AppointmentDate < DateTime.Now;
+
             <tr>
                 <td>@a.AppointmentId</td>
                 <td>@a.Owner?.FullName</td>
@@ -48,10 +56,25 @@
                     @if (status == "Đang xử lý")
                     {
                         <div class="btn-group">
-                            <form method="post" asp-page-handler="Accept">
-                                <input type="hidden" name="appointmentId" value="@a.AppointmentId" />
-                                <button type="submit" class="btn btn-sm btn-success">✔</button>
-                            </form>
+                            @if (hasConflict)
+                            {
+                                <button type="button" class="btn btn-sm btn-secondary" disabled title="Trùng lịch với bác sĩ">
+                                    ⚠️ Trùng lịch
+                                </button>
+                            }
+                            else if (isPastAppointment)
+                            {
+                                <button type="button" class="btn btn-sm btn-secondary" disabled title="Đã quá giờ hẹn">
+                                    ⏰ Quá giờ
+                                </button>
+                            }
+                            else
+                            {
+                                <form method="post" asp-page-handler="Accept">
+                                    <input type="hidden" name="appointmentId" value="@a.AppointmentId" />
+                                    <button type="submit" class="btn btn-sm btn-success">✔</button>
+                                </form>
+                            }
                             <form method="post" asp-page-handler="Reject" class="ms-1">
                                 <input type="hidden" name="appointmentId" value="@a.AppointmentId" />
                                 <button type="submit" class="btn btn-sm btn-danger">✖</button>
@@ -71,17 +94,65 @@
             <th>Tên bác sĩ</th>
             <th>Ngày làm</th>
             <th>Ca</th>
-            <th>Sẵn sàng</th>
+            <th>Trạng thái</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model.SchedulesWithDoctorName)
         {
+            var workDate = item.Schedule.WorkDate;
+            var shift = item.Schedule.Shift ?? 0;
+
+            var statusText = "Không xác định";
+            var statusCss = "text-muted";
+
+            if (workDate.HasValue && shift > 0)
+            {
+                var date = workDate.Value.ToDateTime(TimeOnly.MinValue);
+                DateTime startTime = shift switch
+                {
+                    1 => date.AddHours(7),
+                    2 => date.AddHours(8).AddMinutes(30),
+                    3 => date.AddHours(10),
+                    4 => date.AddHours(13).AddMinutes(30),
+                    5 => date.AddHours(15),
+                    _ => date
+                };
+
+                DateTime endTime = shift switch
+                {
+                    1 => date.AddHours(8).AddMinutes(30),
+                    2 => date.AddHours(10),
+                    3 => date.AddHours(11).AddMinutes(30),
+                    4 => date.AddHours(15),
+                    5 => date.AddHours(16).AddMinutes(30),
+                    _ => date
+                };
+
+                var now = DateTime.Now;
+
+                if (now >= startTime && now <= endTime)
+                {
+                    statusText = "⏳ Đang diễn ra";
+                    statusCss = "text-warning fw-bold";
+                }
+                else if (now > endTime)
+                {
+                    statusText = "✅ Đã hoàn thành";
+                    statusCss = "text-success fw-bold";
+                }
+                else if (now < startTime)
+                {
+                    statusText = "📅 Sắp tới";
+                    statusCss = "text-primary fw-bold";
+                }
+            }
+
             <tr>
                 <td>@item.DoctorName</td>
                 <td>@item.Schedule.WorkDate?.ToString("dd/MM/yyyy")</td>
                 <td>@item.Schedule.Note</td>
-                <td>@(item.Schedule.IsAvailable == true ? "✔ Có" : "❌ Không")</td>
+                <td><span class="@statusCss">@statusText</span></td>
             </tr>
         }
     </tbody>

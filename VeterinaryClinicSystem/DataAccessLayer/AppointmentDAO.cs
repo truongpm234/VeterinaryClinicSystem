@@ -42,39 +42,40 @@ namespace DataAccessLayer
             var appt = await _context.Appointments.FindAsync(appointmentId);
             if (appt == null) return false;
 
-            var existing = await _context.Appointments.AnyAsync(a => a.DoctorId == appt.DoctorId
-                && a.AppointmentDate!.Value.Date == appt.AppointmentDate.Value.Date
-                && a.Shift == appt.Shift
-                && a.Status == "Đặt lịch thành công");
+            // Kiểm tra nếu đã có Appointment thành công cho cùng bác sĩ, ngày, ca
+            var existing = await _context.Appointments.AnyAsync(a =>
+                a.DoctorId == appt.DoctorId &&
+                a.AppointmentDate!.Value.Date == appt.AppointmentDate.Value.Date &&
+                a.Shift == appt.Shift &&
+                a.Status == "Đặt lịch thành công");
 
             if (existing) return false;
 
-            appt.Status = "Đặt lịch thành công";
-
             var workDate = DateOnly.FromDateTime(appt.AppointmentDate.Value);
-            var note = $"Ca {appt.Shift}";
 
-            var schedule = await _context.DoctorSchedules.FirstOrDefaultAsync(s =>
+            // ⚠️ Kiểm tra trùng lịch làm trong DoctorSchedule
+            var hasScheduleConflict = await _context.DoctorSchedules.AnyAsync(s =>
                 s.DoctorId == appt.DoctorId &&
                 s.WorkDate == workDate &&
-                s.Note == note);
+                s.Shift == appt.Shift);
 
-            if (schedule != null)
+            if (hasScheduleConflict)
             {
-                schedule.IsAvailable = false;
+                return false; // Trả về false nếu đã có lịch
             }
-            else
+
+            // ✅ Cập nhật trạng thái và thêm lịch làm
+            appt.Status = "Đặt lịch thành công";
+            var note = $"Ca {appt.Shift}";
+
+            var newSchedule = new DoctorSchedule
             {
-                var newSchedule = new DoctorSchedule
-                {
-                    DoctorId = appt.DoctorId,
-                    WorkDate = workDate,
-                    IsAvailable = false,
-                    Note = note,
-                    Shift = appt.Shift
-                };
-                _context.DoctorSchedules.Add(newSchedule);
-            }
+                DoctorId = appt.DoctorId,
+                WorkDate = workDate,
+                Note = note,
+                Shift = appt.Shift
+            };
+            _context.DoctorSchedules.Add(newSchedule);
 
             await _context.SaveChangesAsync();
             return true;
@@ -92,8 +93,6 @@ namespace DataAccessLayer
                 && s.WorkDate == DateOnly.FromDateTime(appt.AppointmentDate.Value)
                 && s.Note == ($"Ca {appt.Shift}"));
 
-            if (schedule != null)
-                schedule.IsAvailable = true;
 
             await _context.SaveChangesAsync();
         }
@@ -133,7 +132,7 @@ namespace DataAccessLayer
         {
             using var _context = new VeterinaryClinicSystemContext();
             return _context.Services
-                       .OrderBy(s => s.Name)   
+                       .OrderBy(s => s.Name)
                        .ToListAsync();
         }
 
@@ -178,5 +177,30 @@ namespace DataAccessLayer
                     Text = p.Name
                 }).ToListAsync();
         }
+        public static async Task<Appointment?> GetAppointmentByIdAsync(int appointmentId)
+        {
+            using var _context = new VeterinaryClinicSystemContext();
+            return await _context.Appointments
+                .Include(a => a.Owner)
+                .Include(a => a.Pet)
+                .Include(a => a.Doctor)
+                    .ThenInclude(d => d.DoctorNavigation)
+                .Include(a => a.Service)
+                .FirstOrDefaultAsync(a => a.AppointmentId == appointmentId);
+        }
+
+        public static async Task<DoctorSchedule?> GetScheduleByDoctorDateShiftAsync(int doctorId, DateOnly date, int shift)
+        {
+            using var _context = new VeterinaryClinicSystemContext();
+            return await _context.DoctorSchedules
+                .FirstOrDefaultAsync(s =>
+                    s.DoctorId == doctorId &&
+                    s.WorkDate.HasValue &&
+                    s.WorkDate.Value == date &&
+                    s.Shift == shift);
+        }
+
+
+
     }
 }

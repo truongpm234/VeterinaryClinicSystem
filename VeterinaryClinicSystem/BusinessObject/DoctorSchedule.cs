@@ -11,8 +11,6 @@ public partial class DoctorSchedule
 
     public DateOnly? WorkDate { get; set; }
 
-    public bool? IsAvailable { get; set; }
-
     public string? Note { get; set; }
 
     public int? Shift { get; set; }

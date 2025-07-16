@@ -34,6 +34,8 @@ namespace DataAccessLayer
 
             if (user.RoleId == null)
                 user.RoleId = 5;
+            if (user.IsActive == false)
+                user.IsActive = true;
             if (user.IsActive == null)
                 user.IsActive = true;
 
