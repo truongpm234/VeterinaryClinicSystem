@@ -28,7 +28,6 @@ namespace VeterinaryClinicSystem.Pages.Staff
             AppointmentsList = await _appointment.GetAllAppointmentsAsync();
             SchedulesWithDoctorName = await _appointment.GetDoctorSchedulesWithNamesAsync();
 
-            // Update schedule status based on current time
             await UpdateScheduleStatusAsync();
         }
 
@@ -106,7 +105,6 @@ namespace VeterinaryClinicSystem.Pages.Staff
             if (!doctorId.HasValue || !appointmentDate.HasValue || !shift.HasValue)
                 return false;
 
-            // Check if there's already an accepted appointment for this doctor at this date/shift
             var existingAppointment = AppointmentsList.Any(a =>
                 a.DoctorId == doctorId.Value &&
                 a.AppointmentDate.HasValue &&
@@ -137,7 +135,6 @@ namespace VeterinaryClinicSystem.Pages.Staff
                 {
                     var scheduleDateTime = GetScheduleDateTime(schedule.WorkDate.Value, schedule.Shift.Value);
 
-                    // If the schedule time has passed and it's still marked as available, update it
                     if (scheduleDateTime < currentTime)
                     {
                         schedulesToUpdate.Add(schedule);
@@ -145,7 +142,6 @@ namespace VeterinaryClinicSystem.Pages.Staff
                 }
             }
 
-            // Update database if there are changes
             if (schedulesToUpdate.Any())
             {
                 foreach (var schedule in schedulesToUpdate)
