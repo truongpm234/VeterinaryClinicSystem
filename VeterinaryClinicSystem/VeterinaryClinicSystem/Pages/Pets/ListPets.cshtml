@@ -1,0 +1,62 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Pets.ListPetsModel
+@{
+    ViewData["Title"] = "Danh sách thú cưng";
+}
+
+<div class="mb-4">
+    <h1 class="text-primary fw-bold">🐾 Danh sách thú cưng của bạn</h1>
+    <p class="lead">Xin chào <strong class="text-success">@Model.UserName</strong>, đây là những người bạn nhỏ đang chờ bạn chăm sóc nè 💖</p>
+</div>
+
+<div class="alert alert-info shadow-sm">
+    🐶 Bạn hiện đang có <strong>@Model.PetCount</strong> thú cưng.
+</div>
+
+<div class="mb-3 text-end">
+    <a asp-page="Create" asp-route-returnUrl="/Pets/ListPets" class="btn btn-outline-primary">
+        ➕ Thêm thú cưng mới
+    </a>
+</div>
+
+<table class="table table-bordered table-hover shadow-sm">
+    <thead class="table-primary text-center">
+        <tr>
+            <th>#</th>
+            <th>Tên</th>
+            <th>Loài</th>
+            <th>Giống</th>
+            <th>Giới tính</th>
+            <th>Cân nặng</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody class="align-middle">
+        @for (int i = 0; i < Model.Pets.Count; i++)
+        {
+            var pet = Model.Pets[i];
+            <tr>
+                <td class="text-center fw-semibold">@((i + 1))</td>
+                <td>@pet.Name</td>
+                <td>@pet.Species</td>
+                <td>@pet.Breed</td>
+                <td>@pet.Gender</td>
+                <td>@pet.Weight kg</td>
+                <td class="text-center">
+                    <a asp-page="Details"
+                       asp-route-id="@pet.PetId"
+                       asp-route-returnUrl="/Pets/ListPets"
+                       class="btn btn-sm btn-outline-info me-1" title="Chi tiết">🔍</a>
+                    <a asp-page="Edit"
+                       asp-route-id="@pet.PetId"
+                       asp-route-returnUrl="/Pets/ListPets"
+                       class="btn btn-sm btn-outline-warning me-1" title="Chỉnh sửa">✏️</a>
+                    <a asp-page="Delete"
+                       asp-route-id="@pet.PetId"
+                       asp-route-returnUrl="/Pets/ListPets"
+                       class="btn btn-sm btn-outline-danger" title="Xóa">🗑️</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
