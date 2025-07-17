@@ -115,6 +115,23 @@ public partial class VeterinaryClinicSystemContext : DbContext
                 .HasConstraintName("FK__BlogPosts__Autho__66603565");
         });
 
+        modelBuilder.Entity<CareSchedule>(entity =>
+        {
+            entity.HasKey(e => e.ScheduleId).HasName("PK__CareSche__9C8A5B692268F146");
+
+            entity.Property(e => e.ScheduleId).HasColumnName("ScheduleID");
+            entity.Property(e => e.CareType).HasMaxLength(100);
+            entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+            entity.Property(e => e.PetId).HasColumnName("PetID");
+
+            entity.HasOne(d => d.Pet).WithMany(p => p.CareSchedules)
+                .HasForeignKey(d => d.PetId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_CareSchedules_Pets");
+        });
+
         modelBuilder.Entity<Doctor>(entity =>
         {
             entity.HasKey(e => e.DoctorId).HasName("PK__Doctors__2DC00EDFC8B0444A");
@@ -195,6 +212,7 @@ public partial class VeterinaryClinicSystemContext : DbContext
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime");
             entity.Property(e => e.DoctorId).HasColumnName("DoctorID");
+            entity.Property(e => e.MedicationId).HasColumnName("MedicationID");
             entity.Property(e => e.PetId).HasColumnName("PetID");
 
             entity.HasOne(d => d.Appointment).WithMany(p => p.MedicalRecords)
@@ -204,6 +222,10 @@ public partial class VeterinaryClinicSystemContext : DbContext
             entity.HasOne(d => d.Doctor).WithMany(p => p.MedicalRecords)
                 .HasForeignKey(d => d.DoctorId)
                 .HasConstraintName("FK__MedicalRe__Docto__59063A47");
+
+            entity.HasOne(d => d.Medication).WithMany(p => p.MedicalRecords)
+                .HasForeignKey(d => d.MedicationId)
+                .HasConstraintName("FK_MedicalRecords_Medications");
 
             entity.HasOne(d => d.Pet).WithMany(p => p.MedicalRecords)
                 .HasForeignKey(d => d.PetId)
@@ -239,23 +261,6 @@ public partial class VeterinaryClinicSystemContext : DbContext
             entity.HasOne(d => d.User).WithMany(p => p.Notifications)
                 .HasForeignKey(d => d.UserId)
                 .HasConstraintName("FK__Notificat__UserI__534D60F1");
-        });
-
-        modelBuilder.Entity<CareSchedule>(entity =>
-        {
-            entity.HasKey(e => e.ScheduleId).HasName("PK__CareSche__9C8A5B692268F146");
-
-            entity.Property(e => e.ScheduleId).HasColumnName("ScheduleID");
-            entity.Property(e => e.CareType).HasMaxLength(100);
-            entity.Property(e => e.CreatedAt)
-                .HasDefaultValueSql("(getdate())")
-                .HasColumnType("datetime");
-            entity.Property(e => e.PetId).HasColumnName("PetID");
-
-            entity.HasOne(d => d.Pet).WithMany(p => p.CareSchedules)
-                .HasForeignKey(d => d.PetId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_CareSchedules_Pets");
         });
 
         modelBuilder.Entity<Pet>(entity =>
