@@ -37,6 +37,8 @@ public partial class VeterinaryClinicSystemContext : DbContext
 
     public virtual DbSet<Pet> Pets { get; set; }
 
+    public virtual DbSet<PrescriptionDetail> PrescriptionDetails { get; set; }
+
     public virtual DbSet<Role> Roles { get; set; }
 
     public virtual DbSet<Service> Services { get; set; }
@@ -212,7 +214,6 @@ public partial class VeterinaryClinicSystemContext : DbContext
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime");
             entity.Property(e => e.DoctorId).HasColumnName("DoctorID");
-            entity.Property(e => e.MedicationId).HasColumnName("MedicationID");
             entity.Property(e => e.PetId).HasColumnName("PetID");
 
             entity.HasOne(d => d.Appointment).WithMany(p => p.MedicalRecords)
@@ -222,10 +223,6 @@ public partial class VeterinaryClinicSystemContext : DbContext
             entity.HasOne(d => d.Doctor).WithMany(p => p.MedicalRecords)
                 .HasForeignKey(d => d.DoctorId)
                 .HasConstraintName("FK__MedicalRe__Docto__59063A47");
-
-            entity.HasOne(d => d.Medication).WithMany(p => p.MedicalRecords)
-                .HasForeignKey(d => d.MedicationId)
-                .HasConstraintName("FK_MedicalRecords_Medications");
 
             entity.HasOne(d => d.Pet).WithMany(p => p.MedicalRecords)
                 .HasForeignKey(d => d.PetId)
@@ -281,6 +278,27 @@ public partial class VeterinaryClinicSystemContext : DbContext
             entity.HasOne(d => d.Owner).WithMany(p => p.Pets)
                 .HasForeignKey(d => d.OwnerId)
                 .HasConstraintName("FK__Pets__OwnerID__4222D4EF");
+        });
+
+        modelBuilder.Entity<PrescriptionDetail>(entity =>
+        {
+            entity.HasKey(e => e.PrescriptionId).HasName("PK__Prescrip__401308127BB06D5C");
+
+            entity.Property(e => e.PrescriptionId).HasColumnName("PrescriptionID");
+            entity.Property(e => e.Dosage).HasMaxLength(100);
+            entity.Property(e => e.Instructions).HasMaxLength(255);
+            entity.Property(e => e.MedicationId).HasColumnName("MedicationID");
+            entity.Property(e => e.RecordId).HasColumnName("RecordID");
+
+            entity.HasOne(d => d.Medication).WithMany(p => p.PrescriptionDetails)
+                .HasForeignKey(d => d.MedicationId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_PrescriptionDetails_Medications");
+
+            entity.HasOne(d => d.Record).WithMany(p => p.PrescriptionDetails)
+                .HasForeignKey(d => d.RecordId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_PrescriptionDetails_MedicalRecords");
         });
 
         modelBuilder.Entity<Role>(entity =>
