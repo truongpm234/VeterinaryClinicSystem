@@ -1,25 +1,26 @@
 ﻿using BusinessObject;
 using DataAccessLayer;
+using Repository;
 
 namespace Service
 {
-    public class DoctorDashboardService
+    public class DoctorDashboardService : IDoctorDashboardService
     {
-        private readonly DoctorDashboardDAO _dao;
+        private readonly IDoctorDashboardRepository _doctorDashboardRepository;
 
-        public DoctorDashboardService(DoctorDashboardDAO dao)
+        public DoctorDashboardService(IDoctorDashboardRepository dao)
         {
-            _dao = dao;
+            _doctorDashboardRepository = dao;
         }
 
-        public List<DoctorDashboardItem> GetTodayAppointments(int doctorId)
+        public List<DoctorDashboard> GetTodayAppointments(int doctorId)
         {
-            return _dao.GetTodayAppointments(doctorId);
+            return _doctorDashboardRepository.GetTodayAppointments(doctorId);
         }
 
-        public List<DoctorDashboardItem> GetOngoingCases(int doctorId)
+        public List<DoctorDashboard> GetOngoingCases(int doctorId)
         {
-            return _dao.GetOngoingCases(doctorId);
+            return _doctorDashboardRepository.GetOngoingCases(doctorId);
         }
     }
 }

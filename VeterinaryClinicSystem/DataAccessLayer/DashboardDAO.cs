@@ -14,8 +14,9 @@ namespace DataAccessLayer
             _context = context;
         }
 
-        public DashboardStats GetDashboardStats()
+        public static DashboardStats GetDashboardStats()
         {
+            using var _context = new VeterinaryClinicSystemContext(); // Ensure you have the correct context instance
             var today = DateTime.Today;
             var firstDayOfMonth = new DateTime(today.Year, today.Month, 1);
 
@@ -25,7 +26,10 @@ namespace DataAccessLayer
                     .Count(a => a.AppointmentDate.HasValue && a.AppointmentDate.Value.Date == today),
 
                 TotalAppointmentsThisMonth = _context.Appointments
-                    .Count(a => a.AppointmentDate.HasValue && a.AppointmentDate.Value >= firstDayOfMonth),
+                    .Count(a => a.AppointmentDate.HasValue
+                     && a.AppointmentDate.Value.Month == today.Month
+                        && a.AppointmentDate.Value.Year == today.Year),
+
 
                 RevenueToday = _context.Appointments
                     .Where(a => a.AppointmentDate.HasValue && a.AppointmentDate.Value.Date == today)
@@ -37,6 +41,27 @@ namespace DataAccessLayer
             };
 
             return stats;
+        }
+
+       
+
+
+        public static List<DoctorDashboard> GetTodayAppointments(int doctorId)
+        {
+
+            
+            var appointments = new List<DoctorDashboard>();
+
+         
+
+            return appointments; 
+        }
+
+        public static List<DoctorDashboard> GetOngoingCases(int doctorId)
+        {
+            var ongoingCases = new List<DoctorDashboard>();
+            // your implementation here
+            return ongoingCases;
         }
     }
 }
