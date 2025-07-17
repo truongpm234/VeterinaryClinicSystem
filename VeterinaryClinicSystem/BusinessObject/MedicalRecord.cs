@@ -15,7 +15,7 @@ public partial class MedicalRecord
 
     public string? Diagnosis { get; set; }
 
-    public string? TestResults { get; set; }
+    public string? MedicationDetails { get; set; }
 
     public DateOnly? FollowUpDate { get; set; }
 
