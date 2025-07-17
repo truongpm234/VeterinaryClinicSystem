@@ -30,9 +30,9 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddScoped<IServicesRepository, ServicesRepository>();
 
-            builder.Services.AddScoped<IDoctorsService, DoctorsService>();
-
             builder.Services.AddScoped<IDoctorsRepository, DoctorsRepository>();
+
+            builder.Services.AddScoped<IDoctorsService, DoctorsService>();
 
             builder.Services.AddScoped<IBlogPostsService, BlogPostsService>();
 
@@ -48,14 +48,6 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddScoped<IInventoryTransactionService, InventoryTransactionService>();
 
-            builder.Services.AddScoped<DoctorDashboardDAO>();
-
-            builder.Services.AddScoped<DoctorDashboardService>();
-
-            builder.Services.AddScoped<DashboardDAO>();
-
-            builder.Services.AddScoped<IDashboardService, DashboardService>();
-
             builder.Services.AddScoped<IAppointmentRepository, AppointmentRepository>();
 
             builder.Services.AddScoped<IAppointmentService, AppointmentService>();
@@ -63,6 +55,28 @@ namespace VeterinaryClinicSystem
             builder.Services.AddScoped<IPetRepository, PetRepository>();
 
             builder.Services.AddScoped<IPetService, PetService>();
+
+            builder.Services.AddScoped<IDashboardRepository, DashboardRepository>();
+
+            builder.Services.AddScoped<IDashboardService, DashboardService>();
+
+            builder.Services.AddScoped<IAppointmentRepository, AppointmentRepository>();
+
+            builder.Services.AddScoped<IAppointmentService, AppointmentService>();
+
+            builder.Services.AddScoped<IFeedbackRepository, FeedbackRepository>();
+
+            builder.Services.AddScoped<IFeedbackService, FeedbackService>();
+
+            builder.Services.AddScoped<IDoctorDashboardService, DoctorDashboardService>();
+
+            builder.Services.AddScoped<IDoctorDashboardRepository, DoctorDashboardRepository>();
+
+
+
+
+
+
 
 
 
