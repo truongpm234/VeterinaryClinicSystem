@@ -15,23 +15,17 @@ public partial class MedicalRecord
 
     public string? Diagnosis { get; set; }
 
-    public string? MedicationDetails { get; set; }
-
     public DateOnly? FollowUpDate { get; set; }
 
     public DateTime? CreatedAt { get; set; }
 
     public bool? IsFollow { get; set; }
 
-    public int? Amount { get; set; }
-
-    public int? MedicationId { get; set; }
-
     public virtual Appointment? Appointment { get; set; }
 
     public virtual Doctor? Doctor { get; set; }
 
-    public virtual Medication? Medication { get; set; }
-
     public virtual Pet? Pet { get; set; }
+
+    public virtual ICollection<PrescriptionDetail> PrescriptionDetails { get; set; } = new List<PrescriptionDetail>();
 }
