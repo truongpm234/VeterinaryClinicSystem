@@ -22,6 +22,7 @@ else
                 <th>Ca</th>
                 <th>Ghi chú</th>
                 <th>Trạng thái</th>
+                <th>Hóa đơn</th>
             </tr>
         </thead>
         <tbody>
@@ -35,6 +36,30 @@ else
                     <td>Ca @a.Shift</td>
                     <td>@a.Note</td>
                     <td>@a.Status</td>
+                    <td>
+                        @{
+                            var shiftEndTime = a.AppointmentDate;
+                            if (a.Shift == 1) shiftEndTime = a.AppointmentDate?.AddHours(8.5);
+                            else if (a.Shift == 2) shiftEndTime = a.AppointmentDate?.AddHours(10);
+                            else if (a.Shift == 3) shiftEndTime = a.AppointmentDate?.AddHours(11.5);
+                            else if (a.Shift == 4) shiftEndTime = a.AppointmentDate?.AddHours(15);
+                            else if (a.Shift == 5) shiftEndTime = a.AppointmentDate?.AddHours(16.5);
+                        }
+
+                        @if (a.Status == "Đặt lịch thành công" && shiftEndTime.HasValue && shiftEndTime.Value < DateTime.Now)
+                        {
+                            <a class="btn btn-sm btn-outline-success"
+                               asp-page="/Customers/BillAppointment"
+                               asp-route-appointmentId="@a.AppointmentId">
+                                💳 Xem hóa đơn
+                            </a>
+                        }
+                        else
+                        {
+                            <span class="text-muted">Chưa hoàn thành</span>
+                        }
+
+                    </td>
                 </tr>
             }
         </tbody>

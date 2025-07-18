@@ -95,6 +95,9 @@
                                     @if (Context.Session.GetString("Role") == "Customer")
                                     {
                                         <li><a class="dropdown-item" href="/Customers/Profile">Profile Information</a></li>
+                                        @* <li><a class="dropdown-item" href="/Customers/BillAppointment">View Bill</a></li> *@
+                                        <li><a class="dropdown-item" href="/Appointments/History">Lịch sử lịch hẹn</a></li>
+
                                         <li><hr class="dropdown-divider" /></li>
                                     }
                                     @if (Context.Session.GetString("Role") == "Manager")
