@@ -97,3 +97,23 @@ E:\Telee\Teleee\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\
 E:\Telee\Teleee\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\refint\Service.dll
 E:\Telee\Teleee\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\Service.pdb
 E:\Telee\Teleee\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\ref\Service.dll
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\bin\Debug\net8.0\Service.deps.json
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\bin\Debug\net8.0\Service.dll
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\bin\Debug\net8.0\Service.pdb
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\bin\Debug\net8.0\BusinessObject.dll
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\bin\Debug\net8.0\Repository.dll
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\bin\Debug\net8.0\Repository.pdb
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\bin\Debug\net8.0\BusinessObject.pdb
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\Service.csproj.AssemblyReference.cache
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\Service.AssemblyInfoInputs.cache
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\Service.AssemblyInfo.cs
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\Service.csproj.CoreCompileInputs.cache
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\Service.sourcelink.json
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\Service.csproj.Up2Date
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\Service.dll
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\refint\Service.dll
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\Service.pdb
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\Service\obj\Debug\net8.0\ref\Service.dll

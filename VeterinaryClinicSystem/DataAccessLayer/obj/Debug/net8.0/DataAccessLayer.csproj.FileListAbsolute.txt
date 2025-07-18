@@ -77,3 +77,19 @@ E:\Telee\Teleee\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\ob
 E:\Telee\Teleee\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
 E:\Telee\Teleee\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
 E:\Telee\Teleee\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\bin\Debug\net8.0\BusinessObject.dll
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\bin\Debug\net8.0\BusinessObject.pdb
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\obj\Debug\net8.0\DataAcce.E67BD773.Up2Date
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+C:\Chuyên ngành\chuyên ngành 6\prn222\Backupbackup\VeterinaryClinicSystem\VeterinaryClinicSystem\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll

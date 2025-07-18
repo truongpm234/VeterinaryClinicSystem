@@ -1,0 +1,30 @@
+﻿@page "{petId:int}"
+@model VeterinaryClinicSystem.Pages.MedicalRecords.PetRecordsModel
+
+@{
+    ViewData["Title"] = "Hồ sơ bệnh án của thú cưng";
+}
+
+<h2>Hồ sơ bệnh án của @Model.PetName</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Mã hồ sơ</th>
+            <th>Chẩn đoán</th>
+            <th>Ngày tái khám</th>
+            <th>Theo dõi</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var record in Model.Records)
+        {
+            <tr>
+                <td>@record.RecordId</td>
+                <td>@record.Diagnosis</td>
+                <td>@(record.FollowUpDate.HasValue ? record.FollowUpDate.Value.ToString("yyyy-MM-dd") : "Không")</td>
+                <td>@(record.IsFollow == true ? "Có" : "Không")</td>
+            </tr>
+        }
+    </tbody>
+</table>
