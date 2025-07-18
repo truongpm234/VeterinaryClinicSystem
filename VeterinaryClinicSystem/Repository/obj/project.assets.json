@@ -9375,23 +9375,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ACER\\.nuget\\packages\\": {},
+    "C:\\Users\\ghoul\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Chuyên ngành\\chuyên ngành 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
+      "projectUniqueName": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Chuyên ngành\\chuyên ngành 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
-      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\Chuyên ngành\\chuyên ngành 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\obj\\",
+      "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
+      "packagesPath": "C:\\Users\\ghoul\\.nuget\\packages\\",
+      "outputPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ghoul\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9407,8 +9407,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Chuyên ngành\\chuyên ngành 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Chuyên ngành\\chuyên ngành 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj"
+            "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj"
             }
           }
         }
@@ -9422,7 +9422,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -9449,7 +9450,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
