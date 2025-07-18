@@ -29,6 +29,7 @@
             <th>Bác sĩ</th>
             <th>Ngày</th>
             <th>Ca</th>
+            <th>Note</th>
             <th>Action</th>
         </tr>
     </thead>
@@ -42,7 +43,19 @@
 
             // Check if there's a schedule conflict
             var hasConflict = Model.CheckScheduleConflict(a.DoctorId, a.AppointmentDate, a.Shift);
-            var isPastAppointment = a.AppointmentDate < DateTime.Now;
+            DateTime appointmentDateTime = a.AppointmentDate?.Date ?? DateTime.MinValue;
+
+            appointmentDateTime = a.Shift switch
+            {
+                1 => appointmentDateTime.AddHours(8).AddMinutes(30),
+                2 => appointmentDateTime.AddHours(10),                
+                3 => appointmentDateTime.AddHours(11).AddMinutes(30),
+                4 => appointmentDateTime.AddHours(15),                
+                5 => appointmentDateTime.AddHours(16).AddMinutes(30), 
+                _ => appointmentDateTime
+            };
+
+            var isPastAppointment = DateTime.Now > appointmentDateTime;
 
             <tr>
                 <td>@a.AppointmentId</td>
@@ -51,6 +64,7 @@
                 <td>@a.Doctor?.DoctorNavigation?.FullName</td>
                 <td>@a.AppointmentDate?.ToString("dd/MM/yyyy")</td>
                 <td>Ca @a.Shift</td>
+                <td>@a.Note</td>
                 <td><span class="@css">@status</span></td>
                 <td>
                     @if (status == "Đang xử lý")
