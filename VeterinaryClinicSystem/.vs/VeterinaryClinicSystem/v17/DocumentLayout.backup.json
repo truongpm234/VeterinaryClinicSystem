@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\medicalrecords\\petslist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|c:\\chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\backupbackup\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\medicalrecordsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\medicalrecordsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|c:\\chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\backupbackup\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\medicalrecords\\petslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\medicalrecords\\petslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|c:\\chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\backupbackup\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\medicalrecords\\petrecords.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\medicalrecords\\petrecords.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|c:\\chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\backupbackup\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\medicalrecordsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\medicalrecordsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|c:\\chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\backupbackup\\veterinaryclinicsystem\\veterinaryclinicsystem\\businessobject\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -692,20 +692,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MedicalRecordsDAO.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\MedicalRecordsDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\MedicalRecordsDAO.cs",
               "ToolTip": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\MedicalRecordsDAO.cs",
               "RelativeToolTip": "DataAccessLayer\\MedicalRecordsDAO.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAkwGUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAwwGEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T05:44:45.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T05:44:45.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PetRecords.cshtml.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetRecords.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetRecords.cshtml.cs",
@@ -713,8 +712,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetRecords.cshtml.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAkwBUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T05:41:43.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T05:41:43.275Z"
             },
             {
               "$type": "Document",
@@ -724,14 +722,14 @@
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml.cs",
               "ToolTip": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml.cs",
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T05:01:31.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PetsList.cshtml",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml",
@@ -739,8 +737,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml",
               "ViewState": "AgIAACIAAAAAAAAAAADwvzAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T05:01:03.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T05:01:03.219Z"
             },
             {
               "$type": "Document",
@@ -764,8 +761,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-27T11:37:05.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T11:37:05.277Z"
             },
             {
               "$type": "Document",
@@ -777,8 +773,7 @@
               "RelativeToolTip": "DataAccessLayer\\AppointmentDAO.cs",
               "ViewState": "AgIAAMQAAAAAAAAAAAAAwNcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T05:03:40.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T05:03:40.169Z"
             },
             {
               "$type": "Document",
@@ -790,8 +785,7 @@
               "RelativeToolTip": "BusinessObject\\Appointment.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAiwBMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T09:50:33.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T09:50:33.69Z"
             },
             {
               "$type": "Document",
@@ -803,12 +797,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\Create.cshtml.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowDEAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T05:41:56.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "WhenOpened": "2025-07-18T05:41:56.558Z"
             },
             {
               "$type": "Document",
@@ -820,8 +809,7 @@
               "RelativeToolTip": "DataAccessLayer\\PetDAO.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAgwE8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T05:06:42.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T05:06:42.43Z"
             },
             {
               "$type": "Document",
@@ -845,8 +833,7 @@
               "RelativeToolTip": "DataAccessLayer\\ServiceDAO.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAswA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T05:54:57.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T05:54:57.466Z"
             },
             {
               "$type": "Document",
@@ -870,8 +857,7 @@
               "RelativeToolTip": "BusinessObject\\BlogPost.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:48:33.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:48:33.142Z"
             },
             {
               "$type": "Document",

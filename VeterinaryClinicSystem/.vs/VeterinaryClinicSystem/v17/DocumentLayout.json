@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|c:\\chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\backupbackup\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\medicalrecords\\petslist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\medicalrecords\\petslist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|c:\\chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\backupbackup\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\medicalrecordsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\medicalrecordsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|c:\\chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\backupbackup\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\medicalrecords\\petslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\medicalrecords\\petslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|c:\\chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\backupbackup\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\blogpostsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\blogpostsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|c:\\chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\backupbackup\\veterinaryclinicsystem\\veterinaryclinicsystem\\businessobject\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|c:\\chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\backupbackup\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\medicalrecords\\petslist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\medicalrecords\\petslist.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|c:\\chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\backupbackup\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\medicalrecords\\petrecords.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -201,14 +209,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|c:\\chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\backupbackup\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\doctordashboarddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\doctordashboarddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|c:\\chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\backupbackup\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\blogpostsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\blogpostsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|c:\\chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\backupbackup\\veterinaryclinicsystem\\veterinaryclinicsystem\\businessobject\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB3AA3CE-4D88-4BCF-8E5E-0FA916549746}|BusinessObject\\BusinessObject.csproj|c:\\chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\backupbackup\\veterinaryclinicsystem\\veterinaryclinicsystem\\businessobject\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -676,7 +676,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 1144,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -691,64 +691,34 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MedicalRecordsDAO.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\MedicalRecordsDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\MedicalRecordsDAO.cs",
               "ToolTip": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\MedicalRecordsDAO.cs",
               "RelativeToolTip": "DataAccessLayer\\MedicalRecordsDAO.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAwwGEAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAqwGgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T05:44:45.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PetRecords.cshtml.cs",
-              "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetRecords.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetRecords.cshtml.cs",
-              "ToolTip": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetRecords.cshtml.cs",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetRecords.cshtml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T05:41:43.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PetsList.cshtml.cs",
-              "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml.cs",
-              "ToolTip": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml.cs",
-              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T05:01:31.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PetsList.cshtml",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml",
               "ToolTip": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml",
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml",
-              "ViewState": "AgIAACIAAAAAAAAAAADwvzAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAB0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-18T05:01:03.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Shared\\_Layout.cshtml",
@@ -760,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\appsettings.json",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\appsettings.json",
@@ -768,12 +738,11 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-27T11:37:05.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T11:37:05.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AppointmentDAO.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\AppointmentDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\AppointmentDAO.cs",
@@ -781,12 +750,62 @@
               "RelativeToolTip": "DataAccessLayer\\AppointmentDAO.cs",
               "ViewState": "AgIAAMQAAAAAAAAAAAAAwNcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T05:03:40.169Z",
+              "WhenOpened": "2025-07-15T05:03:40.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\User.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\User.cs",
+              "ToolTip": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\User.cs",
+              "RelativeToolTip": "BusinessObject\\User.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA0wCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T01:48:44.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlogPostsDAO.cs",
+              "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\BlogPostsDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\BlogPostsDAO.cs",
+              "ToolTip": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\BlogPostsDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\BlogPostsDAO.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwCMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T12:26:49.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "PetsList.cshtml.cs",
+              "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml.cs",
+              "ToolTip": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T05:01:31.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PetRecords.cshtml.cs",
+              "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetRecords.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetRecords.cshtml.cs",
+              "ToolTip": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetRecords.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetRecords.cshtml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T05:41:43.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Appointment.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\Appointment.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Appointment.cs",
@@ -794,12 +813,11 @@
               "RelativeToolTip": "BusinessObject\\Appointment.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAiwBMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T09:50:33.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T09:50:33.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\MedicalRecords\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\Create.cshtml.cs",
@@ -807,12 +825,11 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\Create.cshtml.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowDEAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T05:41:56.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T05:41:56.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "PetDAO.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\PetDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\PetDAO.cs",
@@ -820,12 +837,11 @@
               "RelativeToolTip": "DataAccessLayer\\PetDAO.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAgwE8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T05:06:42.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T05:06:42.43Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Error.cshtml",
@@ -837,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ServiceDAO.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\ServiceDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\ServiceDAO.cs",
@@ -845,12 +861,11 @@
               "RelativeToolTip": "DataAccessLayer\\ServiceDAO.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAswA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T05:54:57.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T05:54:57.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Repository.csproj",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
               "RelativeDocumentMoniker": "Repository\\Repository.csproj",
@@ -862,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "BlogPost.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BlogPost.cs",
               "RelativeDocumentMoniker": "BusinessObject\\BlogPost.cs",
@@ -870,12 +885,11 @@
               "RelativeToolTip": "BusinessObject\\BlogPost.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:48:33.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:48:33.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "MedicationDAO.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\MedicationDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\MedicationDAO.cs",
@@ -887,7 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "PrescriptionDetail.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\PrescriptionDetail.cs",
               "RelativeDocumentMoniker": "BusinessObject\\PrescriptionDetail.cs",
@@ -899,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Medication.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\Medication.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Medication.cs",
@@ -911,7 +925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "MedicalRecord.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\MedicalRecord.cs",
               "RelativeDocumentMoniker": "BusinessObject\\MedicalRecord.cs",
@@ -923,7 +937,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "MedicalRecordRepository.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\MedicalRecordRepository.cs",
               "RelativeDocumentMoniker": "Repository\\MedicalRecordRepository.cs",
@@ -935,7 +949,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "DoctorDashboardService.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\DoctorDashboardService.cs",
               "RelativeDocumentMoniker": "Service\\DoctorDashboardService.cs",
@@ -947,7 +961,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Authentication.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\Authentication.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Authentication.cs",
@@ -959,7 +973,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "IMedicalRecordRepository.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IMedicalRecordRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IMedicalRecordRepository.cs",
@@ -971,7 +985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "IDoctorDashboardRepository.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IDoctorDashboardRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IDoctorDashboardRepository.cs",
@@ -983,7 +997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "IDoctorDashboardService.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IDoctorDashboardService.cs",
               "RelativeDocumentMoniker": "Service\\IDoctorDashboardService.cs",
@@ -995,7 +1009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Program.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Program.cs",
@@ -1007,7 +1021,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "IMedicalRecordService.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IMedicalRecordService.cs",
               "RelativeDocumentMoniker": "Service\\IMedicalRecordService.cs",
@@ -1019,7 +1033,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "BillDetail.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\Models\\BillDetail.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Models\\BillDetail.cs",
@@ -1031,7 +1045,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "DashboardDAO.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DashboardDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\DashboardDAO.cs",
@@ -1043,7 +1057,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "DoctorDashboard.cshtml.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\Doctors\\DoctorDashboard.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\Doctors\\DoctorDashboard.cshtml.cs",
@@ -1055,7 +1069,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "DashboardStats.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\Models\\DashboardStats.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Models\\DashboardStats.cs",
@@ -1067,7 +1081,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "DashboardRepository.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\DashboardRepository.cs",
               "RelativeDocumentMoniker": "Repository\\DashboardRepository.cs",
@@ -1079,7 +1093,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "IDashboardService.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\IDashboardService.cs",
               "RelativeDocumentMoniker": "Service\\IDashboardService.cs",
@@ -1091,7 +1105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "DashboardService.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\DashboardService.cs",
               "RelativeDocumentMoniker": "Service\\DashboardService.cs",
@@ -1103,7 +1117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "FeedbackService.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\FeedbackService.cs",
               "RelativeDocumentMoniker": "Service\\FeedbackService.cs",
@@ -1115,7 +1129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "IDashboardRepository.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IDashboardRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IDashboardRepository.cs",
@@ -1127,7 +1141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "IAuthenticationRepository.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IAuthenticationRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IAuthenticationRepository.cs",
@@ -1139,7 +1153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "IAppointmentRepository.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\IAppointmentRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IAppointmentRepository.cs",
@@ -1151,7 +1165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "FeedbackRepository.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\FeedbackRepository.cs",
               "RelativeDocumentMoniker": "Repository\\FeedbackRepository.cs",
@@ -1163,7 +1177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "DoctorsRepository.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\DoctorsRepository.cs",
               "RelativeDocumentMoniker": "Repository\\DoctorsRepository.cs",
@@ -1175,7 +1189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "DoctorDashboardRepository.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\DoctorDashboardRepository.cs",
               "RelativeDocumentMoniker": "Repository\\DoctorDashboardRepository.cs",
@@ -1187,7 +1201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "BlogPostsRepository.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\BlogPostsRepository.cs",
               "RelativeDocumentMoniker": "Repository\\BlogPostsRepository.cs",
@@ -1199,7 +1213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "AuthenticationRepository.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\AuthenticationRepository.cs",
               "RelativeDocumentMoniker": "Repository\\AuthenticationRepository.cs",
@@ -1211,7 +1225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "AppointmentRepository.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\AppointmentRepository.cs",
               "RelativeDocumentMoniker": "Repository\\AppointmentRepository.cs",
@@ -1223,7 +1237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "VeterinaryClinicSystemContext.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\VeterinaryClinicSystemContext.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\VeterinaryClinicSystemContext.cs",
@@ -1235,7 +1249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "UserDAO.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\UserDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\UserDAO.cs",
@@ -1247,7 +1261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "InventoryTransactionDAO.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\InventoryTransactionDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\InventoryTransactionDAO.cs",
@@ -1259,7 +1273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "FeedbackDAO.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\FeedbackDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\FeedbackDAO.cs",
@@ -1271,7 +1285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "DoctorsDAO.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DoctorsDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\DoctorsDAO.cs",
@@ -1283,7 +1297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "DoctorDashboardDAO.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DoctorDashboardDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\DoctorDashboardDAO.cs",
@@ -1295,7 +1309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "MedicalRecordDAO.cs",
               "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\MedicalRecordDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\MedicalRecordDAO.cs",
@@ -1304,18 +1318,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T10:44:33.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\User.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\User.cs",
-              "ToolTip": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\User.cs",
-              "RelativeToolTip": "BusinessObject\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:48:44.099Z"
             },
             {
               "$type": "Document",
@@ -1364,18 +1366,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T01:48:39.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "BlogPostsDAO.cs",
-              "DocumentMoniker": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\BlogPostsDAO.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\BlogPostsDAO.cs",
-              "ToolTip": "C:\\Chuy\u00EAn ng\u00E0nh\\chuy\u00EAn ng\u00E0nh 6\\prn222\\Backupbackup\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\BlogPostsDAO.cs",
-              "RelativeToolTip": "DataAccessLayer\\BlogPostsDAO.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAkwCMAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T12:26:49.635Z"
             },
             {
               "$type": "Document",
