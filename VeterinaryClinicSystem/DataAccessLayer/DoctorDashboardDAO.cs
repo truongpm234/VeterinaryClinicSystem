@@ -1,4 +1,5 @@
-﻿using BusinessObject.Models;
+﻿using BusinessObject;
+using BusinessObject.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer
@@ -11,13 +12,14 @@ namespace DataAccessLayer
         {
             _context = context;
         }
-        public List<DoctorDashboardItem> GetTodayAppointments(int doctorId)
+        public static List<DoctorDashboard> GetTodayAppointments(int doctorId)
         {
+            using var context = new VeterinaryClinicSystemContext();
             var today = DateTime.Today;
 
-            return _context.Appointments
+            return context.Appointments
                 .Where(a => a.DoctorId == doctorId && a.AppointmentDate.HasValue && a.AppointmentDate.Value.Date == today)
-                .Select(a => new DoctorDashboardItem
+                .Select(a => new DoctorDashboard
                 {
                     AppointmentId = a.AppointmentId,
                     PatientName = a.Owner != null ? a.Owner.FullName : "N/A",
@@ -31,11 +33,12 @@ namespace DataAccessLayer
 
 
 
-        public List<DoctorDashboardItem> GetOngoingCases(int doctorId)
+        public static List<DoctorDashboard> GetOngoingCases(int doctorId)
         {
-            return _context.MedicalRecords
+            using var context = new VeterinaryClinicSystemContext();
+            return context.MedicalRecords
                 //.Where(m => m.DoctorId == doctorId && m.IsCompleted != true)
-                .Select(m => new DoctorDashboardItem
+                .Select(m => new DoctorDashboard
                 {
                     MedicalRecordId = m.RecordId,
                     PatientName = m.Pet != null ? m.Pet.Name : // Fixed: Use 'Name' instead of 'PetName'
