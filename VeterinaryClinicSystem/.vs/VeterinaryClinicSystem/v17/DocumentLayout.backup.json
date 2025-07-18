@@ -681,8 +681,7 @@
               "RelativeToolTip": "Repository\\IMedicalRecordRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T10:46:57.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T10:46:57.549Z"
             },
             {
               "$type": "Document",
@@ -694,8 +693,7 @@
               "RelativeToolTip": "Repository\\MedicalRecordRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T10:45:35.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T10:45:35.329Z"
             },
             {
               "$type": "Document",
@@ -707,8 +705,7 @@
               "RelativeToolTip": "Service\\DoctorDashboardService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T15:03:32.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T15:03:32.096Z"
             },
             {
               "$type": "Document",
@@ -720,8 +717,7 @@
               "RelativeToolTip": "DataAccessLayer\\Authentication.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAiwCYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:02:17.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T14:02:17.382Z"
             },
             {
               "$type": "Document",
@@ -733,8 +729,7 @@
               "RelativeToolTip": "DataAccessLayer\\ServiceDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T05:54:57.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T05:54:57.466Z"
             },
             {
               "$type": "Document",
@@ -742,8 +737,8 @@
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\appsettings.json",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\appsettings.json",
-              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\appsettings.json*",
-              "RelativeToolTip": "VeterinaryClinicSystem\\appsettings.json*",
+              "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\appsettings.json",
+              "RelativeToolTip": "VeterinaryClinicSystem\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-06-27T11:37:05.277Z",
@@ -759,8 +754,7 @@
               "RelativeToolTip": "Repository\\IDoctorDashboardRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:54:04.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:54:04.067Z"
             },
             {
               "$type": "Document",
@@ -772,8 +766,7 @@
               "RelativeToolTip": "Service\\IDoctorDashboardService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:54:11.669Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:54:11.669Z"
             },
             {
               "$type": "Document",
@@ -785,8 +778,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Program.cs",
               "ViewState": "AgIAAIcAAAAAAAAAAAAWwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T12:22:48.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T12:22:48.135Z"
             },
             {
               "$type": "Document",
@@ -798,8 +790,7 @@
               "RelativeToolTip": "Service\\IMedicalRecordService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T10:48:42.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T10:48:42.643Z"
             },
             {
               "$type": "Document",
@@ -811,8 +802,7 @@
               "RelativeToolTip": "BusinessObject\\Models\\BillDetail.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAcwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T12:32:05.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T12:32:05.571Z"
             },
             {
               "$type": "Document",
@@ -824,8 +814,7 @@
               "RelativeToolTip": "DataAccessLayer\\DashboardDAO.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAuwDUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:48:50.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:48:50.364Z"
             },
             {
               "$type": "Document",
@@ -837,8 +826,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Doctors\\DoctorDashboard.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T15:09:27.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T15:09:27.291Z"
             },
             {
               "$type": "Document",
@@ -850,8 +838,7 @@
               "RelativeToolTip": "BusinessObject\\Models\\DashboardStats.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T11:10:56.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T11:10:56.271Z"
             },
             {
               "$type": "Document",
@@ -863,8 +850,7 @@
               "RelativeToolTip": "Repository\\DashboardRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T14:59:04.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T14:59:04.145Z"
             },
             {
               "$type": "Document",
@@ -876,8 +862,7 @@
               "RelativeToolTip": "Service\\IDashboardService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T15:02:58.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T15:02:58.333Z"
             },
             {
               "$type": "Document",
@@ -889,8 +874,7 @@
               "RelativeToolTip": "Service\\DashboardService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T15:02:30.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T15:02:30.239Z"
             },
             {
               "$type": "Document",
@@ -902,8 +886,7 @@
               "RelativeToolTip": "Service\\FeedbackService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T15:04:13.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T15:04:13.89Z"
             },
             {
               "$type": "Document",
@@ -915,8 +898,7 @@
               "RelativeToolTip": "Repository\\IDashboardRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T15:01:01.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T15:01:01.016Z"
             },
             {
               "$type": "Document",
@@ -928,8 +910,7 @@
               "RelativeToolTip": "Repository\\IAuthenticationRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:14:07.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T14:14:07.59Z"
             },
             {
               "$type": "Document",
@@ -941,8 +922,7 @@
               "RelativeToolTip": "Repository\\IAppointmentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwB0AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T04:44:05.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T04:44:05.131Z"
             },
             {
               "$type": "Document",
@@ -954,8 +934,7 @@
               "RelativeToolTip": "Repository\\FeedbackRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T15:00:05.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T15:00:05.248Z"
             },
             {
               "$type": "Document",
@@ -967,8 +946,7 @@
               "RelativeToolTip": "Repository\\DoctorsRepository.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAcwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T09:37:03.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T09:37:03.388Z"
             },
             {
               "$type": "Document",
@@ -980,8 +958,7 @@
               "RelativeToolTip": "Repository\\DoctorDashboardRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:49:46.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:49:46.409Z"
             },
             {
               "$type": "Document",
@@ -993,8 +970,7 @@
               "RelativeToolTip": "Repository\\BlogPostsRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T12:28:59.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T12:28:59.349Z"
             },
             {
               "$type": "Document",
@@ -1006,8 +982,7 @@
               "RelativeToolTip": "Repository\\AuthenticationRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T14:14:15.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T14:14:15.469Z"
             },
             {
               "$type": "Document",
@@ -1019,8 +994,7 @@
               "RelativeToolTip": "Repository\\AppointmentRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAiwB8AAACEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T04:43:33.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T04:43:33.347Z"
             },
             {
               "$type": "Document",
@@ -1032,8 +1006,7 @@
               "RelativeToolTip": "DataAccessLayer\\VeterinaryClinicSystemContext.cs",
               "ViewState": "AgIAADUBAAAAAAAAAAAwwFgBAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T14:10:16.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T14:10:16.166Z"
             },
             {
               "$type": "Document",
@@ -1045,8 +1018,7 @@
               "RelativeToolTip": "DataAccessLayer\\UserDAO.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAkwBMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T04:16:56.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T04:16:56.061Z"
             },
             {
               "$type": "Document",
@@ -1058,8 +1030,7 @@
               "RelativeToolTip": "DataAccessLayer\\PetDAO.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAkwE8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T05:06:42.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T05:06:42.43Z"
             },
             {
               "$type": "Document",
@@ -1071,8 +1042,7 @@
               "RelativeToolTip": "DataAccessLayer\\MedicationDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:49:35.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:49:35.607Z"
             },
             {
               "$type": "Document",
@@ -1084,8 +1054,7 @@
               "RelativeToolTip": "DataAccessLayer\\InventoryTransactionDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T06:02:36.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-07T06:02:36.89Z"
             },
             {
               "$type": "Document",
@@ -1097,8 +1066,7 @@
               "RelativeToolTip": "DataAccessLayer\\FeedbackDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T14:57:50.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T14:57:50.308Z"
             },
             {
               "$type": "Document",
@@ -1110,8 +1078,7 @@
               "RelativeToolTip": "DataAccessLayer\\DoctorsDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T09:31:55.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T09:31:55.201Z"
             },
             {
               "$type": "Document",
@@ -1123,8 +1090,7 @@
               "RelativeToolTip": "DataAccessLayer\\DoctorDashboardDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T14:56:54.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T14:56:54.332Z"
             },
             {
               "$type": "Document",
@@ -1136,8 +1102,7 @@
               "RelativeToolTip": "DataAccessLayer\\MedicalRecordDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T10:44:33.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T10:44:33.157Z"
             },
             {
               "$type": "Document",
@@ -1149,8 +1114,7 @@
               "RelativeToolTip": "DataAccessLayer\\AppointmentDAO.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAgwEoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T05:03:40.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T05:03:40.169Z"
             },
             {
               "$type": "Document",
@@ -1162,8 +1126,7 @@
               "RelativeToolTip": "BusinessObject\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:48:44.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:48:44.099Z"
             },
             {
               "$type": "Document",
@@ -1175,8 +1138,7 @@
               "RelativeToolTip": "BusinessObject\\Service.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T10:40:54.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T10:40:54.285Z"
             },
             {
               "$type": "Document",
@@ -1188,8 +1150,7 @@
               "RelativeToolTip": "BusinessObject\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:48:42.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:48:42.285Z"
             },
             {
               "$type": "Document",
@@ -1201,8 +1162,7 @@
               "RelativeToolTip": "BusinessObject\\PrescriptionDetail.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T09:50:36.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T09:50:36.165Z"
             },
             {
               "$type": "Document",
@@ -1214,8 +1174,7 @@
               "RelativeToolTip": "BusinessObject\\Pet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:48:40.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:48:40.417Z"
             },
             {
               "$type": "Document",
@@ -1227,8 +1186,7 @@
               "RelativeToolTip": "BusinessObject\\Notification.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:48:39.416Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:48:39.416Z"
             },
             {
               "$type": "Document",
@@ -1240,8 +1198,7 @@
               "RelativeToolTip": "DataAccessLayer\\BlogPostsDAO.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAkwCMAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T12:26:49.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T12:26:49.635Z"
             },
             {
               "$type": "Document",
@@ -1253,8 +1210,7 @@
               "RelativeToolTip": "BusinessObject\\InventoryTransaction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:48:36.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:48:36.471Z"
             },
             {
               "$type": "Document",
@@ -1266,8 +1222,7 @@
               "RelativeToolTip": "BusinessObject\\Feedback.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:48:35.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:48:35.803Z"
             },
             {
               "$type": "Document",
@@ -1279,8 +1234,7 @@
               "RelativeToolTip": "BusinessObject\\DoctorSchedule.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:48:35.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:48:35.073Z"
             },
             {
               "$type": "Document",
@@ -1292,8 +1246,7 @@
               "RelativeToolTip": "BusinessObject\\Doctor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:48:34.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:48:34.228Z"
             },
             {
               "$type": "Document",
@@ -1305,8 +1258,7 @@
               "RelativeToolTip": "BusinessObject\\BlogPost.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:48:33.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:48:33.142Z"
             },
             {
               "$type": "Document",
@@ -1318,8 +1270,7 @@
               "RelativeToolTip": "BusinessObject\\MedicalRecord.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T10:04:23.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T10:04:23.696Z"
             },
             {
               "$type": "Document",
@@ -1331,8 +1282,7 @@
               "RelativeToolTip": "BusinessObject\\Medication.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T10:04:27.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T10:04:27.303Z"
             },
             {
               "$type": "Document",
@@ -1344,8 +1294,7 @@
               "RelativeToolTip": "Service\\MedicalRecordService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T10:48:02.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T10:48:02.86Z"
             },
             {
               "$type": "Document",
@@ -1357,8 +1306,7 @@
               "RelativeToolTip": "BusinessObject\\Appointment.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAA0wCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T09:50:33.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T09:50:33.69Z"
             },
             {
               "$type": "Document",
@@ -1370,8 +1318,7 @@
               "RelativeToolTip": "BusinessObject\\CareSchedule.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T12:23:44.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T12:23:44.684Z"
             },
             {
               "$type": "Document",
