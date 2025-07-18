@@ -128,6 +128,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlcnNcUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/MedicalRecords/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNhbFJlY29yZHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/MedicalRecords/PetRecords.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNhbFJlY29yZHNcUGV0UmVjb3Jkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/MedicalRecords/PetsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNhbFJlY29yZHNcUGV0c0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/SE_SUMMER2025_S7/PRN222/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Pets/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGV0c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
