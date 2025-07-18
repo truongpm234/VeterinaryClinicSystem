@@ -20,7 +20,6 @@ namespace VeterinaryClinicSystem.Pages.MedicalRecords
             }
             else
             {
-                // N?u Pet ch?a có MedicalRecord, l?y tên Pet luôn cho an toàn:
                 var pet = PetDAO.GetPetById(petId);
                 PetName = pet?.Name ?? "";
             }
