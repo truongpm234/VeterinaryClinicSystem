@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using BusinessObject;
+﻿using BusinessObject;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using System;
+using System.Collections.Generic;
 
 namespace DataAccessLayer;
 
@@ -36,6 +36,8 @@ public partial class VeterinaryClinicSystemContext : DbContext
     public virtual DbSet<Notification> Notifications { get; set; }
 
     public virtual DbSet<Pet> Pets { get; set; }
+
+    public virtual DbSet<PrescriptionDetail> PrescriptionDetails { get; set; }
 
     public virtual DbSet<Role> Roles { get; set; }
 
@@ -115,6 +117,23 @@ public partial class VeterinaryClinicSystemContext : DbContext
                 .HasConstraintName("FK__BlogPosts__Autho__66603565");
         });
 
+        modelBuilder.Entity<CareSchedule>(entity =>
+        {
+            entity.HasKey(e => e.ScheduleId).HasName("PK__CareSche__9C8A5B692268F146");
+
+            entity.Property(e => e.ScheduleId).HasColumnName("ScheduleID");
+            entity.Property(e => e.CareType).HasMaxLength(100);
+            entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+            entity.Property(e => e.PetId).HasColumnName("PetID");
+
+            entity.HasOne(d => d.Pet).WithMany(p => p.CareSchedules)
+                .HasForeignKey(d => d.PetId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_CareSchedules_Pets");
+        });
+
         modelBuilder.Entity<Doctor>(entity =>
         {
             entity.HasKey(e => e.DoctorId).HasName("PK__Doctors__2DC00EDFC8B0444A");
@@ -137,7 +156,6 @@ public partial class VeterinaryClinicSystemContext : DbContext
 
             entity.Property(e => e.ScheduleId).HasColumnName("ScheduleID");
             entity.Property(e => e.DoctorId).HasColumnName("DoctorID");
-            entity.Property(e => e.IsAvailable).HasDefaultValue(true);
             entity.Property(e => e.Note).HasMaxLength(255);
 
             entity.HasOne(d => d.Doctor).WithMany(p => p.DoctorSchedules)
@@ -260,6 +278,27 @@ public partial class VeterinaryClinicSystemContext : DbContext
             entity.HasOne(d => d.Owner).WithMany(p => p.Pets)
                 .HasForeignKey(d => d.OwnerId)
                 .HasConstraintName("FK__Pets__OwnerID__4222D4EF");
+        });
+
+        modelBuilder.Entity<PrescriptionDetail>(entity =>
+        {
+            entity.HasKey(e => e.PrescriptionId).HasName("PK__Prescrip__401308127BB06D5C");
+
+            entity.Property(e => e.PrescriptionId).HasColumnName("PrescriptionID");
+            entity.Property(e => e.Dosage).HasMaxLength(100);
+            entity.Property(e => e.Instructions).HasMaxLength(255);
+            entity.Property(e => e.MedicationId).HasColumnName("MedicationID");
+            entity.Property(e => e.RecordId).HasColumnName("RecordID");
+
+            entity.HasOne(d => d.Medication).WithMany(p => p.PrescriptionDetails)
+                .HasForeignKey(d => d.MedicationId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_PrescriptionDetails_Medications");
+
+            entity.HasOne(d => d.Record).WithMany(p => p.PrescriptionDetails)
+                .HasForeignKey(d => d.RecordId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_PrescriptionDetails_MedicalRecords");
         });
 
         modelBuilder.Entity<Role>(entity =>

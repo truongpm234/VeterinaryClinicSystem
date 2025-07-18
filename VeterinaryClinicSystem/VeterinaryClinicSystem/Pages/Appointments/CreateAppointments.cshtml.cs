@@ -3,8 +3,10 @@ using DataAccessLayer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using Service;
+using SignalRLab;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,11 +19,16 @@ namespace VeterinaryClinicSystem.Pages.Appointments
         private readonly IAppointmentService _appointmentService;
         private readonly IEmailHelper _emailHelper;
         private readonly VeterinaryClinicSystemContext _context;
-        public CreateAppointmentModel(IAppointmentService appointmentService, IEmailHelper emailHelper, VeterinaryClinicSystemContext context)
+        private readonly ILogger<CreateAppointmentModel> _logger;
+        private readonly IHubContext<AppointmentHub> _hubContext;
+
+        public CreateAppointmentModel(IAppointmentService appointmentService, IEmailHelper emailHelper, VeterinaryClinicSystemContext context, ILogger<CreateAppointmentModel> logger, IHubContext<AppointmentHub> hubContext)
         {
             _appointmentService = appointmentService;
             _emailHelper = emailHelper;
             _context = context;
+            _logger = logger;
+            _hubContext = hubContext;
         }
 
         [BindProperty]
@@ -66,7 +73,6 @@ namespace VeterinaryClinicSystem.Pages.Appointments
             {
                 Appointment.DoctorId = DoctorIdFromRoute.Value;
 
-                // Đảm bảo DoctorList chứa mục phù hợp để hiển thị tên bác sĩ
                 if (!DoctorList.Any(d => d.Value == DoctorIdFromRoute.Value.ToString()))
                 {
                     var doctor = await _appointmentService.GetDoctorSelectListAsync();
@@ -74,13 +80,28 @@ namespace VeterinaryClinicSystem.Pages.Appointments
                     if (doctorItem != null)
                     {
                         var newList = doctor.ToList();
-                        newList.Insert(0, doctorItem); // hoặc Add nếu không có
+                        newList.Insert(0, doctorItem);
                         DoctorList = new SelectList(newList, "Value", "Text");
                     }
                 }
             }
+
             if (ServiceIdFromRoute.HasValue)
+            {
                 Appointment.ServiceId = ServiceIdFromRoute.Value;
+
+                if (!ServiceList.Any(s => s.Value == ServiceIdFromRoute.Value.ToString()))
+                {
+                    var allServices = await _appointmentService.GetServiceSelectListAsync();
+                    var matched = allServices.FirstOrDefault(s => s.Value == ServiceIdFromRoute.Value.ToString());
+                    if (matched != null)
+                    {
+                        var newList = allServices.ToList();
+                        newList.Insert(0, matched);
+                        ServiceList = new SelectList(newList, "Value", "Text");
+                    }
+                }
+            }
 
             return Page();
         }
@@ -112,32 +133,19 @@ namespace VeterinaryClinicSystem.Pages.Appointments
 
             await _appointmentService.AddAsync(Appointment);
 
-            // Gửi email xác nhận
-            var owner = await _context.Users.FindAsync(Appointment.OwnerId);
+            await _hubContext.Clients.All.SendAsync("ReceiveAppointment", "Lịch hẹn mới vừa được tạo!");
 
-            if (string.IsNullOrWhiteSpace(owner?.Email))
+            bool sent = await _emailHelper.EmailForCreateAppointment(Appointment, _context);
+            if (sent)
             {
-                TempData["Error"] = "Không thể gửi email vì tài khoản không có địa chỉ email.";
-                return RedirectToPage("/Index");
+                TempData["Message"] = "✅ Lịch hẹn đã được hệ thống xác nhận qua email.";
             }
-            var doctor = await _context.Users.FindAsync(Appointment.DoctorId);
-            var service = await _context.Services.FindAsync(Appointment.ServiceId);
-            var pet = await _context.Pets.FindAsync(Appointment.PetId);
+            else
+            {
+                TempData["Error"] = "❌ Lịch hẹn đã được tạo nhưng không thể gửi thông báo qua email.";
+            }
 
-            string htmlBody = $@"
-    <p>Chào {owner.FullName},</p>
-    <p>Bạn đã đặt lịch với bác sĩ <strong>{doctor.FullName}</strong></p>
-    <p>Dịch vụ: {service.Name}</p>
-    <p>Vật nuôi: {pet.Name}</p>
-    <p>Thời gian: {Appointment.AppointmentDate}</p>
-    <p>Cám ơn bạn!</p>";
-
-            bool sent = await _emailHelper.SendEmailAsync(owner.Email, "Xác nhận lịch hẹn", htmlBody);
-            TempData[sent ? "Message" : "Error"] = sent
-                ? "Đặt lịch thành công. Email xác nhận đã được gửi."
-                : "Đặt lịch thành công nhưng gửi email thất bại.";
-
-            return RedirectToPage("/Index");
+            return RedirectToPage("/Appointments/History", new { userId = userId.Value });
         }
 
         private async Task PopulateSelectListsAsync(int userId)

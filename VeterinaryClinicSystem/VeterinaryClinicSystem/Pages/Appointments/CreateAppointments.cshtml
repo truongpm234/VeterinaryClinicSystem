@@ -17,7 +17,28 @@
     }
 
     <form method="post" class="border rounded p-4 shadow-sm bg-light">
-        @if (!Model.DoctorIdFromRoute.HasValue)
+        @* @if (!Model.DoctorIdFromRoute.HasValue)
+        {
+            <div class="form-group mb-3">
+                <label asp-for="Appointment.DoctorId" class="form-label fw-semibold">👨‍⚕️ Chọn bác sĩ</label>
+                <select asp-for="Appointment.DoctorId"
+                        class="form-control"
+                        asp-items="Model.DoctorList">
+                    <option value="">-- Chọn bác sĩ --</option>
+                </select>
+            </div>
+        } *@
+        @if (Model.DoctorIdFromRoute.HasValue)
+        {
+            <input type="hidden" asp-for="Appointment.DoctorId" value="@Model.DoctorIdFromRoute.Value" />
+            <div class="alert alert-info mb-3">
+                📌 Đặt lịch với bác sĩ:
+                <strong>
+                    @(Model.DoctorList?.FirstOrDefault(d => d.Value == Model.DoctorIdFromRoute.Value.ToString())?.Text ?? "[Không rõ]")
+                </strong>
+            </div>
+        }
+        else
         {
             <div class="form-group mb-3">
                 <label asp-for="Appointment.DoctorId" class="form-label fw-semibold">👨‍⚕️ Chọn bác sĩ</label>
@@ -28,25 +49,42 @@
                 </select>
             </div>
         }
-        else
+
+
+        @*         @if (!Model.ServiceIdFromRoute.HasValue)
         {
-            <input type="hidden" asp-for="Appointment.DoctorId" value="@Model.DoctorIdFromRoute.Value" />
+            <div class="form-group mb-3">
+                <label asp-for="Appointment.ServiceId" class="form-label fw-semibold">🩺 Loại dịch vụ</label>
+                <select asp-for="Appointment.ServiceId"
+                        class="form-control"
+                        asp-items="Model.ServiceList">
+                    <option value="">-- Chọn dịch vụ --</option>
+                </select>
+            </div>
+        } *@
+        @if (Model.ServiceIdFromRoute.HasValue)
+        {
+            <input type="hidden" asp-for="Appointment.ServiceId" value="@Model.ServiceIdFromRoute.Value" />
             <div class="alert alert-info mb-3">
-                📌 Đặt lịch với bác sĩ:
+                🧾 Loại dịch vụ:
                 <strong>
-                    @(Model.DoctorList?.FirstOrDefault(d => d.Value == Model.DoctorIdFromRoute.Value.ToString())?.Text ?? "[Tên bác sĩ không tìm thấy]")
+                    @(Model.ServiceList?.FirstOrDefault(s => s.Value == Model.ServiceIdFromRoute.Value.ToString())?.Text ?? "[Không rõ]")
                 </strong>
             </div>
         }
+        else
+        {
+            <div class="form-group mb-3">
+                <label asp-for="Appointment.ServiceId" class="form-label fw-semibold">🩺 Loại dịch vụ</label>
+                <select asp-for="Appointment.ServiceId"
+                        class="form-control"
+                        asp-items="Model.ServiceList">
+                    <option value="">-- Chọn dịch vụ --</option>
+                </select>
+            </div>
+        }
 
-        <div class="form-group mb-3">
-            <label asp-for="Appointment.ServiceId" class="form-label fw-semibold">🩺 Loại dịch vụ</label>
-            <select asp-for="Appointment.ServiceId"
-                    class="form-control"
-                    asp-items="Model.ServiceList">
-                <option value="">-- Chọn dịch vụ --</option>
-            </select>
-        </div>
+    }
 
         <div class="form-group mb-3">
             <label asp-for="Appointment.PetId" class="form-label fw-semibold">🐾 Vật nuôi</label>
@@ -90,3 +128,4 @@
         <button type="submit" class="btn btn-success w-100">✅ Đặt lịch ngay</button>
     </form>
 </div>
+
