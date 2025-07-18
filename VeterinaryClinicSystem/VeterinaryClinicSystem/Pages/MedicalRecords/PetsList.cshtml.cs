@@ -11,9 +11,17 @@ namespace VeterinaryClinicSystem.Pages.MedicalRecords
 
         public void OnGet()
         {
-            Pets = PetDAO.GetAllPets();
+            var allPets = PetDAO.GetAllPets();
+
+            var today = DateTime.Today;
+
+            Pets = allPets
+                .Where(p => p.Appointments.Any(a =>
+                    a.AppointmentDate.HasValue &&
+                    a.AppointmentDate.Value.Date == today &&
+                    a.Status == "??t l?ch thành công"))
+                .ToList();
         }
     }
-
 
 }
