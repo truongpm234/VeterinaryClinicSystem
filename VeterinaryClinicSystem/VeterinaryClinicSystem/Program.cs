@@ -64,6 +64,9 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddScoped<IPetService, PetService>();
 
+            builder.Services.AddScoped<IMedicalRecordRepository, MedicalRecordRepository>();
+
+            builder.Services.AddScoped<IMedicalRecordService, MedicalRecordService>();
 
 
             builder.Services.AddDbContext<VeterinaryClinicSystemContext>(options =>
