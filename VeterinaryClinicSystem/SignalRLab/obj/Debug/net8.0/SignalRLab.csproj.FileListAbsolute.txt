@@ -62,3 +62,16 @@ E:\Telee\Teleee\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Deb
 E:\Telee\Teleee\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\refint\SignalRLab.dll
 E:\Telee\Teleee\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.pdb
 E:\Telee\Teleee\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\ref\SignalRLab.dll
+D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\bin\Debug\net8.0\SignalRLab.deps.json
+D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\bin\Debug\net8.0\SignalRLab.dll
+D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\bin\Debug\net8.0\SignalRLab.pdb
+D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.csproj.AssemblyReference.cache
+D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.GeneratedMSBuildEditorConfig.editorconfig
+D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.AssemblyInfoInputs.cache
+D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.AssemblyInfo.cs
+D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.csproj.CoreCompileInputs.cache
+D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.sourcelink.json
+D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.dll
+D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\refint\SignalRLab.dll
+D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.pdb
+D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\ref\SignalRLab.dll

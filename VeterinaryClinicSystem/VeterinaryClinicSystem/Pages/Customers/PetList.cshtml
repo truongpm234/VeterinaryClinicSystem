@@ -1,0 +1,31 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Customers.PetListModel
+@{
+    ViewData["Title"] = "Danh sách thú cưng";
+}
+
+<h2>Danh sách thú cưng</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tên thú cưng</th>
+            <th>Ngày sinh</th>
+            <th>Giống</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pet in Model.Pets)
+        {
+            <tr>
+                <td>@pet.Name</td>
+                <td>@pet.BirthDate.ToString()</td>
+                <td>@pet.Breed</td>
+                <td>
+                    <a class="btn btn-primary btn-sm me-2" href="/Customers/PetCareSchedule?petId=@pet.PetId">Xem lịch tiêm phòng</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -292,5 +292,34 @@ namespace VeterinaryClinicSystem.Extension
             }
         }
 
+        public async Task<bool> EmailForCareScheduleAsync(Pet pet, CareSchedule schedule, string customerEmail)
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(customerEmail))
+                {
+                    _logger.LogWarning("❌ Không có email khách hàng.");
+                    return false;
+                }
+
+                string htmlBody = $@"
+<div style='font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #e0e0e0; border-radius: 8px;'>
+    <h2 style='color: #2c3e50;'>📢 Lịch tiêm phòng cho thú cưng {pet.Name}</h2>
+    <p>Loại chăm sóc: <strong>{schedule.CareType}</strong></p>
+    <p>Ngày tiêm lần 1: <strong>{schedule.InitialDate:dd/MM/yyyy}</strong></p>
+    <p>Ngày nhắc lại: <strong>{schedule.NextDueDate:dd/MM/yyyy}</strong></p>
+    <p>Vui lòng đưa thú cưng đi tiêm phòng đúng lịch.</p>
+    <p>--<br>VeterinaryClinic.com.vn</p>
+</div>";
+
+                return await SendEmailAsync(customerEmail, $"📅 Lịch tiêm phòng của {pet.Name}", htmlBody);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"❌ Lỗi gửi email lịch tiêm phòng đến {customerEmail}");
+                return false;
+            }
+        }
+
     }
 }

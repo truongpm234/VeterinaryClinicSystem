@@ -25,6 +25,7 @@
                 <a class="navbar-brand" href="/">PetClinicSystem</a>
                 @if (Context.Session.GetString("Role") == "Customer")
                 {
+                    
                     <a class="nav-link text-primary fw-bold ms-3" href="/Customers/Feedback">Feedback</a>
                 }
 
@@ -94,7 +95,8 @@
                                     }
                                     @if (Context.Session.GetString("Role") == "Customer")
                                     {
-                                        <li><a class="dropdown-item" href="/Customers/Profile">Profile Information</a></li>
+                                        <li><a class="dropdown-item" href="/Customers/Profile">Thông tin tài khoản</a></li>
+                                        <li><a class="dropdown-item" href="/Customers/PetList">Danh sách thú cưng</a></li>
                                         <li><hr class="dropdown-divider" /></li>
                                     }
                                     @if (Context.Session.GetString("Role") == "Manager")
