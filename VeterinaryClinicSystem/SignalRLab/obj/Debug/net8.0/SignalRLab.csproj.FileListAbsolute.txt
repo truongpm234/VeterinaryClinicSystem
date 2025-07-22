@@ -75,3 +75,16 @@ D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab
 D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\refint\SignalRLab.dll
 D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.pdb
 D:\HocTap\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\ref\SignalRLab.dll
+E:\Telee\Teleee\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\bin\Debug\net8.0\SignalRLab.deps.json
+E:\Telee\Teleee\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\bin\Debug\net8.0\SignalRLab.dll
+E:\Telee\Teleee\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\bin\Debug\net8.0\SignalRLab.pdb
+E:\Telee\Teleee\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.csproj.AssemblyReference.cache
+E:\Telee\Teleee\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.GeneratedMSBuildEditorConfig.editorconfig
+E:\Telee\Teleee\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.AssemblyInfoInputs.cache
+E:\Telee\Teleee\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.AssemblyInfo.cs
+E:\Telee\Teleee\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.csproj.CoreCompileInputs.cache
+E:\Telee\Teleee\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.sourcelink.json
+E:\Telee\Teleee\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.dll
+E:\Telee\Teleee\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\refint\SignalRLab.dll
+E:\Telee\Teleee\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\SignalRLab.pdb
+E:\Telee\Teleee\ProjectPRNPet\VeterinaryClinicSystem\VeterinaryClinicSystem\SignalRLab\obj\Debug\net8.0\ref\SignalRLab.dll

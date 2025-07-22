@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\ghoul\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj",
+      "projectUniqueName": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj",
       "projectName": "SignalRLab",
-      "projectPath": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\obj\\",
+      "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj",
+      "packagesPath": "C:\\Users\\ghoul\\.nuget\\packages\\",
+      "outputPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ghoul\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

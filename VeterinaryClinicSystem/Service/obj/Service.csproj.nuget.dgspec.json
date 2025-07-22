@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj": {}
+    "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj": {}
   },
   "projects": {
-    "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj": {
+    "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\obj\\",
+        "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\ghoul\\.nuget\\packages\\",
+        "outputPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ghoul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -90,20 +90,20 @@
         }
       }
     },
-    "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\obj\\",
+        "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\ghoul\\.nuget\\packages\\",
+        "outputPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ghoul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -119,8 +119,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj"
+              "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
@@ -170,20 +170,20 @@
         }
       }
     },
-    "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj": {
+    "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
+        "projectUniqueName": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\obj\\",
+        "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\ghoul\\.nuget\\packages\\",
+        "outputPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ghoul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -199,8 +199,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj"
+              "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -246,20 +246,20 @@
         }
       }
     },
-    "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj": {
+    "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj",
+        "projectUniqueName": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\obj\\",
+        "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\ghoul\\.nuget\\packages\\",
+        "outputPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ghoul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -275,8 +275,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj": {
-                "projectPath": "D:\\HocTap\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj"
+              "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj": {
+                "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj"
               }
             }
           }
