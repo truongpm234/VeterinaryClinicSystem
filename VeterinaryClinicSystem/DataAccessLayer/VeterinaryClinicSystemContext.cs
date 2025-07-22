@@ -45,6 +45,9 @@ public partial class VeterinaryClinicSystemContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
+    public virtual DbSet<CareSchedule> CareSchedules { get; set; } = null!;
+
+
     private string GetConnectionString()
     {
         IConfiguration configuration = new ConfigurationBuilder()

@@ -10,6 +10,9 @@ namespace VeterinaryClinicSystem.Extension
         Task<bool> EmailForAcceptAppointment(Appointment appointment, DoctorSchedule schedule, VeterinaryClinicSystemContext context);
         Task<bool> EmailForRejectAppointment(Appointment appointment, DoctorSchedule schedule, VeterinaryClinicSystemContext context);
         Task<bool> EmailForLateAppointmentAsync(Appointment appointment, VeterinaryClinicSystemContext context);
+        Task<bool> EmailForCareScheduleAsync(Pet pet, CareSchedule schedule, string customerEmail);
+
+
 
 
     }

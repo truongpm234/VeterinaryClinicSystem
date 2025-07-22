@@ -75,6 +75,12 @@ namespace DataAccessLayer
             context.Pets.Remove(pet);
             context.SaveChanges();
         }
+
+        public static List<Pet> GetPetByCustomerId(int customerId)
+        {
+            using var context = new VeterinaryClinicSystemContext();
+            return context.Pets.Where(p => p.OwnerId == customerId).ToList();
+        }
     }
 
 }

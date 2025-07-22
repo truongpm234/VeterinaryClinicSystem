@@ -25,6 +25,8 @@ namespace Repository
         // Xóa Pet
         void DeletePet(int petId);
 
+        List<Pet> GetPetByCustomerId(int customerId);
+
     }
 }
 

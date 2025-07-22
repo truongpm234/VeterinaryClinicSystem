@@ -17,17 +17,6 @@
     }
 
     <form method="post" class="border rounded p-4 shadow-sm bg-light">
-        @* @if (!Model.DoctorIdFromRoute.HasValue)
-        {
-            <div class="form-group mb-3">
-                <label asp-for="Appointment.DoctorId" class="form-label fw-semibold">👨‍⚕️ Chọn bác sĩ</label>
-                <select asp-for="Appointment.DoctorId"
-                        class="form-control"
-                        asp-items="Model.DoctorList">
-                    <option value="">-- Chọn bác sĩ --</option>
-                </select>
-            </div>
-        } *@
         @if (Model.DoctorIdFromRoute.HasValue)
         {
             <input type="hidden" asp-for="Appointment.DoctorId" value="@Model.DoctorIdFromRoute.Value" />
@@ -50,18 +39,6 @@
             </div>
         }
 
-
-        @*         @if (!Model.ServiceIdFromRoute.HasValue)
-        {
-            <div class="form-group mb-3">
-                <label asp-for="Appointment.ServiceId" class="form-label fw-semibold">🩺 Loại dịch vụ</label>
-                <select asp-for="Appointment.ServiceId"
-                        class="form-control"
-                        asp-items="Model.ServiceList">
-                    <option value="">-- Chọn dịch vụ --</option>
-                </select>
-            </div>
-        } *@
         @if (Model.ServiceIdFromRoute.HasValue)
         {
             <input type="hidden" asp-for="Appointment.ServiceId" value="@Model.ServiceIdFromRoute.Value" />

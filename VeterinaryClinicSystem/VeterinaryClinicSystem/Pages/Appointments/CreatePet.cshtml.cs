@@ -25,7 +25,6 @@ namespace VeterinaryClinicSystem.Pages.Customers
             await _context.Pets.AddAsync(Pet);
             await _context.SaveChangesAsync();
 
-            // Quay lại CreateAppointment với pet mới
             return RedirectToPage("CreateAppointment", new { newPetId = Pet.PetId });
         }
     }

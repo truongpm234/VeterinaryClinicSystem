@@ -1,0 +1,12 @@
+﻿using BusinessObject;
+using System.Collections.Generic;
+
+namespace Service
+{
+    public interface ICareScheduleService
+    {
+        List<CareSchedule> GetSchedulesByPetId(int petId);
+        Pet? GetPetById(int petId);
+        void Add(CareSchedule schedule);
+    }
+}

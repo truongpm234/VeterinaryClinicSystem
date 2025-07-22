@@ -76,6 +76,12 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddScoped<IDoctorDashboardRepository, DoctorDashboardRepository>();
 
+            builder.Services.AddScoped<ICareScheduleRepository, CareScheduleRepository>();
+
+            builder.Services.AddScoped<ICareScheduleService, CareScheduleService>();
+
+
+
 
 
 
@@ -125,6 +131,8 @@ namespace VeterinaryClinicSystem
 
             app.UseRouting();
 
+            app.UseSession();
+
             app.UseAuthorization();
 
             app.MapFallbackToPage("/Authentication/Login");
@@ -135,7 +143,7 @@ namespace VeterinaryClinicSystem
 
             app.MapRazorPages();
 
-            app.UseSession();
+
 
             app.Run();
         }
