@@ -6,38 +6,45 @@
 
 <h2>Danh sách thú cưng</h2>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>Tên thú cưng</th>
-            <th>Loài</th>
-            <th>Giống</th>
-            <th>Chủ sở hữu</th>
-            <th>Thao tác</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var pet in Model.Pets)
-        {
+@if (!Model.Pets.Any())
+{
+    <p>Không có thú cưng nào có lịch hẹn hôm nay.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
             <tr>
-                <td>@pet.Name</td>
-                <td>@pet.Species</td>
-                <td>@pet.Breed</td>
-                <td>@pet.Owner?.FullName</td>
-                <td>
-                    <a asp-page="/MedicalRecords/Create"
-                       asp-route-petId="@pet.PetId"
-                       class="btn btn-success">
-                        Tạo hồ sơ
-                    </a>
-
-                    <a asp-page="/MedicalRecords/PetRecords"
-                       asp-route-petId="@pet.PetId"
-                       class="btn btn-info">
-                        Xem hồ sơ
-                    </a>
-                </td>
+                <th>Tên thú cưng</th>
+                <th>Loài</th>
+                <th>Giống</th>
+                <th>Chủ sở hữu</th>
+                <th>Thao tác</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var pet in Model.Pets)
+            {
+                <tr>
+                    <td>@pet.Name</td>
+                    <td>@pet.Species</td>
+                    <td>@pet.Breed</td>
+                    <td>@pet.Owner?.FullName</td>
+                    <td>
+                        <a asp-page="/MedicalRecords/Create"
+                           asp-route-petId="@pet.PetId"
+                           class="btn btn-success">
+                            Tạo hồ sơ
+                        </a>
+
+                        <a asp-page="/MedicalRecords/PetRecords"
+                           asp-route-petId="@pet.PetId"
+                           class="btn btn-info">
+                            Xem hồ sơ
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

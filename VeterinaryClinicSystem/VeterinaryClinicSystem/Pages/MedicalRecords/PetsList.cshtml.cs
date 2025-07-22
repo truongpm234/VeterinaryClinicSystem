@@ -2,6 +2,7 @@ using BusinessObject;
 using DataAccessLayer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 
 namespace VeterinaryClinicSystem.Pages.MedicalRecords
 {
@@ -11,8 +12,16 @@ namespace VeterinaryClinicSystem.Pages.MedicalRecords
 
         public void OnGet()
         {
-            Pets = PetDAO.GetAllPets();
+            int? doctorId = HttpContext.Session.GetInt32("Account");
+            if (doctorId == null)
+            {
+                Pets = new List<Pet>();
+                return;
+            }
+
+            Pets = MedicalRecordsDAO.GetPetsWithAppointmentsTodayForDoctor(doctorId.Value);
         }
+
     }
 
 
