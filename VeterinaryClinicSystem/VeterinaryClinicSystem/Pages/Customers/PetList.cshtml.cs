@@ -24,7 +24,6 @@ namespace VeterinaryClinicSystem.Pages.Customers
             int customerId = HttpContext.Session.GetInt32("Account") ?? 0;
             Pets = _petService.GetPetByCustomerId(customerId);
 
-            // Lấy lịch tiêm phòng từng pet
             PetHasSchedule = Pets.ToDictionary(
                 pet => pet.PetId,
                 pet => _careScheduleService.GetSchedulesByPetId(pet.PetId).Any()

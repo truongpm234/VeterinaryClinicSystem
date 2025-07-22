@@ -81,6 +81,7 @@
                                     @if (Context.Session.GetString("Role") == "Doctor")
                                     {
                                         <li><a class="dropdown-item" href="/Doctors/Profile">Profile Information</a></li>
+                                        <li><a class="dropdown-item" href="/MedicalRecords/PetsList">Danh sách thú cưng</a></li>
                                         <li><a class="dropdown-item" href="/Doctors/Schedule">My schedule</a></li>
                                         <li><hr class="dropdown-divider" /></li>
                                     }
@@ -95,8 +96,7 @@
                                     }
                                     @if (Context.Session.GetString("Role") == "Customer")
                                     {
-                                        <li><a class="dropdown-item" href="/Customers/Profile">Thông tin tài khoản</a></li>
-                                        <li><a class="dropdown-item" href="/Customers/PetList">Danh sách thú cưng</a></li>
+                                        <li><a class="dropdown-item" href="/Customers/Profile">Profile Information</a></li>
                                         <li><hr class="dropdown-divider" /></li>
                                     }
                                     @if (Context.Session.GetString("Role") == "Manager")
@@ -106,7 +106,6 @@
                                         <li><hr class="dropdown-divider" /></li>
                                     }
                                     <li><a class="dropdown-item text-danger" href="/Authentication/Logout">Logout</a></li>
-                                    <li><hr class="dropdown-divider" /></li>
 
                                 </ul>
                             </li>

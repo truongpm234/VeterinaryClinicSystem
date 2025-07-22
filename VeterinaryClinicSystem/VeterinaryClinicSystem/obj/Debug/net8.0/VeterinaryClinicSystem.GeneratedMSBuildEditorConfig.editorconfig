@@ -84,6 +84,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Telee/Teleee/ProjectPRNPet/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Customers/BillAppointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJzXEJpbGxBcHBvaW50bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Telee/Teleee/ProjectPRNPet/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Customers/Feedback.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJzXEZlZWRiYWNrLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -130,6 +134,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/Telee/Teleee/ProjectPRNPet/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Managers/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlcnNcUHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Telee/Teleee/ProjectPRNPet/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/MedicalRecords/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNhbFJlY29yZHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Telee/Teleee/ProjectPRNPet/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/MedicalRecords/PetRecords.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNhbFJlY29yZHNcUGV0UmVjb3Jkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Telee/Teleee/ProjectPRNPet/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/MedicalRecords/PetsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVkaWNhbFJlY29yZHNcUGV0c0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Telee/Teleee/ProjectPRNPet/VeterinaryClinicSystem/VeterinaryClinicSystem/VeterinaryClinicSystem/Pages/Pets/Create.cshtml]

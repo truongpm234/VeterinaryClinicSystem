@@ -33,7 +33,7 @@ namespace VeterinaryClinicSystem.Pages.Customers
 
             Appointments = _context.Appointments
             .Include(a => a.Doctor).ThenInclude(d => d.DoctorNavigation)
-             .Where(a => a.OwnerId == userId && a.Status == "Completed") // S?a t? CustomerId -> OwnerId
+             .Where(a => a.OwnerId == userId && a.Status == "Completed") 
             .ToList();
 
         }

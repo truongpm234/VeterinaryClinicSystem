@@ -23,9 +23,15 @@ namespace VeterinaryClinicSystem.Pages.Appointments
 
         public async Task<IActionResult> OnGetAsync()
         {
+
             if (UserId <= 0)
             {
-                return RedirectToPage("/Index");
+                var userIdFromSession = HttpContext.Session.GetInt32("UserId");
+                if (userIdFromSession == null)
+                {
+                    return RedirectToPage("/Index");
+                }
+                UserId = userIdFromSession.Value;
             }
 
             AppointmentHistory = await _appointmentService.GetAppointmentsByUserAsync(UserId);

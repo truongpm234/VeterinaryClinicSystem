@@ -1,0 +1,107 @@
+﻿@page "{petId:int?}"
+@model VeterinaryClinicSystem.Pages.MedicalRecords.CreateModel
+
+@{
+    ViewData["Title"] = "Tạo hồ sơ bệnh án mới";
+}
+
+<h1>Tạo hồ sơ bệnh án mới</h1>
+
+@if (!string.IsNullOrEmpty(Model.PetName))
+{
+    <p><strong>Thú cưng:</strong> @Model.PetName</p>
+}
+
+<form method="post">
+    <input type="hidden" asp-for="MedicalRecord.PetId" />
+
+    <div class="form-group">
+        <label asp-for="MedicalRecord.Diagnosis">Chẩn đoán</label>
+        <textarea asp-for="MedicalRecord.Diagnosis" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MedicalRecord.FollowUpDate">Ngày tái khám</label>
+        <input asp-for="MedicalRecord.FollowUpDate" type="date" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MedicalRecord.IsFollow">Theo dõi</label>
+        <select asp-for="MedicalRecord.IsFollow" class="form-control">
+            <option value="1">Cần theo dõi</option>
+            <option value="0">Không theo dõi</option>
+        </select>
+    </div>
+
+    <hr />
+    <h5>Đơn thuốc</h5>
+    <div id="prescriptionContainer">
+        <div class="row mb-2 prescription-item">
+            <div class="col-md-3">
+                <select name="PrescriptionItems[0].MedicationId" class="form-control">
+                    @foreach (var med in Model.Medications)
+                    {
+                        <option value="@med.MedicationId">@med.Name</option>
+                    }
+                </select>
+            </div>
+            <div class="col-md-2">
+                <input name="PrescriptionItems[0].Amount" type="number" min="1" class="form-control" placeholder="Số lượng" />
+            </div>
+            <div class="col-md-2">
+                <input name="PrescriptionItems[0].Dosage" type="text" class="form-control" placeholder="Liều dùng" />
+            </div>
+            <div class="col-md-3">
+                <input name="PrescriptionItems[0].Instructions" type="text" class="form-control" placeholder="Hướng dẫn" />
+            </div>
+            <div class="col-md-2">
+                <button type="button" class="btn btn-danger removePrescription">Xóa</button>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" id="addPrescription" class="btn btn-secondary">Thêm thuốc</button>
+
+    <br /><br />
+    <button type="submit" class="btn btn-primary">Tạo hồ sơ</button>
+</form>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        let index = 1;
+
+        $('#addPrescription').click(function () {
+            let newItem = `
+                        <div class="row mb-2 prescription-item">
+                            <div class="col-md-3">
+                                <select name="PrescriptionItems[${index}].MedicationId" class="form-control">
+        @foreach (var med in Model.Medications)
+        {
+                                            <option value="@med.MedicationId">@med.Name</option>
+        }
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <input name="PrescriptionItems[${index}].Amount" type="number" min="1" class="form-control" placeholder="Số lượng" />
+                            </div>
+                            <div class="col-md-2">
+                                <input name="PrescriptionItems[${index}].Dosage" type="text" class="form-control" placeholder="Liều dùng" />
+                            </div>
+                            <div class="col-md-3">
+                                <input name="PrescriptionItems[${index}].Instructions" type="text" class="form-control" placeholder="Hướng dẫn" />
+                            </div>
+                            <div class="col-md-2">
+                                <button type="button" class="btn btn-danger removePrescription">Xóa</button>
+                            </div>
+                        </div>
+                    `;
+            $('#prescriptionContainer').append(newItem);
+            index++;
+        });
+
+        $(document).on('click', '.removePrescription', function () {
+            $(this).closest('.prescription-item').remove();
+        });
+    </script>
+}
