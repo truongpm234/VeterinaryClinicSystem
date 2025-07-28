@@ -41,10 +41,7 @@ namespace DataAccessLayer
                 .Select(m => new DoctorDashboard
                 {
                     MedicalRecordId = m.RecordId,
-                    PatientName = m.Pet != null ? m.Pet.Name : // Fixed: Use 'Name' instead of 'PetName'
-                                   m.Appointment != null && m.Appointment.Owner != null
-                                       ? m.Appointment.Owner.FullName
-                                       : "Không rõ",
+                    PatientName = m.Pet != null ? m.Pet.Name : m.Appointment != null && m.Appointment.Owner != null ? m.Appointment.Owner.FullName : "Không rõ",
                     Diagnosis = m.Diagnosis ?? "Chưa chẩn đoán",
                     IsOngoingCase = true
                 }).ToList();

@@ -292,5 +292,40 @@ namespace VeterinaryClinicSystem.Extension
             }
         }
 
+        public async Task<bool> EmailForCareScheduleAsync(Pet pet, CareSchedule schedule, string customerEmail)
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(customerEmail))
+                {
+                    _logger.LogWarning("❌ Không có email khách hàng.");
+                    return false;
+                }
+
+                string htmlBody = $@"
+<div style='font-family: Arial, sans-serif; max-width: 600px; margin: auto; padding: 20px; border: 1px solid #e0e0e0; border-radius: 8px; background-color: #fdfdfd;'>
+    <h2 style='color: #2c3e50;'>📢 Nhắc lịch tiêm phòng cho thú cưng <strong style='color: #27ae60'>{pet.Name}</strong></h2>
+
+    <p><strong>🔹 Loại chăm sóc:</strong> {schedule.CareType}</p>
+    <p><strong>📅 Ngày tiêm lần đầu:</strong> {schedule.InitialDate:dd/MM/yyyy}</p>
+    <p style='font-size: 1.2em; color: #c0392b;'><strong>📌 Ngày tiêm nhắc lại (quan trọng):</strong> {schedule.NextDueDate:dd/MM/yyyy}</p>
+
+    <hr style='margin: 20px 0;' />
+
+    <p style='color: #555;'>💡 Vui lòng đưa thú cưng đến tiêm đúng lịch để đảm bảo sức khỏe và hiệu quả tiêm phòng.</p>
+    <p style='color: #999; font-size: 0.9em;'>Nếu bỏ lỡ lịch tiêm, vui lòng liên hệ lại với phòng khám để được tư vấn thêm.</p>
+
+    <br />
+    <p style='font-style: italic;'>--<br>VeterinaryClinic.com.vn</p>
+</div>";
+
+                return await SendEmailAsync(customerEmail, $"📅 Lịch nhắc tiêm phòng cho {pet.Name}", htmlBody);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, $"❌ Lỗi gửi email lịch tiêm phòng đến {customerEmail}");
+                return false;
+            }
+        }
     }
 }

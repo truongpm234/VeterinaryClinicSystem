@@ -22,4 +22,5 @@ public partial class CareSchedule
     public DateTime? CreatedAt { get; set; }
 
     public virtual Pet Pet { get; set; } = null!;
+
 }

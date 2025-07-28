@@ -93,6 +93,8 @@ namespace VeterinaryClinicSystem.Pages.Authentication
             HttpContext.Session.SetString("AvatarUrl", userAccount.AvatarUrl ?? "/images/default-avatar.png");
             HttpContext.Session.SetInt32("UserId", userAccount.UserId);
             HttpContext.Session.SetInt32("RoleId", userAccount.RoleId ?? 0);
+            HttpContext.Session.SetString("Email", userAccount.Email);
+
             return RedirectToPage("/Index");
         }
     }

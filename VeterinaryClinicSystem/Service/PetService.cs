@@ -23,6 +23,8 @@ namespace Service
 
         public List<Pet> GetAllPets() => repository.GetAllPets();
 
+        public List<Pet> GetPetByCustomerId(int customerId) => repository.GetPetByCustomerId(customerId);
+
         public Pet? GetPetById(int petId) => repository.GetPetById(petId);
         public void UpdatePet(Pet updatedPet) => repository.UpdatePet(updatedPet);
     }

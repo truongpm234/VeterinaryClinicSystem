@@ -18,5 +18,6 @@ namespace Repository
 
         public Pet? GetPetById(int petId) => PetDAO.GetPetById(petId);
         public void UpdatePet(Pet updatedPet) => PetDAO.UpdatePet(updatedPet);
+        public List<Pet> GetPetByCustomerId(int customerId) => PetDAO.GetPetByCustomerId(customerId);
     }
 }
