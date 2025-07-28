@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj": {}
+    "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj": {}
   },
   "projects": {
-    "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj": {
+    "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj",
+        "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj",
         "packagesPath": "C:\\Users\\ghoul\\.nuget\\packages\\",
-        "outputPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\obj\\",
+        "outputPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -90,14 +90,14 @@
         }
       }
     },
-    "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\ghoul\\.nuget\\packages\\",
-        "outputPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\obj\\",
+        "outputPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -119,8 +119,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj"
+              "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
@@ -170,14 +170,14 @@
         }
       }
     },
-    "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj": {
+    "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
+        "projectUniqueName": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
+        "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\ghoul\\.nuget\\packages\\",
-        "outputPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\obj\\",
+        "outputPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -199,8 +199,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj"
+              "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -246,14 +246,14 @@
         }
       }
     },
-    "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj": {
+    "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj",
+        "projectUniqueName": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj",
+        "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\ghoul\\.nuget\\packages\\",
-        "outputPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\obj\\",
+        "outputPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -275,8 +275,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj": {
-                "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj"
+              "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj": {
+                "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Repository\\Repository.csproj"
               }
             }
           }
@@ -316,14 +316,14 @@
         }
       }
     },
-    "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj": {
+    "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj",
+        "projectUniqueName": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj",
         "projectName": "SignalRLab",
-        "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj",
+        "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj",
         "packagesPath": "C:\\Users\\ghoul\\.nuget\\packages\\",
-        "outputPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\obj\\",
+        "outputPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -388,14 +388,14 @@
         }
       }
     },
-    "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj": {
+    "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj",
+        "projectUniqueName": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj",
         "projectName": "VeterinaryClinicSystem",
-        "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj",
+        "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj",
         "packagesPath": "C:\\Users\\ghoul\\.nuget\\packages\\",
-        "outputPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\obj\\",
+        "outputPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -417,14 +417,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj"
+              "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\BusinessObject\\BusinessObject.csproj"
               },
-              "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj": {
-                "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj"
+              "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj": {
+                "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Service\\Service.csproj"
               },
-              "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj": {
-                "projectPath": "E:\\Telee\\Teleee\\ProjectPRNPet\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj"
+              "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj": {
+                "projectPath": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\SignalRLab\\SignalRLab.csproj"
               }
             }
           }

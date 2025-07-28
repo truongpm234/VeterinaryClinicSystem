@@ -40,7 +40,7 @@ public class PetCareScheduleModel : PageModel
         if (Pet == null) return NotFound();
 
         Schedules = _careService.GetSchedulesByPetId(petId);
-
+        InitialDate = DateOnly.FromDateTime(DateTime.Now);
         var services = _serviceService.GetAllServices()
             .Where(s => s.Name.Contains("Tiêm phòng"))
             .ToList();

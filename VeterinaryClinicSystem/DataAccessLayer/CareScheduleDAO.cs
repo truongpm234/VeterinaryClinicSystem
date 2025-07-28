@@ -14,7 +14,7 @@ namespace DataAccessLayer
             var schedules = (from cs in context.CareSchedules.Include(cs => cs.Pet)
                              join s in context.Services on cs.CareType equals s.Name
                              where cs.PetId == petId
-                                   && cs.CareType.Contains("Tiêm phòng") // lọc đúng lịch tiêm phòng
+                                   && cs.CareType.Contains("Tiêm phòng")
                              select new CareSchedule
                              {
                                  ScheduleId = cs.ScheduleId,

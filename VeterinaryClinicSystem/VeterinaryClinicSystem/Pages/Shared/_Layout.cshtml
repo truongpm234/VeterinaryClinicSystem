@@ -73,40 +73,40 @@
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
                                     @if (Context.Session.GetString("Role") == "Admin")
                                     {
-                                        <li><a class="dropdown-item" href="/Admin/ManageUsers">Manage Users</a></li>
-                                        <li><a class="dropdown-item" href="/Admin/ManagePage/ManagePage">Manage HomePage</a></li>
-                                        <li><a class="dropdown-item" href="/Admin/Profile">Profile Information</a></li>
+                                        <li><a class="dropdown-item" href="/Admin/ManageUsers">Quản lí tài khoản người dùng</a></li>
+                                        <li><a class="dropdown-item" href="/Admin/ManagePage/ManagePage">Quản lí thông tin trang chủ</a></li>
+                                        <li><a class="dropdown-item" href="/Admin/Profile">Thông tin cá nhân</a></li>
                                         <li><hr class="dropdown-divider" /></li>
                                     }
                                     @if (Context.Session.GetString("Role") == "Doctor")
                                     {
-                                        <li><a class="dropdown-item" href="/Doctors/Profile">Profile Information</a></li>
+                                        <li><a class="dropdown-item" href="/Doctors/Profile">Thông tin cá nhân</a></li>
                                         <li><a class="dropdown-item" href="/MedicalRecords/PetsList">Danh sách thú cưng</a></li>
                                         <li><a class="dropdown-item" href="/Doctors/Schedule">My schedule</a></li>
                                         <li><hr class="dropdown-divider" /></li>
                                     }
                                     @if (Context.Session.GetString("Role") == "Staff")
                                     {
-                                        <li><a class="dropdown-item" href="/Staff/Profile">Profile Information</a></li>
-                                        <li><a class="dropdown-item" href="/Staff/ViewAppointments">Management appointments</a></li>
-                                        <li><a class="dropdown-item" href="/Staff/Medication">Medication And Service Managenment</a></li>
+                                        <li><a class="dropdown-item" href="/Staff/Profile">Thông tin cá nhân</a></li>
+                                        <li><a class="dropdown-item" href="/Staff/ViewAppointments">Quản lí đặt lịch</a></li>
+                                        <li><a class="dropdown-item" href="/Staff/Medication">Quản lí thuốc theo đơn</a></li>
                                         <li><a class="dropdown-item" href="/Staff/Inventory">Nhập/Xuất Kho</a> </li>
                                         <li><a class="dropdown-item" href="/Staff/InventoryHistory">Lịch sử giao dịch</a></li>
                                         <li><hr class="dropdown-divider" /></li>
                                     }
                                     @if (Context.Session.GetString("Role") == "Customer")
                                     {
-                                        <li><a class="dropdown-item" href="/Customers/Profile">Profile Information</a></li>
+                                        <li><a class="dropdown-item" href="/Customers/Profile">Thông tin cá nhân</a></li>
+                                        <li><a class="dropdown-item" href="/Customers/PetList">Quản lí thú cưng</a></li>
                                         <li><hr class="dropdown-divider" /></li>
                                     }
                                     @if (Context.Session.GetString("Role") == "Manager")
                                     {
-                                        <li><a class="dropdown-item" href="/Managers/Profile">Profile Information</a></li>
+                                        <li><a class="dropdown-item" href="/Managers/Profile">Thông tin cá nhân</a></li>
                                         <li><a class="dropdown-item" href="/Managers">My Taskspace</a></li>
                                         <li><hr class="dropdown-divider" /></li>
                                     }
                                     <li><a class="dropdown-item text-danger" href="/Authentication/Logout">Logout</a></li>
-
                                 </ul>
                             </li>
                         }

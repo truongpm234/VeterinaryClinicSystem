@@ -85,21 +85,26 @@ namespace DataAccessLayer
             context.SaveChanges();
         }
 
-        public static List<Pet> GetPetsWithAppointmentsTodayForDoctor(int doctorId)
+        public static List<Pet> GetPetsWithAppointmentsTodayForDoctor(int? doctorId = null)
         {
             using var context = new VeterinaryClinicSystemContext();
+
             var today = DateTime.Today;
 
-            return context.Pets
+            var query = context.Pets
+                .Include(p => p.Owner)
+                .Include(p => p.Appointments)
                 .Where(p => p.Appointments.Any(a =>
                     a.AppointmentDate.HasValue &&
                     a.AppointmentDate.Value.Date == today &&
-                    a.Status == "Đặt lịch thành công" &&
-                    a.DoctorId == doctorId
-                ))
-                .ToList();
+                    a.Status == "Đặt lịch thành công"));
+
+            if (doctorId.HasValue)
+            {
+                query = query.Where(p => p.Appointments.Any(a => a.DoctorId == doctorId.Value));
+            }
+
+            return query.ToList();
         }
-
-
     }
 }
