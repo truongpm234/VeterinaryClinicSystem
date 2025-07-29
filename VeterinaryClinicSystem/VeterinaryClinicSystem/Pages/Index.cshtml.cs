@@ -17,14 +17,16 @@ namespace VeterinaryClinicSystem.Pages
         private readonly IDoctorsService _doctorService;
         private readonly IBlogPostsService _blogService;
         private readonly IHubContext<SignalrServer> _hubContext;
+        private readonly IFeedbackService _feedbackService;
         private readonly VeterinaryClinicSystemContext _Context;
-        public IndexModel(ILogger<IndexModel> logger, IServicesService serviceService, IDoctorsService doctorService, IBlogPostsService blogPostsService, IHubContext<SignalrServer> hubContext, VeterinaryClinicSystemContext context)
+        public IndexModel(ILogger<IndexModel> logger, IServicesService serviceService, IDoctorsService doctorService, IBlogPostsService blogPostsService, IHubContext<SignalrServer> hubContext, IFeedbackService feedbackService, VeterinaryClinicSystemContext context)
         {
             _logger = logger;
             _serviceService = serviceService;
             _doctorService = doctorService;
             _blogService = blogPostsService;
             _hubContext = hubContext;
+            _feedbackService = feedbackService;
             _Context = context;
 
         }
@@ -36,6 +38,7 @@ namespace VeterinaryClinicSystem.Pages
 
         public void OnGet()
         {
+            Feedbacks = _feedbackService.GetAll();
             Services = _serviceService.GetAllServices();
             Doctors = _doctorService.GetAllDoctors();
             BlogPosts = _blogService.GetBlogByPublish();
@@ -52,7 +55,7 @@ namespace VeterinaryClinicSystem.Pages
 
             Feedbacks = _Context.Feedbacks
                 .Include(f => f.Customer)
-                .Include(f => f.Doctor).ThenInclude(d => d.DoctorNavigation)
+                .Include(f => f.Doctor).ThenInclude(d => d.DoctorNavigation).Include(f => f.Appointment).ThenInclude(a => a.Service)
                 .OrderByDescending(f => f.CreatedAt)
                 .Take(3)
                 .ToList();

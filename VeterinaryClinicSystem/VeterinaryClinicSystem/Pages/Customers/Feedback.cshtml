@@ -1,42 +1,147 @@
 ﻿@page
 @model VeterinaryClinicSystem.Pages.Customers.FeedbackModel
-
 <h2>Gửi Feedback</h2>
-
 <form method="post">
-    <div>
-        <label>Rating</label>
-        <input asp-for="Input.Rating" class="form-control" />
-    </div>
-
-    <div>
-        <label>Comment</label>
-        <textarea asp-for="Input.Comment" class="form-control"></textarea>
-    </div>
-
-    <div>
-        <label>Chọn bác sĩ</label>
-        <select asp-for="Input.DoctorId" class="form-control">
-            <option value="">-- Chọn bác sĩ --</option>
-            @foreach (var doctor in Model.Doctors)
+    <div class="form-group mb-3">
+        <label>Đánh giá (số sao)</label>
+        <div class="star-rating" id="starRating">
+            @for (int i = 1; i <= 5; i++)
             {
-                <option value="@doctor.UserId">@doctor.FullName</option>
+                <span class="star" data-rating="@i">★</span>
             }
-        </select>
+        </div>
+        <input type="hidden" asp-for="Input.Rating" id="ratingInput" />
     </div>
-
-    <div>
+    <div class="form-group mb-3">
+        <label>Comment</label>
+        <textarea asp-for="Input.Comment" class="form-control" rows="3"></textarea>
+    </div>
+    <div class="form-group mb-3">
         <label>Chọn lịch hẹn đã khám</label>
-        <select asp-for="Input.AppointmentId" class="form-control">
+        <select asp-for="Input.AppointmentId" class="form-control" id="appointmentSelect" required>
             <option value="">-- Chọn lịch hẹn --</option>
             @foreach (var appointment in Model.Appointments)
             {
-                <option value="@appointment.AppointmentId">
-                    @($"Ngày {appointment.AppointmentDate:dd/MM/yyyy} với bác sĩ {appointment.Doctor.DoctorNavigation.FullName}")
+                <option value="@appointment.AppointmentId" data-doctorid="@appointment.DoctorId">
+                    @($"Ngày {appointment.AppointmentDate:dd/MM/yyyy} với bác sĩ {appointment.Doctor.DoctorNavigation.FullName} - Dịch vụ: {appointment.Service?.Name}")
                 </option>
             }
         </select>
-    </div>
 
-    <button type="submit" class="btn btn-primary mt-2">Gửi feedback</button>
+    </div>
+    <!-- DoctorId hidden -->
+    <input type="hidden" asp-for="Input.DoctorId" id="doctorIdInput" />
+    <button type="submit" class="btn btn-primary">Gửi feedback</button>
 </form>
+
+<style>
+    .star-rating {
+        display: inline-flex;
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .star {
+        color: #ddd;
+        cursor: pointer;
+        padding: 0 2px;
+        transition: color 0.2s ease;
+        user-select: none;
+    }
+
+        .star:hover {
+            color: #ffc107;
+        }
+
+        .star.active {
+            color: #ffc107;
+        }
+
+        .star.hover-active {
+            color: #ffc107;
+        }
+
+    .rating-display {
+        margin-top: 5px;
+    }
+</style>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const appointmentSelect = document.getElementById("appointmentSelect");
+            const doctorIdInput = document.getElementById("doctorIdInput");
+            const stars = document.querySelectorAll('.star');
+            const ratingInput = document.getElementById('ratingInput');
+            const ratingText = document.getElementById('ratingText');
+
+            let currentRating = @(Model.Input.Rating ?? 0);
+
+            // Xử lý appointment selection
+            appointmentSelect.addEventListener("change", function () {
+                const selectedOption = this.options[this.selectedIndex];
+                const doctorId = selectedOption.getAttribute("data-doctorid");
+                doctorIdInput.value = doctorId ?? "";
+            });
+
+            // Hàm cập nhật hiển thị sao
+            function updateStarDisplay(rating) {
+                stars.forEach((star, index) => {
+                    if (index < rating) {
+                        star.classList.add('active');
+                    } else {
+                        star.classList.remove('active');
+                    }
+                });
+
+                if (rating > 0) {
+                    ratingText.textContent = rating + ' sao';
+                } else {
+                    ratingText.textContent = 'Chưa chọn';
+                }
+            }
+
+            // Hàm xử lý hover effect
+            function updateHoverEffect(hoverRating) {
+                stars.forEach((star, index) => {
+                    star.classList.remove('hover-active');
+                    if (index < hoverRating) {
+                        star.classList.add('hover-active');
+                    }
+                });
+            }
+
+            // Hàm reset hover effect
+            function resetHoverEffect() {
+                stars.forEach(star => {
+                    star.classList.remove('hover-active');
+                });
+            }
+
+            // Xử lý sự kiện click
+            stars.forEach((star, index) => {
+                star.addEventListener('click', function() {
+                    currentRating = index + 1;
+                    ratingInput.value = currentRating;
+                    updateStarDisplay(currentRating);
+                    resetHoverEffect();
+                });
+
+                // Xử lý hover
+                star.addEventListener('mouseenter', function() {
+                    updateHoverEffect(index + 1);
+                });
+
+                star.addEventListener('mouseleave', function() {
+                    resetHoverEffect();
+                });
+            });
+
+            // Khởi tạo trạng thái ban đầu
+            if (currentRating > 0) {
+                ratingInput.value = currentRating;
+                updateStarDisplay(currentRating);
+            }
+        });
+    </script>
+}
