@@ -31,8 +31,7 @@ namespace VeterinaryClinicSystem.Pages.Admin.ManagePage
         public IActionResult OnPost()
         {
             if (!ModelState.IsValid) return Page();
-            _serviceService.UpdateService(Service);
-            TempData["Message"] = "Update Successfully!!";
+            _serviceService.UpdateService(Service); 
             _hubContext.Clients.All.SendAsync("LoadAllItems");
 
             return RedirectToPage("/Admin/ManagePage/ManagePage", new { section = "services" });

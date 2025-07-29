@@ -3,41 +3,61 @@
 
 
 <h2>Lịch hẹn hôm nay</h2>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Giờ hẹn</th>
-            <th>Bệnh nhân</th>
-            <th>Lý do</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.TodayAppointments)
-        {
+
+@if (Model.TodayAppointments == null || !Model.TodayAppointments.Any())
+{
+    <div class="alert alert-info">📭 Không có lịch hẹn nào cho hôm nay.</div>
+}
+else
+{
+    <table class="table">
+        <thead>
             <tr>
-                <td>@item.AppointmentTime</td>
-                <td>@item.PatientName</td>
-                <td>@item.Reason</td>
+                <th>Giờ hẹn</th>
+                <th>Bệnh nhân</th>
+                <th>Dịch vụ</th>
+                <th>Ca</th>
+                <th>Lý do</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.TodayAppointments)
+            {
+                <tr>
+                    <td>@item.AppointmentDate: @item.AppointmentTime</td>
+                    <td>@item.PatientName</td>
+                    <td>@item.ServiceName</td>
+                    <td>Ca @item.Shift</td>
+                    <td>@item.Reason</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
 
 <h2>Ca bệnh đang theo dõi</h2>
-<table class="table">
-    <thead>
-        <tr>
-            <th>Bệnh nhân</th>
-            <th>Chẩn đoán</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.OngoingCases)
-        {
+
+@if (Model.OngoingCases == null || !Model.OngoingCases.Any())
+{
+    <div class="alert alert-warning">❌ Chưa có ca bệnh nào đang theo dõi.</div>
+}
+else
+{
+    <table class="table">
+        <thead>
             <tr>
-                <td>@item.PatientName</td>
-                <td>@item.Diagnosis</td>
+                <th>Bệnh nhân</th>
+                <th>Chẩn đoán</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.OngoingCases)
+            {
+                <tr>
+                    <td>@item.PatientName</td>
+                    <td>@item.Diagnosis</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

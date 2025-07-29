@@ -25,14 +25,30 @@ namespace DataAccessLayer
         {
             using var context = new VeterinaryClinicSystemContext();
             var existing = context.Services.FirstOrDefault(s => s.ServiceId == updated.ServiceId);
-            
+
             if (existing != null)
             {
+                
+
                 existing.Name = updated.Name;
                 existing.Description = updated.Description;
-                existing.Price = updated.Price;
+                if (existing.Price != updated.Price)
+                {
+                    existing.Price = updated.Price;
+                    context.Entry(existing).Property(e => e.Price).IsModified = true;
+                }
                 existing.ServiceType = updated.ServiceType;
+
+                // Force EF to treat properties as modified
+                context.Entry(existing).Property(e => e.Price).IsModified = true;
+                context.Entry(existing).Property(e => e.Name).IsModified = true;
+                context.Entry(existing).Property(e => e.Description).IsModified = true;
+                context.Entry(existing).Property(e => e.ServiceType).IsModified = true;
+
                 context.SaveChanges();
+                Console.WriteLine("New price: " + updated.Price);
+                Console.WriteLine("Existing price: " + existing.Price);
+
             }
         }
 

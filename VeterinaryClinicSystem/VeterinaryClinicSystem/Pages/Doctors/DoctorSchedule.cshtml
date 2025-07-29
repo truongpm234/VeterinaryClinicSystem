@@ -1,0 +1,33 @@
+﻿@page
+@model VeterinaryClinicSystem.Pages.Doctors.DoctorScheduleModel
+
+<h2>Lịch làm việc trong tháng (@DateTime.Today.ToString("MM/yyyy"))</h2>
+
+@if (Model.MonthlySchedule.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Ngày hẹn</th>
+                <th>Ca</th>
+                <th>Dịch vụ</th>
+                <th>Ghi chú</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.MonthlySchedule)
+            {
+                <tr>
+                    <td>@item.AppointmentDate.ToString("dd/MM/yyyy")</td>
+                    <td>Ca @item.Shift</td>
+                    <td>@item.ServiceName</td>
+                    <td>@item.Note</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">📭 Không có lịch làm việc nào trong tháng này.</div>
+}
