@@ -1,0 +1,40 @@
+﻿.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.dashboard-card {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .dashboard-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+.stat-label {
+    font-size: 1.1rem;
+    color: #4b5563;
+    font-weight: 500;
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    color: #1f2937;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 640px) {
+    .dashboard-card {
+        padding: 1rem;
+    }
+
+    .stat-value {
+        font-size: 1.25rem;
+    }
+}

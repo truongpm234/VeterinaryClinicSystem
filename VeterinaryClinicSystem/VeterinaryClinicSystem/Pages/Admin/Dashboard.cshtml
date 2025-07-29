@@ -4,11 +4,36 @@
     ViewData["Title"] = "Dashboard - Admin";
 }
 
-<h2>Thống kê Hôm Nay & Tháng Này</h2>
-
-<div>
-    <p><strong>Lượt khám hôm nay:</strong> @Model.Stats.TotalAppointmentsToday</p>
-    <p><strong>Lượt khám trong tháng:</strong> @Model.Stats.TotalAppointmentsThisMonth</p>
-    <p><strong>Doanh thu hôm nay:</strong> @Model.Stats.RevenueToday.ToString("N0") VND</p>
-    <p><strong>Doanh thu trong tháng:</strong> @Model.Stats.RevenueThisMonth.ToString("N0") VND</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/dashboard.css" />
+</head>
+<body class="bg-gray-100">
+    <div class="dashboard-container">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">Thống kê Hôm Nay & Tháng Này</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="dashboard-card">
+                <p class="stat-label">Lượt khám hôm nay</p>
+                <p class="stat-value">@Model.Stats.TotalAppointmentsToday</p>
+            </div>
+            <div class="dashboard-card">
+                <p class="stat-label">Lượt khám trong tháng</p>
+                <p class="stat-value">@Model.Stats.TotalAppointmentsThisMonth</p>
+            </div>
+            <div class="dashboard-card">
+                <p class="stat-label">Doanh thu hôm nay</p>
+                <p class="stat-value">@Model.Stats.RevenueToday.ToString("N0") VND</p>
+            </div>
+            <div class="dashboard-card">
+                <p class="stat-label">Doanh thu trong tháng</p>
+                <p class="stat-value">@Model.Stats.RevenueThisMonth.ToString("N0") VND</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

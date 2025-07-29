@@ -57,7 +57,7 @@
                     {
                         <label asp-for="User.AvatarUrl">Upload avatar:</label>
                         <input type="hidden" asp-for="User.AvatarUrl" class="form-control" />
-                        <input type="file" name="AvatarUpload" class="form-control mt-1" />
+                        <input asp-for="AvatarUpload" class="form-control mt-1" />
                     }
                 </div>
 

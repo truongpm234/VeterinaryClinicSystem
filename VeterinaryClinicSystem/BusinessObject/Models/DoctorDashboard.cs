@@ -13,8 +13,8 @@ namespace BusinessObject
         public DateTime AppointmentDate { get; set; }
         public TimeSpan AppointmentTime { get; set; }
         public string Reason { get; set; }
-
-        // Ca bệnh đang theo dõi
+        public string ServiceName { get; set; } 
+        public int? Shift { get; set; }
         public int MedicalRecordId { get; set; }
         public string Diagnosis { get; set; }
         public bool IsOngoingCase { get; set; }

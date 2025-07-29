@@ -23,5 +23,9 @@ namespace Service
         {
             return _doctorDashboardRepository.GetOngoingCases(doctorId);
         }
+        public List<DoctorWorkScheduleItem> GetMonthlySchedule(int doctorId)
+        {
+            return _doctorDashboardRepository.GetMonthlySchedule(doctorId);
+        }
     }
 }

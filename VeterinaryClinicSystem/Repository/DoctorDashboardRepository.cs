@@ -1,4 +1,5 @@
 ﻿using BusinessObject;
+using BusinessObject.Models;
 using DataAccessLayer;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,10 @@ namespace Repository
         public List<DoctorDashboard> GetOngoingCases(int doctorId)
         {
             return DoctorDashboardDAO.GetOngoingCases(doctorId);
+        }
+        public List<DoctorWorkScheduleItem> GetMonthlySchedule(int doctorId)
+        {
+            return DoctorDashboardDAO.GetMonthlySchedule(doctorId);
         }
     }
 

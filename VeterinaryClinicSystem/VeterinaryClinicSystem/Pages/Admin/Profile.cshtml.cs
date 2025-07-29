@@ -36,6 +36,7 @@ namespace VeterinaryClinicSystem.Pages.Admin
 
         public IActionResult OnPost()
         {
+            ModelState.Remove("DoctorNavigation");
             if (!ModelState.IsValid)
             {
                 return Page();
@@ -49,7 +50,6 @@ namespace VeterinaryClinicSystem.Pages.Admin
 
             if (User.UserId != userIdInSession.Value)
             {
-                TempData["Message"] = "You do not have permission for edit this profile.";
                 return RedirectToPage();
             }
 
@@ -58,7 +58,7 @@ namespace VeterinaryClinicSystem.Pages.Admin
                 if (AvatarUpload != null && AvatarUpload.Length > 0)
                 {
                     var fileName = Path.GetFileName(AvatarUpload.FileName);
-                    var uploadsPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads");
+                    var uploadsPath = Path.Combine(_env.WebRootPath, "uploads");
                     if (!Directory.Exists(uploadsPath))
                     {
                         Directory.CreateDirectory(uploadsPath);
@@ -74,7 +74,6 @@ namespace VeterinaryClinicSystem.Pages.Admin
                 }
 
                 _userService.UpdateUser(User);
-                TempData["Message"] = "Updated successfully!";
             }
             catch (Exception ex)
             {
@@ -93,7 +92,6 @@ namespace VeterinaryClinicSystem.Pages.Admin
 
             if (User.UserId != userId)
             {
-                TempData["Message"] = "You do not have this permission for this action!";
                 return RedirectToPage();
             }
 
