@@ -33,6 +33,7 @@ else
                     <td>
                         <a asp-page="/MedicalRecords/Create"
                            asp-route-petId="@pet.PetId"
+                           asp-route-appointmentId="@Model.PetAppointments[pet.PetId]"
                            class="btn btn-success">
                             Tạo hồ sơ bệnh án
                         </a>

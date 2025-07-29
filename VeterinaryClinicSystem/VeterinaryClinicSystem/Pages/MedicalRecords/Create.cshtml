@@ -1,19 +1,15 @@
-﻿@page "{petId:int?}"
+﻿@page "{appointmentId:int}/{petId:int}"
 @model VeterinaryClinicSystem.Pages.MedicalRecords.CreateModel
-
 @{
-    ViewData["Title"] = "Tạo hồ sơ bệnh án mới";
+    ViewData["Title"] = "Tạo hồ sơ bệnh án";
 }
 
-<h1>Tạo hồ sơ bệnh án mới</h1>
-
-@if (!string.IsNullOrEmpty(Model.PetName))
-{
-    <p><strong>Thú cưng:</strong> @Model.PetName</p>
-}
+<h2>@ViewData["Title"]</h2>
+<p><strong>Thú cưng:</strong> @Model.PetName</p>
 
 <form method="post">
     <input type="hidden" asp-for="MedicalRecord.PetId" />
+    <input type="hidden" asp-for="MedicalRecord.AppointmentId" />
 
     <div class="form-group">
         <label asp-for="MedicalRecord.Diagnosis">Chẩn đoán</label>
@@ -26,82 +22,37 @@
     </div>
 
     <div class="form-group">
-        <label asp-for="MedicalRecord.IsFollow">Theo dõi</label>
+        <label asp-for="MedicalRecord.IsFollow">Cần theo dõi?</label>
         <select asp-for="MedicalRecord.IsFollow" class="form-control">
-            <option value="1">Cần theo dõi</option>
-            <option value="0">Không theo dõi</option>
+            <option value="">-- Chọn --</option>
+            <option value="true">Có</option>
+            <option value="false">Không</option>
         </select>
     </div>
 
     <hr />
     <h5>Đơn thuốc</h5>
-    <div id="prescriptionContainer">
-        <div class="row mb-2 prescription-item">
-            <div class="col-md-3">
-                <select name="PrescriptionItems[0].MedicationId" class="form-control">
-                    @foreach (var med in Model.Medications)
-                    {
-                        <option value="@med.MedicationId">@med.Name</option>
-                    }
-                </select>
-            </div>
-            <div class="col-md-2">
-                <input name="PrescriptionItems[0].Amount" type="number" min="1" class="form-control" placeholder="Số lượng" />
-            </div>
-            <div class="col-md-2">
-                <input name="PrescriptionItems[0].Dosage" type="text" class="form-control" placeholder="Liều dùng" />
-            </div>
-            <div class="col-md-3">
-                <input name="PrescriptionItems[0].Instructions" type="text" class="form-control" placeholder="Hướng dẫn" />
-            </div>
-            <div class="col-md-2">
-                <button type="button" class="btn btn-danger removePrescription">Xóa</button>
-            </div>
+
+    <div class="row mb-2">
+        <div class="col-md-3">
+            <select asp-for="PrescriptionItem.MedicationId" class="form-control">
+                <option value="">-- Chọn thuốc --</option>
+                @foreach (var med in Model.Medications)
+                {
+                    <option value="@med.MedicationId">@med.Name</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-2">
+            <input asp-for="PrescriptionItem.Amount" class="form-control" placeholder="Số lượng" />
+        </div>
+        <div class="col-md-3">
+            <input asp-for="PrescriptionItem.Dosage" class="form-control" placeholder="Liều dùng" />
+        </div>
+        <div class="col-md-3">
+            <input asp-for="PrescriptionItem.Instructions" class="form-control" placeholder="Hướng dẫn" />
         </div>
     </div>
 
-    <button type="button" id="addPrescription" class="btn btn-secondary">Thêm thuốc</button>
-
-    <br /><br />
     <button type="submit" class="btn btn-primary">Tạo hồ sơ</button>
 </form>
-
-@section Scripts {
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        let index = 1;
-
-        $('#addPrescription').click(function () {
-            let newItem = `
-                        <div class="row mb-2 prescription-item">
-                            <div class="col-md-3">
-                                <select name="PrescriptionItems[${index}].MedicationId" class="form-control">
-        @foreach (var med in Model.Medications)
-        {
-                                            <option value="@med.MedicationId">@med.Name</option>
-        }
-                                </select>
-                            </div>
-                            <div class="col-md-2">
-                                <input name="PrescriptionItems[${index}].Amount" type="number" min="1" class="form-control" placeholder="Số lượng" />
-                            </div>
-                            <div class="col-md-2">
-                                <input name="PrescriptionItems[${index}].Dosage" type="text" class="form-control" placeholder="Liều dùng" />
-                            </div>
-                            <div class="col-md-3">
-                                <input name="PrescriptionItems[${index}].Instructions" type="text" class="form-control" placeholder="Hướng dẫn" />
-                            </div>
-                            <div class="col-md-2">
-                                <button type="button" class="btn btn-danger removePrescription">Xóa</button>
-                            </div>
-                        </div>
-                    `;
-            $('#prescriptionContainer').append(newItem);
-            index++;
-        });
-
-        $(document).on('click', '.removePrescription', function () {
-            $(this).closest('.prescription-item').remove();
-        });
-    </script>
-}

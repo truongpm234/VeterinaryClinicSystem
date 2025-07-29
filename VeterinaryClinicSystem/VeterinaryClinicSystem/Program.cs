@@ -80,26 +80,25 @@ namespace VeterinaryClinicSystem
 
             builder.Services.AddScoped<ICareScheduleService, CareScheduleService>();
 
+            builder.Services.AddScoped<IPrescriptionDetailRepository, PrescriptionDetailRepository>();
 
+            builder.Services.AddScoped<IPrescriptionDetailService, PrescriptionDetailService>();
 
+            builder.Services.AddScoped<IMedicalRecordsRepository, MedicalRecordsRepository>();
 
-
-
-
-
+            builder.Services.AddScoped<IMedicalRecordsService, MedicalRecordsService>();
 
 
 
             builder.Services.AddDbContext<VeterinaryClinicSystemContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
 
-            //builder.Services.AddDistributedMemoryCache();
 
             builder.Services.AddSession(options =>
             {
-                options.IdleTimeout = TimeSpan.FromMinutes(20); // Set session timeout
-                options.Cookie.HttpOnly = true; // For security
-                options.Cookie.IsEssential = true; // Ensure session cookie is always created
+                options.IdleTimeout = TimeSpan.FromMinutes(20);
+                options.Cookie.HttpOnly = true; 
+                options.Cookie.IsEssential = true; 
             });
 
             builder.Services.AddSignalR();
@@ -112,15 +111,7 @@ namespace VeterinaryClinicSystem
                 builder.Configuration.GetSection("SmtpSettings")
             );
 
-            var app = builder.Build();
-            
-            //new
-
-            //app.MapGet("/", context =>     //set default page khi run
-            //{
-            //    context.Response.Redirect("/Authentication/Login");
-            //    return Task.CompletedTask;
-            //});
+            var app = builder.Build();         
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -142,8 +133,6 @@ namespace VeterinaryClinicSystem
             app.MapHub<AppointmentHub>("/appointmentHub");
 
             app.MapRazorPages();
-
-
 
             app.Run();
         }

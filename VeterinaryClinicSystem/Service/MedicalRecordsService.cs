@@ -1,4 +1,5 @@
 ﻿using BusinessObject;
+using DataAccessLayer;
 using Repository;
 using System;
 using System.Collections.Generic;
@@ -22,5 +23,7 @@ namespace Service
         public List<MedicalRecord> GetAllMedicalRecords() => _medicalRecordsRepository.GetAllMedicalRecords();
 
         public List<MedicalRecord> GetMedicalRecordsByPetId(int petId) => _medicalRecordsRepository.GetMedicalRecordsByPetId((int)petId);
+        public List<Pet> GetPetsWithAppointmentsTodayForDoctor(int? doctorId = null) => _medicalRecordsRepository.GetPetsWithAppointmentsTodayForDoctor(doctorId);
+
     }
 }

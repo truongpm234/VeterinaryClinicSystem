@@ -15,5 +15,7 @@ namespace Repository
         public List<MedicalRecord> GetAllMedicalRecords() => MedicalRecordsDAO.GetAllMedicalRecords();
 
         public List<MedicalRecord> GetMedicalRecordsByPetId(int petId) => MedicalRecordsDAO.GetMedicalRecordsByPetId((int)petId);
+        public List<Pet> GetPetsWithAppointmentsTodayForDoctor(int? doctorId = null) => MedicalRecordsDAO.GetPetsWithAppointmentsTodayForDoctor(doctorId);
+
     }
 }
