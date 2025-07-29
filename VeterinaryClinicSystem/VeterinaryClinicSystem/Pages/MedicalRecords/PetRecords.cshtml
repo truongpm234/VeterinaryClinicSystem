@@ -107,11 +107,11 @@
                         <ul>
                             @foreach (var item in record.PrescriptionDetails)
                             {
-                                <li>
-                                    @item.Medication?.Name - @item.Amount @item.Medication?.Unit,
-                                    Liều: @item.Dosage,
-                                    Hướng dẫn: @item.Instructions
-                                </li>
+                                <li>Tên đơn: @item.Medication?.Name</li>
+                                <li> Số lượng: @item.Amount</li>
+                                <li> Đơn vị:  @item.Medication?.Unit </li>
+                                <li> Số liều: @item.Dosage</li>
+                                <li> Hướng dẫn: @item.Instructions</li>
                             }
                         </ul>
                     }
