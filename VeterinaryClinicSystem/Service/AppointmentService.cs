@@ -18,6 +18,7 @@ namespace Service
             _repo = repo; 
         }
         public Task<List<Appointment>> GetAllAppointmentsAsync() => _repo.GetAllAppointmentsAsync();
+        public Appointment? GetAppointmentById(int id) => _repo.GetAppointmentById(id);
         public Task<List<(DoctorSchedule, string)>> GetDoctorSchedulesWithNamesAsync() => _repo.GetDoctorSchedulesWithNamesAsync();
         public Task<bool> AcceptAppointmentAsync(int appointmentId) => _repo.AcceptAppointmentAsync(appointmentId);
         public async Task RejectAppointmentAsync(int appointmentId) => _repo.RejectAppointmentAsync(appointmentId); 

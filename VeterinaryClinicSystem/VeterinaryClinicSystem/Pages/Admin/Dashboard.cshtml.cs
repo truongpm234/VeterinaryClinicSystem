@@ -1,16 +1,16 @@
 using BusinessObject.Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Service; // Ensure this namespace is correct and contains DashboardService
+using Service;
 
 namespace VeterinaryClinicSystem.Pages.Admin
 {
     public class DashboardModel : PageModel
     {
-        private readonly IDashboardService _dashboardService; // Changed to interface type
+        private readonly IDashboardService _dashboardService;
 
         public DashboardStats Stats { get; set; }
 
-        public DashboardModel(IDashboardService dashboardService) // Updated constructor parameter type
+        public DashboardModel(IDashboardService dashboardService)
         {
             _dashboardService = dashboardService;
         }

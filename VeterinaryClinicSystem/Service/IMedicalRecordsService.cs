@@ -1,4 +1,5 @@
 ﻿using BusinessObject;
+using DataAccessLayer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,5 +13,7 @@ namespace Service
         List<MedicalRecord> GetAllMedicalRecords();
         List<MedicalRecord> GetMedicalRecordsByPetId(int petId);
         void AddMedicalRecord(MedicalRecord newRecord);
+        public List<Pet> GetPetsWithAppointmentsTodayForDoctor(int? doctorId = null);
+
     }
 }

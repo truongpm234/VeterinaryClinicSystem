@@ -23,6 +23,15 @@ namespace DataAccessLayer
                 .ToListAsync();
             return result;
         }
+        public static Appointment? GetAppointmentById(int id)
+        {
+            using var context = new VeterinaryClinicSystemContext();
+            return context.Appointments
+                .Include(a => a.Pet)
+                .Include(a => a.Owner)
+                .Include(a => a.Service)
+                .FirstOrDefault(a => a.AppointmentId == id);
+        }
 
         public static async Task<List<(DoctorSchedule, string)>> GetDoctorSchedulesWithNamesAsync()
         {

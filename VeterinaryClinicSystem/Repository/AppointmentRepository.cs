@@ -15,6 +15,7 @@ namespace Repository
     public class AppointmentRepository : IAppointmentRepository
     {
         public Task<List<Appointment>> GetAllAppointmentsAsync() => AppointmentDAO.GetAllAppointmentsAsync();
+        public Appointment? GetAppointmentById(int id) => AppointmentDAO.GetAppointmentById(id);
         public Task<List<(DoctorSchedule, string)>> GetDoctorSchedulesWithNamesAsync() => AppointmentDAO.GetDoctorSchedulesWithNamesAsync();
         public Task<bool> AcceptAppointmentAsync(int appointmentId) => AppointmentDAO.AcceptAppointmentAsync(appointmentId);
         public Task RejectAppointmentAsync(int appointmentId) => AppointmentDAO.RejectAppointmentAsync(appointmentId);

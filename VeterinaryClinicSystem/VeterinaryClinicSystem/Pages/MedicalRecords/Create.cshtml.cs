@@ -1,60 +1,83 @@
 ﻿using BusinessObject;
-using DataAccessLayer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Service;
 
 namespace VeterinaryClinicSystem.Pages.MedicalRecords
 {
     public class CreateModel : PageModel
     {
+        private readonly IMedicalRecordsService _medicalRecordsService;
+        private readonly IAppointmentService _appointmentService;
+        private readonly IMedicationsService _medicationsService;
+        private readonly IPrescriptionDetailService _prescriptionDetailService;
+
+        public CreateModel(
+            IMedicalRecordsService medicalRecordsService,
+            IAppointmentService appointmentService,
+            IMedicationsService medicationsService,
+            IPrescriptionDetailService prescriptionDetailService)
+        {
+            _medicalRecordsService = medicalRecordsService;
+            _appointmentService = appointmentService;
+            _medicationsService = medicationsService;
+            _prescriptionDetailService = prescriptionDetailService;
+        }
+
         [BindProperty]
         public MedicalRecord MedicalRecord { get; set; } = new();
 
         [BindProperty]
-        public List<PrescriptionDetail> PrescriptionItems { get; set; } = new();
+        public PrescriptionDetail PrescriptionItem { get; set; } = new();
 
         public List<Medication> Medications { get; set; } = new();
 
         public string PetName { get; set; } = "";
 
-        public void OnGet(int? petId)
+        public IActionResult OnGet(int appointmentId)
         {
-            if (petId.HasValue)
-            {
-                var pet = PetDAO.GetPetById(petId.Value);
-                if (pet != null)
-                {
-                    MedicalRecord.PetId = pet.PetId;
-                    PetName = pet.Name ?? "";
-                }
-            }
+            var appointment = _appointmentService.GetAppointmentById(appointmentId);
+            if (appointment == null || appointment.Status != "Đặt lịch thành công")
+                return RedirectToPage("/Appointments/List");
 
-            Medications = MedicationDAO.GetAllMedications();
+            // Pre-fill medical record info
+            MedicalRecord.AppointmentId = appointment.AppointmentId;
+            MedicalRecord.PetId = appointment.PetId;
+            PetName = appointment.Pet?.Name ?? "Không rõ";
+
+            Medications = _medicationsService.GetAllMedications();
+            return Page();
         }
 
         public IActionResult OnPost()
         {
+            ModelState.Remove("PrescriptionItem.Record");
+            ModelState.Remove("PrescriptionItem.Medication");
+
+            if (!ModelState.IsValid)
+            {
+                Medications = _medicationsService.GetAllMedications();
+                return Page();
+            }
+
             int? doctorId = HttpContext.Session.GetInt32("Account");
-            if (doctorId == null) return RedirectToPage("/Authentication/Login");
+            if (doctorId == null)
+                return RedirectToPage("/Authentication/Login");
+
+            var appointment = _appointmentService.GetAppointmentById(MedicalRecord.AppointmentId ?? 0);
+            if (appointment == null)
+                return RedirectToPage("/Appointments/List");
 
             MedicalRecord.DoctorId = doctorId.Value;
-            MedicalRecord.AppointmentId = 1;
+            _medicalRecordsService.AddMedicalRecord(MedicalRecord);
 
-            // Lưu MedicalRecord trước
-            MedicalRecordsDAO.AddMedicalRecord(MedicalRecord);
-
-            // Lưu PrescriptionDetails
-            using var context = new VeterinaryClinicSystemContext();
-            foreach (var item in PrescriptionItems)
-            {
-                item.RecordId = MedicalRecord.RecordId; // RecordId đã có sau SaveChanges
-                context.PrescriptionDetails.Add(item);
-            }
-            context.SaveChanges();
+            // Save prescription
+            PrescriptionItem.RecordId = MedicalRecord.RecordId;
+            _prescriptionDetailService.AddPrescriptionDetails(
+                new List<PrescriptionDetail> { PrescriptionItem },
+                MedicalRecord.RecordId);
 
             return RedirectToPage("/MedicalRecords/PetsList");
         }
     }
-
-
 }

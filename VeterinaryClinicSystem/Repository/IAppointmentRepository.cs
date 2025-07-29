@@ -13,6 +13,7 @@ namespace Repository
     public interface IAppointmentRepository
     {
         public Task<List<Appointment>> GetAllAppointmentsAsync();
+        public Appointment? GetAppointmentById(int id);
         public Task<List<(DoctorSchedule, string)>> GetDoctorSchedulesWithNamesAsync();
         public Task<bool> AcceptAppointmentAsync(int appointmentId);
         public Task RejectAppointmentAsync(int appointmentId);

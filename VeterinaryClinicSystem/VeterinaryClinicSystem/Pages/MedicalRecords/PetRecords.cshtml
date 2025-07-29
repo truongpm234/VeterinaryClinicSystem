@@ -6,8 +6,82 @@
 }
 
 <h2>Hồ sơ bệnh án của @Model.PetName</h2>
+<style>
+    .table tbody tr:last-child td {
+        border-bottom: 1px solid #ccc;
+    }
 
-<table class="table">
+    h2 {
+        margin-bottom: 25px;
+        font-weight: bold;
+        color: #2c3e50;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        table th, table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+    .table {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+        .table th {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .table td {
+            vertical-align: middle;
+            padding: 12px;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #f2f9ff;
+        }
+
+        .table tbody tr:hover {
+            background-color: #e6f7ff;
+        }
+
+    ul {
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+
+        ul li {
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+    i {
+        color: #888;
+    }
+
+    strong {
+        color: #2c3e50;
+    }
+
+    .prescription-cell {
+        text-align: left !important;
+        background-color: #fdfdfd;
+        padding: 15px 20px;
+    }
+
+</style>
+
+<table class="table table-bordered custom-table">
     <thead>
         <tr>
             <th>Mã hồ sơ</th>
@@ -22,9 +96,33 @@
             <tr>
                 <td>@record.RecordId</td>
                 <td>@record.Diagnosis</td>
-                <td>@(record.FollowUpDate.HasValue ? record.FollowUpDate.Value.ToString("yyyy-MM-dd") : "Không")</td>
+                <td>@(record.FollowUpDate.HasValue? record.FollowUpDate.Value.ToString("yyyy-MM-dd") : "Không")</td>
                 <td>@(record.IsFollow == true ? "Có" : "Không")</td>
             </tr>
+            <tr>
+                <td colspan="4" class="prescription-cell">
+                    <strong>Đơn thuốc:</strong>
+                    @if (record.PrescriptionDetails.Any())
+                    {
+                        <ul>
+                            @foreach (var item in record.PrescriptionDetails)
+                            {
+                                <li>
+                                    @item.Medication?.Name - @item.Amount @item.Medication?.Unit,
+                                    Liều: @item.Dosage,
+                                    Hướng dẫn: @item.Instructions
+                                </li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <p><i>Không có đơn thuốc</i></p>
+                    }
+                </td>
+            </tr>
+
         }
+
     </tbody>
 </table>

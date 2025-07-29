@@ -12,6 +12,7 @@ namespace Repository
         List<MedicalRecord> GetAllMedicalRecords();
         List<MedicalRecord> GetMedicalRecordsByPetId(int petId);
         void AddMedicalRecord(MedicalRecord newRecord);
+        public List<Pet> GetPetsWithAppointmentsTodayForDoctor(int? doctorId = null);
 
     }
 }
