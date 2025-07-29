@@ -11,8 +11,7 @@ namespace DataAccessLayer
             return _context.Feedbacks
                     .Include(f => f.Customer)
                     .Include(f => f.Doctor).ThenInclude(d => d.DoctorNavigation)
-                    .Include(f => f.Appointment)
-                    .OrderByDescending(f => f.CreatedAt)
+                    .Include(f => f.Appointment).ThenInclude(a => a.Service).OrderByDescending(f => f.CreatedAt)
                     .ToList();
         }
         public static Feedback? GetById(int id)
@@ -20,8 +19,8 @@ namespace DataAccessLayer
             using var _context = new VeterinaryClinicSystemContext();
             return _context.Feedbacks
                     .Include(f => f.Customer)
-                    .Include(f => f.Doctor)
-                    .Include(f => f.Appointment)
+                    .Include(f => f.Doctor).ThenInclude(d => d.DoctorNavigation)
+                    .Include(f => f.Appointment).ThenInclude(a => a.Service)
                     .FirstOrDefault(f => f.FeedbackId == id);
         }
 

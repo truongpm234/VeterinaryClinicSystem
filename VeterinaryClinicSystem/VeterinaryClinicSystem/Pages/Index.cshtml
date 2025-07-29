@@ -137,15 +137,15 @@
             @foreach (var fb in Model.Feedbacks)
             {
                 <div class="card p-2 mb-2">
-                    <strong>@(fb.Customer?.FullName ?? "Ẩn danh")</strong> đánh giá bác sĩ
-                    <strong>@(fb.Doctor?.DoctorNavigation?.FullName ?? "Không rõ")</strong>:<br />
+                    <strong>User: @(fb.Customer?.FullName ?? "Ẩn danh")</strong><br />
+                    <strong>Bác sĩ: @(fb.Doctor?.DoctorNavigation?.FullName ?? "Không rõ")</strong><br />
+                    <span>Dịch vụ: @(fb.Appointment?.Service?.Name ?? "Không rõ")</span><br />
                     <span>Rating: @fb.Rating ⭐</span><br />
-                    <span>@fb.Comment</span><br />
+                    <span>Bình luận: @fb.Comment</span><br />
                     <small class="text-muted">Vào lúc: @fb.CreatedAt?.ToString("dd/MM/yyyy HH:mm")</small>
                 </div>
             }
         </section>
-
     </div>
     <script src="~/js/microsoft/signalr/dist/browser/signalr.js"></script>
     <script src="~/js/site.js"></script>

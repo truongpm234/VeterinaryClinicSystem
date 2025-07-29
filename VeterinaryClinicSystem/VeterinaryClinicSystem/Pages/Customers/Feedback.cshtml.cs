@@ -1,4 +1,4 @@
-using BusinessObject;
+﻿using BusinessObject;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
@@ -20,10 +20,11 @@ namespace VeterinaryClinicSystem.Pages.Customers
 
         public List<User> Doctors { get; set; } = new();
         public List<Appointment> Appointments { get; set; } = new();
-
+        public List<Feedback> Feedbacks { get; set; } = [];
 
         public void OnGet()
         {
+            Feedbacks = FeedbackDAO.GetAll();
             var userId = HttpContext.Session.GetInt32("Account");
             if (userId == null) return;
 
@@ -32,20 +33,22 @@ namespace VeterinaryClinicSystem.Pages.Customers
                 .ToList();
 
             Appointments = _context.Appointments
-            .Include(a => a.Doctor).ThenInclude(d => d.DoctorNavigation)
-             .Where(a => a.OwnerId == userId && a.Status == "Completed") 
-            .ToList();
+    .Include(a => a.Doctor).ThenInclude(d => d.DoctorNavigation).Include(a => a.Service)
+    .Where(a => a.OwnerId == userId
+        && a.Status == "Đặt lịch thành công"
+        && a.AppointmentDate < DateTime.Today)
+    .ToList();
+
 
         }
 
 
         public IActionResult OnPost()
         {
-            if (!ModelState.IsValid)
-                return Page();
+            if (!ModelState.IsValid) return Page();
+
             var userId = HttpContext.Session.GetInt32("Account");
-            if (userId == null)
-                return RedirectToPage("/Authentication/Login");
+            if (userId == null) return RedirectToPage("/Authentication/Login");
 
             Input.CustomerId = userId;
             Input.CreatedAt = DateTime.Now;
@@ -53,8 +56,8 @@ namespace VeterinaryClinicSystem.Pages.Customers
             _context.Feedbacks.Add(Input);
             _context.SaveChanges();
 
-
-            return RedirectToPage("/index");
+            return RedirectToPage("/Index");
         }
+
     }
 }
