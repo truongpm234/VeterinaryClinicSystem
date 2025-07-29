@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\medicalrecords\\petrecords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\medicalrecordsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\medicalrecordsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\medicalrecords\\petrecords.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|solutionrelative:veterinaryclinicsystem\\pages\\medicalrecords\\petrecords.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\dataaccesslayer\\medicalrecordsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B42B7CD-C3CD-48BE-A7B6-EA570EBB9ED7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\medicalrecordsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F419858-5C16-45B1-9D5F-B10B4ECB3724}|VeterinaryClinicSystem\\VeterinaryClinicSystem.csproj|e:\\se_summer2025_s7\\prn222\\veterinaryclinicsystem\\veterinaryclinicsystem\\veterinaryclinicsystem\\pages\\medicalrecords\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -162,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PetRecords.cshtml.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetRecords.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetRecords.cshtml.cs",
@@ -181,7 +181,7 @@
               "RelativeDocumentMoniker": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetRecords.cshtml",
               "ToolTip": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetRecords.cshtml",
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetRecords.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAiwFAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAiwHEAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-29T11:46:48.825Z",
               "EditorCaption": ""
@@ -196,8 +196,7 @@
               "RelativeToolTip": "Service\\MedicationsService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T11:40:00.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T11:40:00.738Z"
             },
             {
               "$type": "Document",
@@ -209,8 +208,7 @@
               "RelativeToolTip": "Repository\\MedicalRecordsRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAACaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T11:39:32.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T11:39:32.018Z"
             },
             {
               "$type": "Document",
@@ -222,8 +220,7 @@
               "RelativeToolTip": "Repository\\IMedicalRecordsRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T11:39:19.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T11:39:19.213Z"
             },
             {
               "$type": "Document",
@@ -235,8 +232,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-29T11:32:18.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T11:32:18.305Z"
             },
             {
               "$type": "Document",
@@ -248,8 +244,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\PetsList.cshtml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T11:32:17.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T11:32:17.232Z"
             },
             {
               "$type": "Document",
@@ -261,8 +256,7 @@
               "RelativeToolTip": "BusinessObject\\Medication.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T11:27:38.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T11:27:38.266Z"
             },
             {
               "$type": "Document",
@@ -274,8 +268,7 @@
               "RelativeToolTip": "DataAccessLayer\\MedicationDAO.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAwwCgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T11:15:08.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T11:15:08.716Z"
             },
             {
               "$type": "Document",
@@ -287,8 +280,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Authentication\\Login.cshtml.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAkwFgAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T11:03:22.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T11:03:22.198Z"
             },
             {
               "$type": "Document",
@@ -300,8 +292,7 @@
               "RelativeToolTip": "BusinessObject\\PrescriptionDetail.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T10:03:54.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T10:03:54.519Z"
             },
             {
               "$type": "Document",
@@ -313,8 +304,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Program.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAQwFYAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T09:03:17.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T09:03:17.636Z"
             },
             {
               "$type": "Document",
@@ -326,8 +316,7 @@
               "RelativeToolTip": "Service\\IPrescriptionDetailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:56:26.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:56:26.407Z"
             },
             {
               "$type": "Document",
@@ -339,8 +328,7 @@
               "RelativeToolTip": "Service\\PrescriptionDetailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:55:30.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:55:30.205Z"
             },
             {
               "$type": "Document",
@@ -352,8 +340,7 @@
               "RelativeToolTip": "Repository\\IPrescriptionDetailRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:54:41.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:54:41.201Z"
             },
             {
               "$type": "Document",
@@ -365,8 +352,7 @@
               "RelativeToolTip": "Repository\\PrescriptionDetailRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:53:57.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:53:57.854Z"
             },
             {
               "$type": "Document",
@@ -378,8 +364,7 @@
               "RelativeToolTip": "DataAccessLayer\\PrescriptionDetailDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:53:01.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:53:01.513Z"
             },
             {
               "$type": "Document",
@@ -391,8 +376,7 @@
               "RelativeToolTip": "Service\\IAppointmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:41:39.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:41:39.148Z"
             },
             {
               "$type": "Document",
@@ -404,8 +388,7 @@
               "RelativeToolTip": "Service\\AppointmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:41:18.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:41:18.249Z"
             },
             {
               "$type": "Document",
@@ -417,8 +400,7 @@
               "RelativeToolTip": "Repository\\IAppointmentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:41:04.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:41:04.538Z"
             },
             {
               "$type": "Document",
@@ -430,8 +412,7 @@
               "RelativeToolTip": "Repository\\AppointmentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:40:49.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:40:49.312Z"
             },
             {
               "$type": "Document",
@@ -443,8 +424,7 @@
               "RelativeToolTip": "DataAccessLayer\\AppointmentDAO.cs",
               "ViewState": "AgIAAK8AAAAAAAAAAAAiwOAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:40:11.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:40:11.635Z"
             },
             {
               "$type": "Document",
@@ -456,8 +436,7 @@
               "RelativeToolTip": "Service\\IMedicalRecordsService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:38:31.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:38:31.898Z"
             },
             {
               "$type": "Document",
@@ -469,8 +448,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\Dashboard.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:37:01.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:37:01.813Z"
             },
             {
               "$type": "Document",
@@ -482,8 +460,7 @@
               "RelativeToolTip": "BusinessObject\\Appointment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:30:39.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:30:39.048Z"
             },
             {
               "$type": "Document",
@@ -495,8 +472,7 @@
               "RelativeToolTip": "BusinessObject\\MedicalRecord.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:30:33.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:30:33.658Z"
             },
             {
               "$type": "Document",
@@ -508,8 +484,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Admin\\Dashboard.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-29T08:29:43.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:29:43.442Z"
             },
             {
               "$type": "Document",
@@ -521,8 +496,7 @@
               "RelativeToolTip": "DataAccessLayer\\MedicalRecordDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:28:10.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:28:10.855Z"
             },
             {
               "$type": "Document",
@@ -534,8 +508,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-29T08:27:40.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:27:40.659Z"
             },
             {
               "$type": "Document",
@@ -547,8 +520,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Pets\\Create.cshtml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:27:27.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:27:27.812Z"
             },
             {
               "$type": "Document",
@@ -560,8 +532,7 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\Pets\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-29T08:27:24.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:27:24.874Z"
             },
             {
               "$type": "Document",
@@ -573,8 +544,7 @@
               "RelativeToolTip": "Service\\MedicalRecordsService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:27:11.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:27:11.319Z"
             },
             {
               "$type": "Document",
@@ -586,12 +556,11 @@
               "RelativeToolTip": "VeterinaryClinicSystem\\Pages\\MedicalRecords\\Create.cshtml.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAYwDQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T08:23:21.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T08:23:21.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MedicalRecordsDAO.cs",
               "DocumentMoniker": "E:\\SE_SUMMER2025_S7\\PRN222\\VeterinaryClinicSystem\\VeterinaryClinicSystem\\DataAccessLayer\\MedicalRecordsDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\MedicalRecordsDAO.cs",
